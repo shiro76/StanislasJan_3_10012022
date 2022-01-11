@@ -3,5 +3,92 @@
     flex-direction: column;
     width: 768px;
     margin: auto;
+}
+
+header
+{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    width: 400px;
+    height: 100px;
+    
+}
+
+header img{
+    height: 35px;
+}
+
+.block1
+{
+    border: solid 2px;
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    width: 380px;
+ }
+
+.emplacement
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: solid 1px;
+    margin-left: 70px;
+}
+
+.block_button
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: solid;
+    width: 70%;
+    height: 100%;
+    margin: auto;
+}
+.button
+{
+    border-radius: 30px;
+}
+
+
+.block_fonctionnement
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 250px;
+    width: 300px;
+}
+
+.flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    border: solid 2px;
+    border-radius: 25px;
 
 }
+
+.numero
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid 1px;
+    border-radius: 100%;
+    height: 20px;
+    width: 20px;
+    margin-left: -10px;
+    margin-right: 15px;
+    background-color: #9356DC;
+    color: white;
+
+}
+.flex div i{
+    margin-right: 20px;
+}
+
+

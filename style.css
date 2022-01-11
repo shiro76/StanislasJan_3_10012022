@@ -1,3 +1,11 @@
+.structure{
+    display: flex;
+    flex-direction: column;
+    width: 768px;
+    margin: auto;
+
+}
+
 #logo{
     font-size: 15px;
 

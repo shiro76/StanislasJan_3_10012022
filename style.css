@@ -58,6 +58,18 @@ header img{
     border: solid 2px;
     display: flex;
     flex-direction: column;
+    background-color: #F2F2F2;
+    width: 380px;
+    height: auto;
+}
+
+.Restaurants{
+    border: solid;
+    margin: auto;
+    width: 90%;
+    height: 250px;
+    margin-bottom: 15px;
+    border-radius: 15px;
 }
 
 

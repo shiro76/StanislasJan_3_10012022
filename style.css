@@ -53,6 +53,14 @@ header img{
 }
 
 
+.block_restaurant
+{
+    border: solid 2px;
+    display: flex;
+    flex-direction: column;
+}
+
+
 .block_fonctionnement
 {
     display: flex;

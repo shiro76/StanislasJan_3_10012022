@@ -1,0 +1,25 @@
+.structure{
+    display: flex;
+    flex-direction: column;
+    width: 768px;
+    margin-left: 40px;
+}
+
+header{
+    border: solid;
+    display: flex;
+    flex-direction: row;
+    width: 375px;
+
+}
+header img{
+    height: 35px;
+    margin-left: 70px;
+    margin-top: 0px;
+}
+
+header i{
+    margin-left: 10px;
+    font-size: 25px;
+    margin-top: 5px;
+}

@@ -85,6 +85,7 @@ header img{
 .block_titre_restaurant{
     display: flex;
     flex-direction: row;
+    justify-content:space-between ;
     align-items: center;
     border: solid;
     height: 65px;
@@ -102,13 +103,13 @@ header img{
 
 .logo_coeur
 {
-    margin-left: 120px;
+    margin-right: 30px;
     margin-bottom: 25px;
 }
 .logo_coeur i{
     font-style:1px;
     font-size: 25px;
-    
+
 }
 
 

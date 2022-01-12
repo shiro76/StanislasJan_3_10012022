@@ -1,4 +1,5 @@
 .structure{
+    border: solid;
     display: flex;
     flex-direction: column;
     width: 768px;
@@ -6,20 +7,45 @@
 }
 
 header{
-    border: solid;
     display: flex;
     flex-direction: row;
-    width: 375px;
+    width: 380px;
+    margin-bottom: 10px;
 
 }
 header img{
     height: 35px;
-    margin-left: 70px;
+    margin-left: 60px;
     margin-top: 0px;
 }
 
 header i{
-    margin-left: 10px;
-    font-size: 25px;
+    margin-left: 15px;
+    font-size: 23px;
     margin-top: 5px;
+}
+
+.menu_image{
+    width: 380px;
+    height: auto;
+    object-fit: cover;
+}
+.menu_image img{
+    height: 100%;
+    width: 100%;
+    margin-bottom: -30px;
+}
+.block_menu{
+    width: 380px;
+    background-color: #F2F2F2;
+    height: auto;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+.titre_principale{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
 }

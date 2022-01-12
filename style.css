@@ -100,6 +100,17 @@ header img{
     margin-bottom: 35px;
 }
 
+.logo_coeur
+{
+    margin-left: 120px;
+    margin-bottom: 25px;
+}
+.logo_coeur i{
+    font-style:1px;
+    font-size: 25px;
+    
+}
+
 
 .block_fonctionnement
 {

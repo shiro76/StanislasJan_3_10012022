@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     width: 768px;
-    margin: auto;
+    margin-left: 40px;
 }
 
 header
@@ -66,11 +66,16 @@ header img{
     height: auto;
 }
 
+.block_restaurant h2{
+    margin-left: 20px;
+    margin-top: 40px;
+}
+
 .Restaurants{
     margin: auto;
     width: 90%;
     height: 270px;
-    margin-bottom: 15px;
+    margin-bottom: 40px;
     border-radius: 15px;
 }
 
@@ -125,6 +130,9 @@ header img{
 
 }
 
+.fonctionnement h2{
+    margin-left: 10px;
+}
 
 .block_fonctionnement
 {
@@ -132,7 +140,9 @@ header img{
     flex-direction: column;
     justify-content: space-around;
     height: 250px;
-    width: 300px;
+    width: 380px;
+    margin-bottom: 50px;
+    margin-left: 15px;
 }
 
 .flex{
@@ -142,7 +152,7 @@ header img{
     align-items: center;
     border: solid 2px;
     border-radius: 25px;
-
+    width: 90%
 }
 
 .numero
@@ -154,66 +164,16 @@ header img{
     border-radius: 100%;
     height: 20px;
     width: 20px;
-    margin-left: -10px;
-    margin-right: 15px;
+    margin-left: -11px;
+    margin-right: 20px;
     background-color: #9356DC;
     color: white;
 
 }
 .flex div i{
-    margin-right: 20px;
-}
-
-footer{
-    background-color: rgb(53, 53, 53);
-    width: 380px;
-
-}
-
-footer div img{
-    color: blue;
-    filter:invert(1);
-    height: 20px;
-    margin-left: 25px;
-    margin-top: 30px;
-}
-
-.footer{
-    display: flex;
-    flex-direction: row;
-    justify-content: baseline;
-    align-items: center;
-    margin-bottom: -10px;
+    margin-right: 40px;
 }
 
 
-footer p {
-    color: white;
-}
-
-footer i{
-    color: white;
-    font-size: 15px;
-    margin-left: 25px;
-    
-
-}
-
-.footer_icone1{
-    margin-right: 10px;
-}
-
-.footer_icone2{
-    margin-right: 10px;
-    margin-left: -3px;
-}
-
-.footer_texte{
-    margin-left: 25px;
-}
-
-a{
-    text-decoration: none;
-}
 
 

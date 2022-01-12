@@ -1,0 +1,52 @@
+footer{
+    background-color: rgb(53, 53, 53);
+    width: 380px;
+    height: 240px;
+
+}
+
+footer div img{
+    color: blue;
+    filter:invert(1);
+    height: 20px;
+    margin-left: 25px;
+    margin-top: 30px;
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: baseline;
+    align-items: center;
+    margin-bottom: -10px;
+}
+
+
+footer p {
+    color: white;
+}
+
+footer i{
+    color: white;
+    font-size: 15px;
+    margin-left: 25px;
+    
+
+}
+
+.footer_icone1{
+    margin-right: 10px;
+}
+
+.footer_icone2{
+    margin-right: 10px;
+    margin-left: -3px;
+}
+
+.footer_texte{
+    margin-left: 25px;
+}
+
+a{
+    text-decoration: none;
+}

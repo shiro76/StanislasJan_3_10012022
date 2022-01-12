@@ -1,5 +1,4 @@
 .structure{
-    border: solid;
     display: flex;
     flex-direction: column;
     width: 768px;
@@ -26,8 +25,9 @@ header i{
 }
 
 .menu_image{
-    width: 380px;
-    height: auto;
+    width: 375px;
+    height: 260px;
+    margin-bottom: -40px;
     object-fit: cover;
 }
 .menu_image img{
@@ -46,6 +46,71 @@ header i{
 .titre_principale{
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     align-items: center;
 
 }
+
+.titre_principale i{
+    margin-right: 40px;
+    font-size: 25px;
+}
+
+.blocks{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+
+}
+.blocks p{
+    margin-right: 280px;
+    margin-bottom: 25px;
+}
+.plats p{
+    margin-left: -25px;
+}
+
+.desserts{
+    margin-bottom: 20px;
+}
+
+
+.block{
+    display: flex;
+    width: 94%;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    height: 60px;
+    background-color: white;
+}
+
+.zone_texte{
+    height: 100%;
+    width: 88%;
+}
+
+.zone_texte p{
+    margin-left: 10px;    
+}
+.zone_texte h4{
+    margin-top: 10px;
+    margin-bottom: -10px;
+    margin-left: 10px;
+}
+
+.block_button
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 45%;
+    height: 120px;
+    margin: auto;
+}
+.button
+{
+    border-radius: 30px;
+    margin-top: -70px;
+}
+

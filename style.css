@@ -1,14 +1,13 @@
-@media (max-width: 768px){
+@media (max-width: 992px){
     body{
+        position: absolute;
+        width: 100%;
         margin: 0;
-        padding-right: 0px;
-        padding-left: 0px;
     }
+    
     .structure{
         display: flex;
         flex-direction: column;
-        width: auto;
-        margin: auto;
     }
     
     header
@@ -16,13 +15,13 @@
         display: flex;
         justify-content:center;
         align-items: center;
-        width: 100%;
         height: 100px;
         
     }
     
     header img{
         height: 35px;
+        margin-left: 20px;
     }
     
     .block1
@@ -30,7 +29,7 @@
         display: flex;
         flex-direction: column;
         height: 300px;
-        width: 100%;
+        width: 110%;
         background-color: #F2F2F2;
     }
     
@@ -54,7 +53,7 @@
         flex-direction: column;
         justify-content: center;
         width: 70%;
-        height: 100%;
+        height: 109%;
         margin: auto;
     }
     .button
@@ -68,7 +67,7 @@
         display: flex;
         flex-direction: column;
         background-color: #F2F2F2;
-        width: 100%;
+        width: 110%;
         height: auto;
     }
     
@@ -131,12 +130,11 @@
         margin-bottom: 25px;
     }
     .logo_coeur i{
-        font-style:1px;
         font-size: 25px;
     
     }
     
-    .fonctionnement h2{
+    .fonctionnement{
         margin-left: 15px;
     }
     
@@ -146,7 +144,7 @@
         flex-direction: column;
         justify-content: space-around;
         height: 250px;
-        width: 103%;
+        width: 107%;
         margin-bottom: 50px;
         margin-left: 15px;
     }

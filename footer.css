@@ -1,6 +1,6 @@
 footer{
     background-color: rgb(53, 53, 53);
-    width: 100%;
+    width: 110%;
     height: 240px;
 }
 
@@ -15,7 +15,6 @@ footer div img{
 .footer{
     display: flex;
     flex-direction: row;
-    justify-content: baseline;
     align-items: center;
     margin-bottom: -10px;
 }

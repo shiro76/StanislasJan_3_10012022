@@ -91,17 +91,33 @@
         border-radius: 15px;
         border-bottom-right-radius: 0px;
         border-bottom-left-radius: 0px;
-        object-fit:cover; 
-    
+        object-fit:cover;
     }
-    
-    .Nouveau{
+    .images{
+        z-index: 2;
+        width: 100%;
+        height: 200px;
+    }
+    .images p{
         border: solid;
-        background-color: #99E2D0;
         width: 20%;
-        margin-top: 20px;
-    
+        z-index: 1;
+        background-color: #99E2D0;
+        margin-top: -30px;
+        z-index: 1;
+     
     }
+
+    .vert{
+        display: flex;
+        justify-content: center;
+        border: solid;
+        width: 20%;
+        margin-top: -40px;
+        background-color: #99E2D0;
+        z-index: 1;
+    }
+    
     
     .block_titre_restaurant{
         display: flex;
@@ -180,6 +196,227 @@
     
     
 }
+
+@media (min-width: 992px) {
+    body{
+        position: absolute;
+        width: 100%;
+        margin: 0;
+
+    }
+    
+    .structure{
+        display: flex;
+        flex-direction: column;
+        width: 992px;
+        margin: auto;
+    }
+    
+    header
+    {
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        height: 100px;
+        
+    }
+    
+    header img{
+        height: 35px;
+        margin-left: 20px;
+    }
+    
+    .block1
+    {
+        display: flex;
+        flex-direction: column;
+        height: 300px;
+        width: 100%;
+        background-color: #F2F2F2;
+    }
+    
+    .emplacement
+    {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        background-color: gainsboro;
+    }
+    .emplacement p{
+        margin-right: 60px;
+        margin-left: 10px;
+    }
+    
+    
+    .block_button
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 70%;
+        height: 109%;
+        margin: auto;
+    }
+    .button
+    {
+        border-radius: 30px;
+    }
+    
+    
+    .block_restaurant
+    {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        background-color: #F2F2F2;
+        width: auto;
+        height: 850px;
+    }
+    
+    .block_restaurant h2{
+        border: solid;
+        height: 25px;
+        width: 100%;
+        margin-left: 50px;
+    }
+
+
+    .Restaurants{
+        width: 350px;
+        height: 350px;
+        border-radius: 15px;
+
+    }
+    
+    .images img
+    {
+        width: 100%;
+        height: 200px;
+        border-radius: 15px;
+        border-bottom-right-radius: 0px;
+        border-bottom-left-radius: 0px;
+        object-fit:cover;
+    }
+    .images{
+        z-index: 2;
+        width: 100%;
+        height: 200px;
+    }
+    .images p{
+        border: solid;
+        width: 20%;
+        z-index: 1;
+        background-color: #99E2D0;
+        margin-top: -30px;
+        z-index: 1;
+     
+    }
+
+    .vert{
+        display: flex;
+        justify-content: center;
+        border: solid;
+        width: 20%;
+        margin-top: -40px;
+        background-color: #99E2D0;
+        z-index: 1;
+    }
+    
+    
+    .block_titre_restaurant{
+        display: flex;
+        flex-direction: row;
+        justify-content:space-between ;
+        align-items: center;
+        height: 65px;
+        background-color: white;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+    }
+    
+    .titre_restaurant{
+        margin-left: 10px;
+        margin-bottom: -15px;
+    }
+    
+    .texte_restaurant{
+        margin-left: 10px;
+        margin-bottom: 35px;
+    }
+    
+    .logo_coeur
+    {
+        margin-right: 30px;
+        margin-bottom: 25px;
+    }
+    .logo_coeur i{
+        font-size: 25px;
+    
+    }
+    
+    .fonctionnement{
+        margin-left: 15px;
+    }
+    
+    .block_fonctionnement
+    {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        height: 80px;
+        width: 100%;
+        margin-bottom: 50px;
+        margin-left: 15px;
+    }
+    
+    .flex{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        border: solid 2px;
+        border-radius: 25px;
+        width: 30%
+    }
+    
+    .numero
+    {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: solid 1px;
+        border-radius: 100%;
+        height: 20px;
+        width: 20px;
+        margin-left: -11px;
+        margin-right: 20px;
+        background-color: #9356DC;
+        color: white;
+    
+    }
+    .flex div i{
+        margin-right: 40px;
+    }
+    
+    footer{
+        border: solid;
+        width: 100%;
+        font-size: 16px;
+    }
+
+    .footer{
+        width: 20%;
+        display: flex;
+        flex-direction: row;
+    }
+    
+}
+
+
+
 
 
 

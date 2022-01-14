@@ -273,7 +273,7 @@
         align-items: center;
         background-color: #F2F2F2;
         width: auto;
-        height: 850px;
+        height: 700px;
     }
     
     .block_restaurant h2{
@@ -288,6 +288,7 @@
         width: 350px;
         height: 350px;
         border-radius: 15px;
+        margin-bottom: -60px;
 
     }
     

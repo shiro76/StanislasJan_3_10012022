@@ -183,6 +183,7 @@
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
+        margin-left: 30px;
     
     }
     
@@ -190,6 +191,7 @@
         margin-right: 40px;
         font-size: 25px;
     }
+
     
     .blocks{
         display: flex;
@@ -198,16 +200,16 @@
         height: auto;
     
     }
-    .blocks p{
-        margin-right: 280px;
-        margin-bottom: 25px;
-    }
+
     .plats p{
         margin-left: -25px;
     }
     
     .desserts{
         margin-bottom: 20px;
+    }
+    .sous_titre{
+        margin-right: 950px;
     }
     
     
@@ -222,7 +224,7 @@
     
     .zone_texte{
         height: 100%;
-        width: 88%;
+        width: 100%;
     }
     
     .zone_texte p{

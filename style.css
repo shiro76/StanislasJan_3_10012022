@@ -94,28 +94,50 @@
         object-fit:cover;
     }
     .images{
-        z-index: 2;
         width: 100%;
         height: 200px;
     }
-    .images p{
-        border: solid;
-        width: 20%;
-        z-index: 1;
-        background-color: #99E2D0;
-        margin-top: -30px;
-        z-index: 1;
-     
+
+    #i1{
+        
+        background-image: url(images/restaurants/1.jpg);
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        width: 100%;
+        height: 100%;
+        background-size: cover;
+        border-radius: 15px;
+        border-bottom-right-radius: 0px;
+        border-bottom-left-radius: 0px;
     }
 
-    .vert{
+    #i2{
+        background-image: url(images/restaurants/2.jpg);
         display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        width: 100%;
+        height: 100%;
+        background-size: cover;
+        border-radius: 15px;
+        border-bottom-right-radius: 0px;
+        border-bottom-left-radius: 0px;
+    }
+
+    .images p{
+        display: flex;
+        flex-direction: row;
         justify-content: center;
-        border: solid;
-        width: 20%;
-        margin-top: -40px;
+        width: 15%;
+        height: 10%;
         background-color: #99E2D0;
-        z-index: 1;
+        padding: 3px;
+    }
+
+    .new{
+        margin-top: 20px;
+        margin-right: 20px;
     }
     
     
@@ -196,6 +218,9 @@
     
     
 }
+
+
+/* ------ desktop-version -----*/
 
 @media (min-width: 992px) {
     body{
@@ -300,31 +325,48 @@
         border-bottom-left-radius: 0px;
         object-fit:cover;
     }
+
+    #i1{
+        
+        background-image: url(images/restaurants/1.jpg);
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        width: 100%;
+        height: 100%;
+        background-size: cover;
+        border-radius: 15px;
+        border-bottom-right-radius: 0px;
+        border-bottom-left-radius: 0px;
+    }
+
+    #i2{
+        background-image: url(images/restaurants/2.jpg);
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        width: 100%;
+        height: 100%;
+        background-size: cover;
+        border-radius: 15px;
+        border-bottom-right-radius: 0px;
+        border-bottom-left-radius: 0px;
+    }
+
     .images{
         z-index: 2;
         width: 100%;
         height: 200px;
     }
     .images p{
-        border: solid;
-        width: 20%;
-        z-index: 1;
-        background-color: #99E2D0;
-        margin-top: -30px;
-        z-index: 1;
-     
-    }
-
-    .vert{
         display: flex;
         justify-content: center;
-        border: solid;
         width: 20%;
-        margin-top: -40px;
+        height: 10%;
         background-color: #99E2D0;
-        z-index: 1;
+        margin-right: 20px;
+     
     }
-    
     
     .block_titre_restaurant{
         display: flex;

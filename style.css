@@ -1,468 +1,393 @@
-@media (max-width: 992px){
-    body{
-        position: absolute;
-        width: 100%;
-        margin: 0;
-    }
-    
-    .structure{
-        display: flex;
-        flex-direction: column;
-    }
-    
-    header
-    {
-        display: flex;
-        justify-content:center;
-        align-items: center;
-        height: 100px;
-        
-    }
-    
-    header img{
-        height: 35px;
-        margin-left: 20px;
-    }
-    
-    .block1
-    {
-        display: flex;
-        flex-direction: column;
-        height: 300px;
-        width: 110%;
-        background-color: #F2F2F2;
-    }
-    
-    .emplacement
-    {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
-        background-color: gainsboro;
-    }
-    .emplacement p{
-        margin-right: 60px;
-        margin-left: 10px;
-    }
-    
-    
-    .block_button
-    {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        width: 70%;
-        height: 109%;
-        margin: auto;
-    }
-    .button
-    {
-        border-radius: 30px;
-        height: 50px;
-    }
-    
-    
-    .block_restaurant
-    {
-        display: flex;
-        flex-direction: column;
-        background-color: #F2F2F2;
-        width: 110%;
-        height: auto;
-    }
-    
-    .block_restaurant h2{
-        margin-left: 20px;
-        margin-top: 40px;
-    }
-    
-    .Restaurants{
-        margin: auto;
-        width: 90%;
-        height: 270px;
-        margin-bottom: 40px;
-        border-radius: 15px;
-    }
-    
-    .images img
-    {
-        width: 100%;
-        height: 200px;
-        border-radius: 15px;
-        border-bottom-right-radius: 0px;
-        border-bottom-left-radius: 0px;
-        object-fit:cover;
-    }
-    .images{
-        width: 100%;
-        height: 200px;
-    }
+@media (max-width: 992px) {
+  /*-----Structure de la page -----*/
+  body {
+    position: absolute;
+    width: 100%;
+    margin: 0;
+  }
+  body .structure {
+    display: flex;
+    flex-direction: column;
+  }
 
-    #i1{
-        
-        background-image: url(images/restaurants/1.jpg);
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-end;
-        width: 100%;
-        height: 100%;
-        background-size: cover;
-        border-radius: 15px;
-        border-bottom-right-radius: 0px;
-        border-bottom-left-radius: 0px;
-    }
+  /*----- header -----*/
+  header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+  }
+  header img {
+    height: 35px;
+    margin-left: 20px;
+  }
 
-    #i2{
-        background-image: url(images/restaurants/2.jpg);
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-end;
-        width: 100%;
-        height: 100%;
-        background-size: cover;
-        border-radius: 15px;
-        border-bottom-right-radius: 0px;
-        border-bottom-left-radius: 0px;
-    }
+  /*----- Emplacement + bouton -----*/
+  .block1 {
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    width: 110%;
+    background-color: #F2F2F2;
+  }
+  .block1 .emplacement {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: gainsboro;
+  }
+  .block1 .emplacement p {
+    margin-right: 60px;
+    margin-left: 10px;
+  }
+  .block1 .block_button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 70%;
+    height: 109%;
+    margin: auto;
+  }
+  .block1 .block_button .button {
+    border-radius: 30px;
+    height: 50px;
+  }
 
-    .images p{
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        width: 15%;
-        height: 10%;
-        background-color: #99E2D0;
-        padding: 3px;
-    }
+  /*----- Fonctionnement -----*/
+  .fonctionnement {
+    margin-left: 15px;
+  }
+  .fonctionnement .block_fonctionnement {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 250px;
+    width: 107%;
+    margin-bottom: 50px;
+    margin-left: 15px;
+  }
+  .fonctionnement .block_fonctionnement .flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    border: solid 2px;
+    border-radius: 25px;
+    width: 90%;
+  }
+  .fonctionnement .block_fonctionnement .flex .numero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid 1px;
+    border-radius: 100%;
+    height: 20px;
+    width: 20px;
+    margin-left: -11px;
+    margin-right: 20px;
+    background-color: #9356DC;
+    color: white;
+  }
+  .fonctionnement .block_fonctionnement .flex div i {
+    margin-right: 40px;
+  }
 
-    .new{
-        margin-top: 20px;
-        margin-right: 20px;
-    }
-    
-    
-    .block_titre_restaurant{
-        display: flex;
-        flex-direction: row;
-        justify-content:space-between ;
-        align-items: center;
-        height: 65px;
-        background-color: white;
-        border-bottom-left-radius: 15px;
-        border-bottom-right-radius: 15px;
-    }
-    
-    .titre_restaurant{
-        margin-left: 10px;
-        margin-bottom: -15px;
-    }
-    
-    .texte_restaurant{
-        margin-left: 10px;
-        margin-bottom: 35px;
-    }
-    
-    .logo_coeur
-    {
-        margin-right: 30px;
-        margin-bottom: 25px;
-    }
-    .logo_coeur i{
-        font-size: 25px;
-    
-    }
-    
-    .fonctionnement{
-        margin-left: 15px;
-    }
-    
-    .block_fonctionnement
-    {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        height: 250px;
-        width: 107%;
-        margin-bottom: 50px;
-        margin-left: 15px;
-    }
-    
-    .flex{
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-start;
-        align-items: center;
-        border: solid 2px;
-        border-radius: 25px;
-        width: 90%
-    }
-    
-    .numero
-    {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        border: solid 1px;
-        border-radius: 100%;
-        height: 20px;
-        width: 20px;
-        margin-left: -11px;
-        margin-right: 20px;
-        background-color: #9356DC;
-        color: white;
-    
-    }
-    .flex div i{
-        margin-right: 40px;
-    }
-    
-    
+  /*----- Block restaurants -----*/
+  .block_restaurant {
+    display: flex;
+    flex-direction: column;
+    background-color: #F2F2F2;
+    width: 110%;
+    height: auto;
+  }
+  .block_restaurant h2 {
+    margin-left: 20px;
+    margin-top: 40px;
+  }
+  .block_restaurant a .Restaurants {
+    margin: auto;
+    width: 90%;
+    height: 270px;
+    margin-bottom: 40px;
+    border-radius: 15px;
+  }
+  .block_restaurant a .Restaurants .images {
+    width: 100%;
+    height: 200px;
+  }
+  .block_restaurant a .Restaurants .images #i1 {
+    background-image: url(images/restaurants/1.jpg);
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    border-radius: 15px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+  }
+  .block_restaurant a .Restaurants .images #i2 {
+    background-image: url(images/restaurants/2.jpg);
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    border-radius: 15px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+  }
+  .block_restaurant a .Restaurants .images .new {
+    margin-top: 20px;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 15%;
+    height: 10%;
+    background-color: #99E2D0;
+    padding: 3px;
+  }
+  .block_restaurant a .Restaurants .images img {
+    width: 100%;
+    height: 200px;
+    border-radius: 15px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    object-fit: cover;
+  }
+  .block_restaurant a .Restaurants .block_titre_restaurant {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 65px;
+    background-color: white;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+  }
+  .block_restaurant a .Restaurants .block_titre_restaurant .titre_restaurant {
+    margin-left: 10px;
+    margin-bottom: -15px;
+  }
+  .block_restaurant a .Restaurants .block_titre_restaurant .texte_restaurant {
+    margin-left: 10px;
+    margin-bottom: 35px;
+  }
+  .block_restaurant a .Restaurants .block_titre_restaurant .logo_coeur {
+    margin-right: 30px;
+    margin-bottom: 25px;
+  }
+  .block_restaurant a .Restaurants .block_titre_restaurant .logo_coeur i {
+    font-size: 25px;
+  }
 }
-
-
 /* ------ desktop-version -----*/
-
 @media (min-width: 992px) {
-    body{
-        position: absolute;
-        width: 100%;
-        margin: 0;
+  /*-----Structure de la page -----*/
+  body {
+    position: absolute;
+    width: 100%;
+    margin: 0;
+  }
+  body .structure {
+    display: flex;
+    flex-direction: column;
+    width: 992px;
+    margin: auto;
+  }
 
-    }
-    
-    .structure{
-        display: flex;
-        flex-direction: column;
-        width: 992px;
-        margin: auto;
-    }
-    
-    header
-    {
-        display: flex;
-        justify-content:center;
-        align-items: center;
-        height: 100px;
-        
-    }
-    
-    header img{
-        height: 35px;
-        margin-left: 20px;
-    }
-    
-    .block1
-    {
-        display: flex;
-        flex-direction: column;
-        height: 300px;
-        width: 100%;
-        background-color: #F2F2F2;
-    }
-    
-    .emplacement
-    {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
-        background-color: gainsboro;
-    }
-    .emplacement p{
-        margin-right: 60px;
-        margin-left: 10px;
-    }
-    
-    
-    .block_button
-    {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        width: 70%;
-        height: 109%;
-        margin: auto;
-    }
-    .button
-    {
-        border-radius: 30px;
-        height: 50px;
-        width: 200px;
-    }
-    
-    
-    .block_restaurant
-    {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: space-around;
-        align-items: center;
-        background-color: #F2F2F2;
-        width: auto;
-        height: 700px;
-    }
-    
-    .block_restaurant h2{
-        height: 25px;
-        width: 100%;
-        margin-left: 50px;
-    }
+  /*----- header -----*/
+  header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+  }
+  header img {
+    height: 35px;
+    margin-left: 20px;
+  }
 
+  /*----- Emplacement + bouton -----*/
+  .block1 {
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    width: 100%;
+    background-color: #F2F2F2;
+  }
+  .block1 .emplacement {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: gainsboro;
+  }
+  .block1 .emplacement p {
+    margin-right: 60px;
+    margin-left: 10px;
+  }
+  .block1 .block_button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    height: 109%;
+    margin: auto;
+  }
+  .block1 .block_button .button {
+    border-radius: 30px;
+    height: 50px;
+    width: 200px;
+  }
 
-    .Restaurants{
-        width: 350px;
-        height: 350px;
-        border-radius: 15px;
-        margin-bottom: -60px;
+  /*----- Fonctionnement -----*/
+  .fonctionnement {
+    margin-left: 15px;
+  }
+  .fonctionnement .block_fonctionnement {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 80px;
+    width: 100%;
+    margin-bottom: 50px;
+    margin-left: 15px;
+  }
+  .fonctionnement .block_fonctionnement .flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    border: solid 2px;
+    border-radius: 25px;
+    width: 30%;
+  }
+  .fonctionnement .block_fonctionnement .flex .numero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid 1px;
+    border-radius: 100%;
+    height: 20px;
+    width: 20px;
+    margin-left: -11px;
+    margin-right: 20px;
+    background-color: #9356DC;
+    color: white;
+  }
+  .fonctionnement .block_fonctionnement .flex div i {
+    margin-right: 40px;
+  }
 
-    }
-    
-    .images img
-    {
-        width: 100%;
-        height: 200px;
-        border-radius: 15px;
-        border-bottom-right-radius: 0px;
-        border-bottom-left-radius: 0px;
-        object-fit:cover;
-    }
+  /*----- Block restaurants -----*/
+  .block_restaurant {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #F2F2F2;
+    width: auto;
+    height: 700px;
+  }
+  .block_restaurant h2 {
+    height: 25px;
+    width: 100%;
+    margin-left: 50px;
+  }
+  .block_restaurant a .Restaurants {
+    width: 350px;
+    height: 350px;
+    border-radius: 15px;
+    margin-bottom: -60px;
+  }
+  .block_restaurant a .Restaurants .images {
+    z-index: 2;
+    width: 100%;
+    height: 200px;
+  }
+  .block_restaurant a .Restaurants .images #i1 {
+    background-image: url(images/restaurants/1.jpg);
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    border-radius: 15px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+  }
+  .block_restaurant a .Restaurants .images #i2 {
+    background-image: url(images/restaurants/2.jpg);
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    border-radius: 15px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+  }
+  .block_restaurant a .Restaurants .images .new {
+    display: flex;
+    justify-content: center;
+    width: 20%;
+    height: 10%;
+    background-color: #99E2D0;
+    margin-right: 20px;
+  }
+  .block_restaurant a .Restaurants .images img {
+    width: 100%;
+    height: 200px;
+    border-radius: 15px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    object-fit: cover;
+  }
+  .block_restaurant a .Restaurants .block_titre_restaurant {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 65px;
+    background-color: white;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+  }
+  .block_restaurant a .Restaurants .block_titre_restaurant .titre_restaurant {
+    margin-left: 10px;
+    margin-bottom: -15px;
+  }
+  .block_restaurant a .Restaurants .block_titre_restaurant .texte_restaurant {
+    margin-left: 10px;
+    margin-bottom: 35px;
+  }
+  .block_restaurant a .Restaurants .block_titre_restaurant .logo_coeur {
+    margin-right: 30px;
+    margin-bottom: 25px;
+  }
+  .block_restaurant a .Restaurants .block_titre_restaurant .logo_coeur i {
+    font-size: 25px;
+  }
 
-    #i1{
-        
-        background-image: url(images/restaurants/1.jpg);
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-end;
-        width: 100%;
-        height: 100%;
-        background-size: cover;
-        border-radius: 15px;
-        border-bottom-right-radius: 0px;
-        border-bottom-left-radius: 0px;
-    }
-
-    #i2{
-        background-image: url(images/restaurants/2.jpg);
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-end;
-        width: 100%;
-        height: 100%;
-        background-size: cover;
-        border-radius: 15px;
-        border-bottom-right-radius: 0px;
-        border-bottom-left-radius: 0px;
-    }
-
-    .images{
-        z-index: 2;
-        width: 100%;
-        height: 200px;
-    }
-    .images p{
-        display: flex;
-        justify-content: center;
-        width: 20%;
-        height: 10%;
-        background-color: #99E2D0;
-        margin-right: 20px;
-     
-    }
-    
-    .block_titre_restaurant{
-        display: flex;
-        flex-direction: row;
-        justify-content:space-between ;
-        align-items: center;
-        height: 65px;
-        background-color: white;
-        border-bottom-left-radius: 15px;
-        border-bottom-right-radius: 15px;
-    }
-    
-    .titre_restaurant{
-        margin-left: 10px;
-        margin-bottom: -15px;
-    }
-    
-    .texte_restaurant{
-        margin-left: 10px;
-        margin-bottom: 35px;
-    }
-    
-    .logo_coeur
-    {
-        margin-right: 30px;
-        margin-bottom: 25px;
-    }
-    .logo_coeur i{
-        font-size: 25px;
-    
-    }
-    
-    .fonctionnement{
-        margin-left: 15px;
-    }
-    
-    .block_fonctionnement
-    {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        height: 80px;
-        width: 100%;
-        margin-bottom: 50px;
-        margin-left: 15px;
-    }
-    
-    .flex{
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-start;
-        align-items: center;
-        border: solid 2px;
-        border-radius: 25px;
-        width: 30%
-    }
-    
-    .numero
-    {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        border: solid 1px;
-        border-radius: 100%;
-        height: 20px;
-        width: 20px;
-        margin-left: -11px;
-        margin-right: 20px;
-        background-color: #9356DC;
-        color: white;
-    
-    }
-    .flex div i{
-        margin-right: 40px;
-    }
-    
-    footer{
-        border: solid;
-        width: 100%;
-        font-size: 16px;
-    }
-
-    .footer{
-        width: 20%;
-        display: flex;
-        flex-direction: row;
-    }
-    
+  footer {
+    border: solid;
+    width: 100%;
+    font-size: 16px;
+  }
+  footer .footer {
+    width: 20%;
+    display: flex;
+    flex-direction: row;
+  }
 }
 
-
-
-
-
-
+/*# sourceMappingURL=style.css.map */

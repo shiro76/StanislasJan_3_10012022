@@ -193,12 +193,13 @@
                    flex-direction: row;
                    justify-content:space-between ;
                    align-items: center;
-                   height: 65px;
+                   height: 55px;
                    background-color: white;
                    border-bottom-left-radius: 15px;
                    border-bottom-right-radius: 15px;
 
                    .titre_restaurant{
+                       margin-top: 40px;
                        margin-left: 10px;
                        margin-bottom: -15px;
                    }
@@ -210,7 +211,6 @@
 
                    .logo_coeur{
                        margin-right: 30px;
-                       margin-bottom: 25px;
 
                        i{
                            font-size: 25px;

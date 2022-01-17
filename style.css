@@ -26,8 +26,7 @@
   .block1 {
     display: flex;
     flex-direction: column;
-    height: 300px;
-    width: 110%;
+    width: 100%;
     background-color: #F2F2F2;
   }
   .block1 .emplacement {
@@ -46,12 +45,13 @@
     flex-direction: column;
     justify-content: center;
     width: 70%;
-    height: 109%;
+    height: 100%;
     margin: auto;
   }
-  .block1 .block_button .button {
+  .block1 .block_button button {
     border-radius: 30px;
-    height: 50px;
+    height: 60px;
+    size: 100%;
   }
 
   /*----- Fonctionnement -----*/
@@ -61,11 +61,11 @@
   .fonctionnement .block_fonctionnement {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
+    align-items: center;
     height: 250px;
-    width: 107%;
+    width: 100%;
     margin-bottom: 50px;
-    margin-left: 15px;
   }
   .fonctionnement .block_fonctionnement .flex {
     display: flex;
@@ -74,7 +74,7 @@
     align-items: center;
     border: solid 2px;
     border-radius: 25px;
-    width: 90%;
+    width: 95%;
   }
   .fonctionnement .block_fonctionnement .flex .numero {
     display: flex;
@@ -98,7 +98,7 @@
     display: flex;
     flex-direction: column;
     background-color: #F2F2F2;
-    width: 110%;
+    width: 100%;
     height: auto;
   }
   .block_restaurant h2 {
@@ -376,17 +376,6 @@
   }
   .block_restaurant a .Restaurants .block_titre_restaurant .logo_coeur i {
     font-size: 25px;
-  }
-
-  footer {
-    border: solid;
-    width: 100%;
-    font-size: 16px;
-  }
-  footer .footer {
-    width: 20%;
-    display: flex;
-    flex-direction: row;
   }
 }
 

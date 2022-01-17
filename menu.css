@@ -83,16 +83,21 @@
   }
   .block_menu .blocks .block .zone_texte {
     height: 100%;
-    width: 88%;
+    width: 90%;
   }
   .block_menu .blocks .block .zone_texte p {
-    width: 95%;
+    width: 90%;
     margin-left: 10px;
+    font-size: 18px;
+    margin-top: 13px;
   }
   .block_menu .blocks .block .zone_texte h4 {
     margin-top: 10px;
     margin-bottom: -10px;
     margin-left: 10px;
+  }
+  .block_menu .blocks .block .prix {
+    font-size: 18px;
   }
   .block_menu .block_button {
     display: flex;

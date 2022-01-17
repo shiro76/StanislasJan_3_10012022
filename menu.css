@@ -88,16 +88,18 @@
   .block_menu .blocks .block .zone_texte p {
     width: 90%;
     margin-left: 10px;
-    font-size: 18px;
+    font-size: 16px;
     margin-top: 13px;
   }
   .block_menu .blocks .block .zone_texte h4 {
+    font-size: 17px;
     margin-top: 10px;
     margin-bottom: -10px;
     margin-left: 10px;
   }
   .block_menu .blocks .block .prix {
     font-size: 18px;
+    margin-left: 2px;
   }
   .block_menu .block_button {
     display: flex;

@@ -357,12 +357,13 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    height: 65px;
+    height: 60px;
     background-color: white;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
   }
   .block_restaurant a .Restaurants .block_titre_restaurant .titre_restaurant {
+    margin-top: 30px;
     margin-left: 10px;
     margin-bottom: -15px;
   }
@@ -372,7 +373,7 @@
   }
   .block_restaurant a .Restaurants .block_titre_restaurant .logo_coeur {
     margin-right: 30px;
-    margin-bottom: 25px;
+    margin-bottom: 15px;
   }
   .block_restaurant a .Restaurants .block_titre_restaurant .logo_coeur i {
     font-size: 25px;

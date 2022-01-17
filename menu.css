@@ -138,6 +138,12 @@
     width: 992px;
     margin: auto;
   }
+  body h1 {
+    font-family: "Shrikhand", cursive;
+  }
+  body h4, body h5, body p {
+    font-family: "Roboto", sans-serif;
+  }
 
   header {
     display: flex;

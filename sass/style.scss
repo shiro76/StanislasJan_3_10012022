@@ -1,8 +1,11 @@
 @media (max-width: 992px){
 
     /*-----Structure de la page -----*/
+    $violet:#9356DC;
+    $vert:#99E2D0;
+    $rose:#FF79DA;
 
-   body{
+    body{
        position: absolute;
        width: 100%;
        margin: 0;
@@ -24,8 +27,7 @@
 
     /*----- header -----*/
 
-   header
-   {
+    header{
        display: flex;
        justify-content:center;
        align-items: center;

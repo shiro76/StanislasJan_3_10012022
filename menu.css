@@ -1,4 +1,443 @@
-@media (max-width: 992px) {
+body {
+  position: absolute;
+  width: 100%;
+  margin: auto;
+}
+body .structure {
+  display: flex;
+  flex-direction: column;
+}
+body h1 {
+  font-family: "Shrikhand", cursive;
+}
+body h4, body h5, body p {
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10px;
+  margin-top: 15px;
+}
+header img {
+  height: 35px;
+  margin-left: 95px;
+  margin-top: 0px;
+}
+header i {
+  margin-left: 15px;
+  font-size: 23px;
+  margin-top: 5px;
+}
+
+.menu_image {
+  width: 100%;
+  height: 260px;
+  margin-bottom: -40px;
+}
+.menu_image img {
+  height: 100%;
+  width: 100%;
+  margin-bottom: -30px;
+  object-fit: cover;
+}
+
+.block_menu {
+  width: auto;
+  background-color: #F2F2F2;
+  height: auto;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
+.block_menu .titre_principale {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 20px;
+}
+.block_menu .titre_principale i {
+  margin-right: 40px;
+  font-size: 25px;
+}
+.block_menu .blocks {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: auto;
+}
+.block_menu .blocks p {
+  width: 20%;
+  margin-right: 280px;
+  margin-bottom: 25px;
+}
+.block_menu .blocks .sous_titre {
+  display: flex;
+  width: 80%;
+  margin-top: 3px;
+  margin-bottom: -5px;
+  margin-right: 70px;
+}
+.block_menu .blocks .b1 {
+  transition: 0s;
+  animation: progressive_spawn 500ms 0.5s forwards;
+}
+@keyframes progressive_spawn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.block_menu .blocks .b1:hover .animation {
+  opacity: 1;
+  animation: animation_slide 0.5s 1ms forwards;
+}
+@keyframes animation_slide {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 15%;
+    opacity: 1;
+  }
+}
+.block_menu .blocks .b1:hover .animation i {
+  transform: rotate(0deg);
+  opacity: 1;
+}
+.block_menu .blocks .b1:hover .prix {
+  right: inherit;
+}
+.block_menu .blocks .b2 {
+  transition: 0ms;
+  animation: progressive_spawn 500ms 0.7s forwards;
+}
+@keyframes progressive_spawn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.block_menu .blocks .b2:hover .animation {
+  opacity: 1;
+  animation: animation_slide 0.5s 1ms forwards;
+}
+@keyframes animation_slide {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 15%;
+    opacity: 1;
+  }
+}
+.block_menu .blocks .b2:hover .animation i {
+  transform: rotate(0deg);
+  opacity: 1;
+}
+.block_menu .blocks .b2:hover .prix {
+  right: inherit;
+}
+.block_menu .blocks .b3 {
+  transition: 0ms;
+  animation: progressive_spawn 500ms 0.9s forwards;
+}
+@keyframes progressive_spawn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.block_menu .blocks .b3:hover .animation {
+  opacity: 1;
+  animation: animation_slide 0.5s 1ms forwards;
+}
+@keyframes animation_slide {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 15%;
+    opacity: 1;
+  }
+}
+.block_menu .blocks .b3:hover .animation i {
+  transform: rotate(0deg);
+  opacity: 1;
+}
+.block_menu .blocks .b3:hover .prix {
+  right: inherit;
+}
+.block_menu .blocks .b4 {
+  transition: 0ms;
+  animation: progressive_spawn 500ms 1.1s forwards;
+}
+@keyframes progressive_spawn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.block_menu .blocks .b4:hover .animation {
+  opacity: 1;
+  animation: animation_slide 0.5s 1ms forwards;
+}
+@keyframes animation_slide {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 15%;
+    opacity: 1;
+  }
+}
+.block_menu .blocks .b4:hover .animation i {
+  transform: rotate(0deg);
+  opacity: 1;
+}
+.block_menu .blocks .b4:hover .prix {
+  right: inherit;
+}
+.block_menu .blocks .b5 {
+  transition: 0ms;
+  animation: progressive_spawn 500ms 1.3s forwards;
+}
+@keyframes progressive_spawn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.block_menu .blocks .b5:hover .animation {
+  opacity: 1;
+  animation: animation_slide 0.5s 1ms forwards;
+}
+@keyframes animation_slide {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 15%;
+    opacity: 1;
+  }
+}
+.block_menu .blocks .b5:hover .animation i {
+  transform: rotate(0deg);
+  opacity: 1;
+}
+.block_menu .blocks .b5:hover .prix {
+  right: inherit;
+}
+.block_menu .blocks .b6 {
+  transition: 0ms;
+  animation: progressive_spawn 500ms 1.5s forwards;
+}
+@keyframes progressive_spawn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.block_menu .blocks .b6:hover .animation {
+  opacity: 1;
+  animation: animation_slide 0.5s 1ms forwards;
+}
+@keyframes animation_slide {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 15%;
+    opacity: 1;
+  }
+}
+.block_menu .blocks .b6:hover .animation i {
+  transform: rotate(0deg);
+  opacity: 1;
+}
+.block_menu .blocks .b6:hover .prix {
+  right: inherit;
+}
+.block_menu .blocks .b7 {
+  transition: 0ms;
+  animation: progressive_spawn 500ms 1.7s forwards;
+}
+@keyframes progressive_spawn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.block_menu .blocks .b7:hover .animation {
+  opacity: 1;
+  animation: animation_slide 0.5s 1ms;
+}
+@keyframes animation_slide {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 15%;
+    opacity: 1;
+  }
+}
+.block_menu .blocks .b7:hover .animation i {
+  transform: rotate(0deg);
+  opacity: 1;
+}
+.block_menu .blocks .b7:hover .prix {
+  right: inherit;
+}
+.block_menu .blocks .b8 {
+  transition: 0ms;
+  animation: progressive_spawn 1s 1.9s forwards;
+}
+@keyframes progressive_spawn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.block_menu .blocks .b8:hover .animation {
+  opacity: 1;
+  animation: animation_slide 0.5s 1ms forwards;
+}
+@keyframes animation_slide {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 15%;
+    opacity: 1;
+  }
+}
+.block_menu .blocks .b8:hover .animation i {
+  transform: rotate(0deg);
+  opacity: 1;
+}
+.block_menu .blocks .b8:hover .prix {
+  right: inherit;
+}
+.block_menu .blocks .b9 {
+  transition: 0ms;
+  animation: progressive_spawn 500ms 2.1s forwards;
+}
+@keyframes progressive_spawn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.block_menu .blocks .b9:hover .animation {
+  opacity: 1;
+  animation: animation_slide 0.5s 1ms forwards;
+}
+@keyframes animation_slide {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 15%;
+    opacity: 1;
+  }
+}
+.block_menu .blocks .b9:hover .animation i {
+  transform: rotate(0deg);
+  opacity: 1;
+}
+.block_menu .blocks .b9:hover .prix {
+  right: inherit;
+}
+.block_menu .blocks .animation {
+  width: 15%;
+  height: auto;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: #99E2D0;
+  opacity: 0;
+  overflow: hidden;
+  margin-left: 20px;
+}
+.block_menu .blocks .animation i {
+  color: white;
+  transform: rotate(-360deg);
+  transition: transform 0.5s;
+  opacity: 1;
+}
+.block_menu .blocks .block {
+  display: flex;
+  justify-content: space-between;
+  width: 94%;
+  margin-bottom: 10px;
+  border-radius: 15px;
+  height: 60px;
+  background-color: white;
+  opacity: 0;
+  overflow: hidden;
+}
+.block_menu .blocks .block .zone_texte {
+  height: 100%;
+  width: 80%;
+}
+.block_menu .blocks .block .zone_texte p {
+  width: 350px;
+  height: auto;
+  margin-left: 10px;
+  font-size: 16px;
+  margin-top: 13px;
+  white-space: nowrap;
+}
+.block_menu .blocks .block .zone_texte h4 {
+  font-size: 17px;
+  margin-top: 10px;
+  margin-bottom: -10px;
+  margin-left: 10px;
+}
+.block_menu .blocks .block .prix {
+  position: relative;
+  right: -50px;
+  font-size: 18px;
+  margin-left: -10px;
+}
+.block_menu .block_button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 45%;
+  height: 120px;
+  margin: auto;
+  margin-top: 40px;
+}
+.block_menu .block_button .button {
+  border-radius: 30px;
+  margin-top: -70px;
+  height: 50px;
+}
+
+@media (min-width: 768px) {
   body {
     position: absolute;
     width: 100%;
@@ -79,114 +518,6 @@
     margin-bottom: -5px;
     margin-right: 70px;
   }
-  .block_menu .blocks .b1 {
-    transition: 0s;
-    animation: progressive_spawn 500ms 0.5s forwards;
-  }
-  @keyframes progressive_spawn {
-    from {
-      opacity: 0;
-    }
-    to {
-      opacity: 1;
-    }
-  }
-  .block_menu .blocks .b2 {
-    transition: 0ms;
-    animation: progressive_spawn 500ms 0.7s forwards;
-  }
-  @keyframes progressive_spawn {
-    from {
-      opacity: 0;
-    }
-    to {
-      opacity: 1;
-    }
-  }
-  .block_menu .blocks .b3 {
-    transition: 0ms;
-    animation: progressive_spawn 500ms 0.9s forwards;
-  }
-  @keyframes progressive_spawn {
-    from {
-      opacity: 0;
-    }
-    to {
-      opacity: 1;
-    }
-  }
-  .block_menu .blocks .b4 {
-    transition: 0ms;
-    animation: progressive_spawn 500ms 1.1s forwards;
-  }
-  @keyframes progressive_spawn {
-    from {
-      opacity: 0;
-    }
-    to {
-      opacity: 1;
-    }
-  }
-  .block_menu .blocks .b5 {
-    transition: 0ms;
-    animation: progressive_spawn 500ms 1.3s forwards;
-  }
-  @keyframes progressive_spawn {
-    from {
-      opacity: 0;
-    }
-    to {
-      opacity: 1;
-    }
-  }
-  .block_menu .blocks .b6 {
-    transition: 0ms;
-    animation: progressive_spawn 500ms 1.5s forwards;
-  }
-  @keyframes progressive_spawn {
-    from {
-      opacity: 0;
-    }
-    to {
-      opacity: 1;
-    }
-  }
-  .block_menu .blocks .b7 {
-    transition: 0ms;
-    animation: progressive_spawn 500ms 1.7s forwards;
-  }
-  @keyframes progressive_spawn {
-    from {
-      opacity: 0;
-    }
-    to {
-      opacity: 1;
-    }
-  }
-  .block_menu .blocks .b8 {
-    transition: 0ms;
-    animation: progressive_spawn 500ms 1.9s forwards;
-  }
-  @keyframes progressive_spawn {
-    from {
-      opacity: 0;
-    }
-    to {
-      opacity: 1;
-    }
-  }
-  .block_menu .blocks .b9 {
-    transition: 0ms;
-    animation: progressive_spawn 500ms 2.1s forwards;
-  }
-  @keyframes progressive_spawn {
-    from {
-      opacity: 0;
-    }
-    to {
-      opacity: 1;
-    }
-  }
   .block_menu .blocks .block {
     display: flex;
     width: 94%;
@@ -196,28 +527,9 @@
     background-color: white;
     opacity: 0;
   }
-  .block_menu .blocks .block .zone_texte {
-    height: 100%;
-    width: 90%;
-  }
-  .block_menu .blocks .block .zone_texte p {
-    width: 100%;
-    height: auto;
-    margin-left: 10px;
-    font-size: 16px;
-    margin-top: 13px;
-    white-space: nowrap;
-    text-overflow: ellipsis;
-  }
-  .block_menu .blocks .block .zone_texte h4 {
-    font-size: 17px;
-    margin-top: 10px;
-    margin-bottom: -10px;
-    margin-left: 10px;
-  }
   .block_menu .blocks .block .prix {
     font-size: 18px;
-    margin-left: -10px;
+    margin-left: 150px;
   }
   .block_menu .block_button {
     display: flex;
@@ -327,9 +639,6 @@
       opacity: 1;
     }
   }
-  .block_menu .blocks .b1 .animation {
-    rotate: 180deg;
-  }
   .block_menu .blocks .b1:hover .animation {
     opacity: 1;
     animation: animation_slide 500ms 1ms forwards;
@@ -347,6 +656,9 @@
     transform: rotate(0deg);
     opacity: 1;
   }
+  .block_menu .blocks .b1:hover .prix {
+    margin-right: 0px;
+  }
   .block_menu .blocks .b2 {
     transition: 0ms;
     animation: progressive_spawn 500ms 0.7s forwards;
@@ -358,9 +670,6 @@
     to {
       opacity: 1;
     }
-  }
-  .block_menu .blocks .b2 .animation {
-    rotate: 180deg;
   }
   .block_menu .blocks .b2:hover .animation {
     opacity: 1;
@@ -379,6 +688,9 @@
     transform: rotate(0deg);
     opacity: 1;
   }
+  .block_menu .blocks .b2:hover .prix {
+    margin-right: 0px;
+  }
   .block_menu .blocks .b3 {
     transition: 0ms;
     animation: progressive_spawn 500ms 0.9s forwards;
@@ -390,9 +702,6 @@
     to {
       opacity: 1;
     }
-  }
-  .block_menu .blocks .b3 .animation {
-    rotate: 180deg;
   }
   .block_menu .blocks .b3:hover .animation {
     opacity: 1;
@@ -411,6 +720,9 @@
     transform: rotate(0deg);
     opacity: 1;
   }
+  .block_menu .blocks .b3:hover .prix {
+    margin-right: 0px;
+  }
   .block_menu .blocks .b4 {
     transition: 0ms;
     animation: progressive_spawn 500ms 1.1s forwards;
@@ -422,9 +734,6 @@
     to {
       opacity: 1;
     }
-  }
-  .block_menu .blocks .b4 .animation {
-    rotate: 180deg;
   }
   .block_menu .blocks .b4:hover .animation {
     opacity: 1;
@@ -443,6 +752,9 @@
     transform: rotate(0deg);
     opacity: 1;
   }
+  .block_menu .blocks .b4:hover .prix {
+    margin-right: 0px;
+  }
   .block_menu .blocks .b5 {
     transition: 0ms;
     animation: progressive_spawn 500ms 1.3s forwards;
@@ -454,9 +766,6 @@
     to {
       opacity: 1;
     }
-  }
-  .block_menu .blocks .b5 .animation {
-    rotate: 180deg;
   }
   .block_menu .blocks .b5:hover .animation {
     opacity: 1;
@@ -475,6 +784,9 @@
     transform: rotate(0deg);
     opacity: 1;
   }
+  .block_menu .blocks .b5:hover .prix {
+    margin-right: 0px;
+  }
   .block_menu .blocks .b6 {
     transition: 0ms;
     animation: progressive_spawn 500ms 1.5s forwards;
@@ -486,9 +798,6 @@
     to {
       opacity: 1;
     }
-  }
-  .block_menu .blocks .b6 .animation {
-    rotate: 180deg;
   }
   .block_menu .blocks .b6:hover .animation {
     opacity: 1;
@@ -507,6 +816,9 @@
     transform: rotate(0deg);
     opacity: 1;
   }
+  .block_menu .blocks .b6:hover .prix {
+    margin-right: 0px;
+  }
   .block_menu .blocks .b7 {
     transition: 0ms;
     animation: progressive_spawn 500ms 1.7s forwards;
@@ -518,9 +830,6 @@
     to {
       opacity: 1;
     }
-  }
-  .block_menu .blocks .b7 .animation {
-    rotate: 180deg;
   }
   .block_menu .blocks .b7:hover .animation {
     opacity: 1;
@@ -539,6 +848,9 @@
     transform: rotate(0deg);
     opacity: 1;
   }
+  .block_menu .blocks .b7:hover .prix {
+    margin-right: 0px;
+  }
   .block_menu .blocks .b8 {
     transition: 0ms;
     animation: progressive_spawn 500ms 1.9s forwards;
@@ -550,9 +862,6 @@
     to {
       opacity: 1;
     }
-  }
-  .block_menu .blocks .b8 .animation {
-    rotate: 180deg;
   }
   .block_menu .blocks .b8:hover .animation {
     opacity: 1;
@@ -570,6 +879,9 @@
   .block_menu .blocks .b8:hover .animation i {
     transform: rotate(0deg);
     opacity: 1;
+  }
+  .block_menu .blocks .b8:hover .prix {
+    margin-right: 0px;
   }
   .block_menu .blocks .b9 {
     transition: 0ms;
@@ -599,6 +911,9 @@
   .block_menu .blocks .b9:hover .animation i {
     transform: rotate(0deg);
     opacity: 1;
+  }
+  .block_menu .blocks .b9:hover .prix {
+    margin-right: 0px;
   }
   .block_menu .blocks .animation {
     height: auto;
@@ -639,7 +954,7 @@
     margin-left: 20px;
   }
   .block_menu .blocks .block .prix {
-    margin-right: 30px;
+    margin-right: 50px;
   }
   .block_menu .desserts {
     margin-bottom: 20px;

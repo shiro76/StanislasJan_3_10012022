@@ -1,4 +1,559 @@
-@media (max-width: 992px){
+body{
+    position: absolute;
+    width: 100%;
+    margin: auto;
+
+    .structure{
+        display: flex;
+        flex-direction: column;
+    }
+
+    h1{
+        font-family: 'Shrikhand', cursive;
+    }
+
+    h4,h5,p{
+        font-family: 'Roboto', sans-serif;
+    }
+}
+
+
+header{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+    margin-top: 15px;
+    
+    img{
+        height: 35px;
+        margin-left: 95px;
+        margin-top: 0px;
+    }
+
+    i{
+        margin-left: 15px;
+        font-size: 23px;
+        margin-top: 5px;
+    }
+}
+
+.menu_image{
+    width: 100%;
+    height: 260px;
+    margin-bottom: -40px;
+    
+
+    img{
+        height: 100%;
+        width: 100%;
+        margin-bottom: -30px;
+        object-fit: cover;
+    }
+}
+
+.block_menu{
+    width: auto;
+    background-color: #F2F2F2;
+    height: auto;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+
+    .titre_principale{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin-left: 20px;
+
+        i{
+            margin-right: 40px;
+            font-size: 25px;
+        }
+    
+    }
+
+    .blocks{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+
+        p{
+            width: 20%;
+            margin-right: 280px;
+            margin-bottom: 25px;
+        }
+        
+        .sous_titre{
+            display: flex;
+            width: 80%;
+            margin-top: 3px;
+            margin-bottom: -5px;
+            margin-right: 70px;
+        }
+
+        .b1{
+            transition:  0s;
+            animation: progressive_spawn 500ms .5s forwards;
+            
+            @keyframes progressive_spawn {
+                from {
+                    opacity: 0;;
+                    
+                }
+
+                to{
+                    opacity: 1;
+                }
+                
+            }
+            
+            &:hover{
+                .animation{
+                    opacity: 1;
+                    animation: animation_slide .5s 1ms forwards;
+                    @keyframes animation_slide {
+                        from {
+                            width: 0%;
+                            
+                        }
+    
+                        to{
+                            width: 15%;
+                            opacity: 1;
+                        }   
+                    }
+                }
+                .animation i{
+                   transform: rotate(0deg);
+                   opacity: 1;
+                }
+
+                .prix{
+                    right: inherit;
+                }
+            }
+        }
+
+        .b2{
+            transition:  0ms;
+            animation: progressive_spawn 500ms .7s forwards;
+            
+            @keyframes progressive_spawn {
+                from {
+                    opacity: 0;;
+                    
+                }
+
+                to{
+                    opacity: 1;
+                } 
+            }
+
+            &:hover{
+                .animation{
+                    opacity: 1;
+                    animation: animation_slide .5s 1ms forwards;
+                    @keyframes animation_slide {
+                        from {
+                            width: 0%;
+                            
+                        }
+    
+                        to{
+                            width: 15%;
+                            opacity: 1;
+                        }   
+                    }
+                }
+                .animation i{
+                   transform: rotate(0deg);
+                   opacity: 1;
+                }
+
+                .prix{
+                    right: inherit;
+                }
+            }
+        }
+
+        .b3{
+            transition:  0ms;
+            animation: progressive_spawn 500ms .9s forwards;
+            
+            @keyframes progressive_spawn {
+                from {
+                    opacity: 0;;
+                    
+                }
+
+                to{
+                    opacity: 1;
+                }   
+            }
+
+            &:hover{
+                .animation{
+                    opacity: 1;
+                    animation: animation_slide .5s 1ms forwards;
+                    @keyframes animation_slide {
+                        from {
+                            width: 0%;
+                            
+                        }
+    
+                        to{
+                            width: 15%;
+                            opacity: 1;
+                        }   
+                    }
+                }
+                .animation i{
+                   transform: rotate(0deg);
+                   opacity: 1;
+                }
+
+                .prix{
+                    right: inherit;
+                }
+            }
+        }
+
+        .b4{
+            transition:  0ms;
+            animation: progressive_spawn 500ms 1.1s forwards;
+            
+            @keyframes progressive_spawn {
+                from {
+                    opacity: 0;;
+                    
+                }
+
+                to{
+                    opacity: 1;
+                }   
+            }
+
+            &:hover{
+                .animation{
+                    opacity: 1;
+                    animation: animation_slide .5s 1ms forwards;
+                    @keyframes animation_slide {
+                        from {
+                            width: 0%;
+                            
+                        }
+    
+                        to{
+                            width: 15%;
+                            opacity: 1;
+                        }   
+                    }
+                }
+                .animation i{
+                   transform: rotate(0deg);
+                   opacity: 1;
+                }
+
+                .prix{
+                    right: inherit;
+                }
+            }
+        }
+
+        .b5{
+            transition:  0ms;
+            animation: progressive_spawn 500ms 1.3s forwards;
+            
+            @keyframes progressive_spawn {
+                from {
+                    opacity: 0;;
+                    
+                }
+
+                to{
+                    opacity: 1;
+                }   
+            }
+
+            &:hover{
+                .animation{
+                    opacity: 1;
+                    animation: animation_slide .5s 1ms forwards;
+                    @keyframes animation_slide {
+                        from {
+                            width: 0%;
+                            
+                        }
+    
+                        to{
+                            width: 15%;
+                            opacity: 1;
+                        }   
+                    }
+                }
+                .animation i{
+                   transform: rotate(0deg);
+                   opacity: 1;
+                }
+
+                .prix{
+                    right: inherit;
+                }
+            }
+        }
+
+        .b6{
+            transition:  0ms;
+            animation: progressive_spawn 500ms 1.5s forwards;
+            
+            @keyframes progressive_spawn {
+                from {
+                    opacity: 0;;
+                    
+                }
+
+                to{
+                    opacity: 1;
+                }   
+            }
+
+            &:hover{
+                .animation{
+                    opacity: 1;
+                    animation: animation_slide .5s 1ms forwards;
+                    @keyframes animation_slide {
+                        from {
+                            width: 0%;
+                            
+                        }
+    
+                        to{
+                            width: 15%;
+                            opacity: 1;
+                        }   
+                    }
+                }
+                .animation i{
+                   transform: rotate(0deg);
+                   opacity: 1;
+                }
+
+                .prix{
+                    right: inherit;
+                }
+            }
+        }
+
+        .b7{
+            transition:  0ms;
+            animation: progressive_spawn 500ms 1.7s forwards;
+            
+            @keyframes progressive_spawn {
+                from {
+                    opacity: 0;;
+                    
+                }
+
+                to{
+                    opacity: 1;
+                }   
+            }
+
+            &:hover{
+                .animation{
+                    opacity: 1;
+                    animation: animation_slide .5s 1ms ;
+                    @keyframes animation_slide {
+                        from {
+                            width: 0%;
+                            
+                        }
+    
+                        to{
+                            width: 15%;
+                            opacity: 1;
+                        }   
+                    }
+                }
+                .animation i{
+                   transform: rotate(0deg);
+                   opacity: 1;
+                }
+
+                .prix{
+                    right: inherit;
+                }
+            }
+        }
+
+        .b8{
+            transition:  0ms;
+            animation: progressive_spawn 1s 1.9s forwards;
+            
+            @keyframes progressive_spawn {
+                from {
+                    opacity: 0;;
+                    
+                }
+
+                to{
+                    opacity: 1;
+                }   
+            }
+
+            &:hover{
+                .animation{
+                    opacity: 1;
+                    animation: animation_slide .5s 1ms forwards;
+                    @keyframes animation_slide {
+                        from {
+                            width: 0%;
+                            
+                        }
+    
+                        to{
+                            width: 15%;
+                            opacity: 1;
+                        }   
+                    }
+                }
+                .animation i{
+                   transform: rotate(0deg);
+                   opacity: 1;
+                }
+                .prix{
+                    right: inherit;
+                }
+            }
+        }
+
+        .b9{
+            transition:  0ms;
+            animation: progressive_spawn 500ms 2.1s forwards;
+            
+            @keyframes progressive_spawn {
+                from {
+                    opacity: 0;;
+                    
+                }
+
+                to{
+                    opacity: 1;
+                }   
+            }
+
+            &:hover{
+                .animation{
+                    opacity: 1;
+                    animation: animation_slide .5s 1ms forwards;
+                    @keyframes animation_slide {
+                        from {
+                            width: 0%;
+                            
+                        }
+    
+                        to{
+                            width: 15%;
+                            opacity: 1;
+                        }   
+                    }
+                }
+                .animation i{
+                   transform: rotate(0deg);
+                   opacity: 1;
+                }
+                .prix{
+                    right: inherit;
+                }
+            }
+        }
+
+        .animation{
+            width: 15%;
+            height: auto;
+            font-size: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-top-right-radius: 15px;
+            border-bottom-right-radius: 15px;
+            background-color: #99E2D0;
+            opacity: 0;
+            overflow: hidden;
+            margin-left:20px ;
+
+            
+        
+            i{
+                color: white;
+                transform: rotate(-360deg);
+                transition: transform .5s;
+                opacity: 1;
+            }
+        }
+        
+        .block{
+            display: flex;
+            justify-content: space-between;
+            width: 94%;
+            margin-bottom: 10px;
+            border-radius: 15px;
+            height: 60px;
+            background-color: white;
+            opacity: 0;
+            overflow: hidden;
+           
+    
+            .zone_texte{
+                height: 100%;
+                width: 80%;
+        
+                p{
+                    width: 350px;
+                    height: auto;
+                    margin-left: 10px;
+                    font-size: 16px;   
+                    margin-top:13px;
+                    white-space: nowrap;
+                }
+        
+                h4{
+                    font-size: 17px;
+                    margin-top: 10px;
+                    margin-bottom: -10px;
+                    margin-left: 10px;
+                }
+            }
+
+            .prix{
+                position: relative;
+                right: -50px;
+                font-size:18px;
+                margin-left: -10px;
+            }
+        }
+    }
+
+    .block_button{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 45%;
+        height: 120px;
+        margin: auto;
+        margin-top: 40px;
+
+        .button
+        {
+            border-radius: 30px;
+            margin-top: -70px;
+            height: 50px;
+        }
+    }
+}
+
+@media (min-width: 768px){
     body{
         position: absolute;
         width: 100%;
@@ -91,158 +646,7 @@
                 margin-right: 70px;
             }
 
-            .b1{
-                transition:  0s;
-                animation: progressive_spawn 500ms .5s forwards;
-                
-                @keyframes progressive_spawn {
-                    from {
-                        opacity: 0;;
-                        
-                    }
-
-                    to{
-                        opacity: 1;
-                    }
-                    
-                }
-            }
-
-            .b2{
-                transition:  0ms;
-                animation: progressive_spawn 500ms .7s forwards;
-                
-                @keyframes progressive_spawn {
-                    from {
-                        opacity: 0;;
-                        
-                    }
-
-                    to{
-                        opacity: 1;
-                    }
-                    
-                }
-            }
-
-            .b3{
-                transition:  0ms;
-                animation: progressive_spawn 500ms .9s forwards;
-                
-                @keyframes progressive_spawn {
-                    from {
-                        opacity: 0;;
-                        
-                    }
-
-                    to{
-                        opacity: 1;
-                    }
-                    
-                }
-            }
-
-            .b4{
-                transition:  0ms;
-                animation: progressive_spawn 500ms 1.1s forwards;
-                
-                @keyframes progressive_spawn {
-                    from {
-                        opacity: 0;;
-                        
-                    }
-
-                    to{
-                        opacity: 1;
-                    }
-                    
-                }
-            }
-
-            .b5{
-                transition:  0ms;
-                animation: progressive_spawn 500ms 1.3s forwards;
-                
-                @keyframes progressive_spawn {
-                    from {
-                        opacity: 0;;
-                        
-                    }
-
-                    to{
-                        opacity: 1;
-                    }
-                    
-                }
-            }
-
-            .b6{
-                transition:  0ms;
-                animation: progressive_spawn 500ms 1.5s forwards;
-                
-                @keyframes progressive_spawn {
-                    from {
-                        opacity: 0;;
-                        
-                    }
-
-                    to{
-                        opacity: 1;
-                    }
-                    
-                }
-            }
-
-            .b7{
-                transition:  0ms;
-                animation: progressive_spawn 500ms 1.7s forwards;
-                
-                @keyframes progressive_spawn {
-                    from {
-                        opacity: 0;;
-                        
-                    }
-
-                    to{
-                        opacity: 1;
-                    }
-                    
-                }
-            }
-
-            .b8{
-                transition:  0ms;
-                animation: progressive_spawn 500ms 1.9s forwards;
-                
-                @keyframes progressive_spawn {
-                    from {
-                        opacity: 0;;
-                        
-                    }
-
-                    to{
-                        opacity: 1;
-                    }
-                    
-                }
-            }
-
-            .b9{
-                transition:  0ms;
-                animation: progressive_spawn 500ms 2.1s forwards;
-                
-                @keyframes progressive_spawn {
-                    from {
-                        opacity: 0;;
-                        
-                    }
-
-                    to{
-                        opacity: 1;
-                    }
-                    
-                }
-            }
+           
             
             .block{
                 display: flex;
@@ -254,31 +658,10 @@
                 opacity: 0;
                
         
-                .zone_texte{
-                    height: 100%;
-                    width: 90%;
-            
-                    p{
-                        width: 100%;
-                        height: auto;
-                        margin-left: 10px;
-                        font-size: 16px;   
-                        margin-top:13px;
-                        white-space: nowrap;
-                        text-overflow: ellipsis;
-                    }
-            
-                    h4{
-                        font-size: 17px;
-                        margin-top: 10px;
-                        margin-bottom: -10px;
-                        margin-left: 10px;
-                    }
-                }
 
                 .prix{
                     font-size:18px;
-                    margin-left: -10px;
+                    margin-left: 150px;
                 }
             }
         }
@@ -414,9 +797,7 @@
                     }
                     
                 }
-               .animation{
-                    rotate: 180deg;
-                }
+
                 &:hover{
                     .animation{
                         opacity: 1;
@@ -436,6 +817,10 @@
                     .animation i{
                        transform: rotate(0deg);
                        opacity: 1;
+                    }
+
+                    .prix{
+                        margin-right: 0px;
                     }
                 }
             }
@@ -454,9 +839,7 @@
                         opacity: 1;
                     } 
                 }
-                .animation{
-                    rotate: 180deg;
-                }
+
                 &:hover{
                     .animation{
                         opacity: 1;
@@ -476,6 +859,10 @@
                     .animation i{
                        transform: rotate(0deg);
                        opacity: 1;
+                    }
+
+                    .prix{
+                        margin-right: 0px;
                     }
                 }
             }
@@ -494,9 +881,7 @@
                         opacity: 1;
                     }   
                 }
-                .animation{
-                    rotate: 180deg;
-                }
+
                 &:hover{
                     .animation{
                         opacity: 1;
@@ -516,6 +901,10 @@
                     .animation i{
                        transform: rotate(0deg);
                        opacity: 1;
+                    }
+
+                    .prix{
+                        margin-right: 0px;
                     }
                 }
             }
@@ -534,9 +923,7 @@
                         opacity: 1;
                     }   
                 }
-                .animation{
-                    rotate: 180deg;
-                }
+
                 &:hover{
                     .animation{
                         opacity: 1;
@@ -556,6 +943,10 @@
                     .animation i{
                        transform: rotate(0deg);
                        opacity: 1;
+                    }
+
+                    .prix{
+                        margin-right: 0px;
                     }
                 }
             }
@@ -574,9 +965,7 @@
                         opacity: 1;
                     }   
                 }
-                .animation{
-                    rotate: 180deg;
-                }
+
                 &:hover{
                     .animation{
                         opacity: 1;
@@ -596,6 +985,10 @@
                     .animation i{
                        transform: rotate(0deg);
                        opacity: 1;
+                    }
+
+                    .prix{
+                        margin-right: 0px;
                     }
                 }
             }
@@ -614,9 +1007,7 @@
                         opacity: 1;
                     }   
                 }
-                .animation{
-                    rotate: 180deg;
-                }
+
                 &:hover{
                     .animation{
                         opacity: 1;
@@ -636,6 +1027,10 @@
                     .animation i{
                        transform: rotate(0deg);
                        opacity: 1;
+                    }
+
+                    .prix{
+                        margin-right: 0px;
                     }
                 }
             }
@@ -654,9 +1049,7 @@
                         opacity: 1;
                     }   
                 }
-                .animation{
-                    rotate: 180deg;
-                }
+
                 &:hover{
                     .animation{
                         opacity: 1;
@@ -676,6 +1069,10 @@
                     .animation i{
                        transform: rotate(0deg);
                        opacity: 1;
+                    }
+
+                    .prix{
+                        margin-right: 0px;
                     }
                 }
             }
@@ -694,9 +1091,7 @@
                         opacity: 1;
                     }   
                 }
-                .animation{
-                    rotate: 180deg;
-                }
+
                 &:hover{
                     .animation{
                         opacity: 1;
@@ -716,6 +1111,10 @@
                     .animation i{
                        transform: rotate(0deg);
                        opacity: 1;
+                    }
+
+                    .prix{
+                        margin-right: 0px;
                     }
                 }
             }
@@ -754,6 +1153,9 @@
                     .animation i{
                        transform: rotate(0deg);
                        opacity: 1;
+                    }
+                    .prix{
+                        margin-right: 0px;
                     }
                 }
             }
@@ -804,7 +1206,7 @@
                 }
         
                 .prix{
-                    margin-right: 30px;
+                    margin-right: 50px;
                 }
             }
         }

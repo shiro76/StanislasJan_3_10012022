@@ -68,7 +68,7 @@ header i {
   height: auto;
 }
 .block_menu .blocks p {
-  width: 20%;
+  width: auto;
   margin-right: 280px;
   margin-bottom: 25px;
 }

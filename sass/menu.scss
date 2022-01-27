@@ -414,9 +414,28 @@
                     }
                     
                 }
+               .animation{
+                    rotate: 180deg;
+                }
                 &:hover{
                     .animation{
                         opacity: 1;
+                        animation: animation_slide 500ms 1ms forwards;
+                        @keyframes animation_slide {
+                            from {
+                                width: 0%;
+                                
+                            }
+        
+                            to{
+                                width: 7%;
+                                opacity: 1;
+                            }   
+                        }
+                    }
+                    .animation i{
+                       transform: rotate(0deg);
+                       opacity: 1;
                     }
                 }
             }
@@ -435,9 +454,28 @@
                         opacity: 1;
                     } 
                 }
+                .animation{
+                    rotate: 180deg;
+                }
                 &:hover{
                     .animation{
                         opacity: 1;
+                        animation: animation_slide 500ms 1ms forwards;
+                        @keyframes animation_slide {
+                            from {
+                                width: 0%;
+                                
+                            }
+        
+                            to{
+                                width: 7%;
+                                opacity: 1;
+                            }   
+                        }
+                    }
+                    .animation i{
+                       transform: rotate(0deg);
+                       opacity: 1;
                     }
                 }
             }
@@ -456,9 +494,28 @@
                         opacity: 1;
                     }   
                 }
+                .animation{
+                    rotate: 180deg;
+                }
                 &:hover{
                     .animation{
                         opacity: 1;
+                        animation: animation_slide 500ms 1ms forwards;
+                        @keyframes animation_slide {
+                            from {
+                                width: 0%;
+                                
+                            }
+        
+                            to{
+                                width: 7%;
+                                opacity: 1;
+                            }   
+                        }
+                    }
+                    .animation i{
+                       transform: rotate(0deg);
+                       opacity: 1;
                     }
                 }
             }
@@ -477,9 +534,28 @@
                         opacity: 1;
                     }   
                 }
+                .animation{
+                    rotate: 180deg;
+                }
                 &:hover{
                     .animation{
                         opacity: 1;
+                        animation: animation_slide 500ms 1ms forwards;
+                        @keyframes animation_slide {
+                            from {
+                                width: 0%;
+                                
+                            }
+        
+                            to{
+                                width: 7%;
+                                opacity: 1;
+                            }   
+                        }
+                    }
+                    .animation i{
+                       transform: rotate(0deg);
+                       opacity: 1;
                     }
                 }
             }
@@ -498,9 +574,28 @@
                         opacity: 1;
                     }   
                 }
+                .animation{
+                    rotate: 180deg;
+                }
                 &:hover{
                     .animation{
                         opacity: 1;
+                        animation: animation_slide 500ms 1ms forwards;
+                        @keyframes animation_slide {
+                            from {
+                                width: 0%;
+                                
+                            }
+        
+                            to{
+                                width: 7%;
+                                opacity: 1;
+                            }   
+                        }
+                    }
+                    .animation i{
+                       transform: rotate(0deg);
+                       opacity: 1;
                     }
                 }
             }
@@ -519,9 +614,28 @@
                         opacity: 1;
                     }   
                 }
+                .animation{
+                    rotate: 180deg;
+                }
                 &:hover{
                     .animation{
                         opacity: 1;
+                        animation: animation_slide 500ms 1ms forwards;
+                        @keyframes animation_slide {
+                            from {
+                                width: 0%;
+                                
+                            }
+        
+                            to{
+                                width: 7%;
+                                opacity: 1;
+                            }   
+                        }
+                    }
+                    .animation i{
+                       transform: rotate(0deg);
+                       opacity: 1;
                     }
                 }
             }
@@ -540,9 +654,28 @@
                         opacity: 1;
                     }   
                 }
+                .animation{
+                    rotate: 180deg;
+                }
                 &:hover{
                     .animation{
                         opacity: 1;
+                        animation: animation_slide 500ms 1ms forwards;
+                        @keyframes animation_slide {
+                            from {
+                                width: 0%;
+                                
+                            }
+        
+                            to{
+                                width: 7%;
+                                opacity: 1;
+                            }   
+                        }
+                    }
+                    .animation i{
+                       transform: rotate(0deg);
+                       opacity: 1;
                     }
                 }
             }
@@ -561,9 +694,28 @@
                         opacity: 1;
                     }   
                 }
+                .animation{
+                    rotate: 180deg;
+                }
                 &:hover{
                     .animation{
                         opacity: 1;
+                        animation: animation_slide 500ms 1ms forwards;
+                        @keyframes animation_slide {
+                            from {
+                                width: 0%;
+                                
+                            }
+        
+                            to{
+                                width: 7%;
+                                opacity: 1;
+                            }   
+                        }
+                    }
+                    .animation i{
+                       transform: rotate(0deg);
+                       opacity: 1;
                     }
                 }
             }
@@ -582,9 +734,26 @@
                         opacity: 1;
                     }   
                 }
+
                 &:hover{
                     .animation{
                         opacity: 1;
+                        animation: animation_slide 500ms 1ms forwards;
+                        @keyframes animation_slide {
+                            from {
+                                width: 0%;
+                                
+                            }
+        
+                            to{
+                                width: 7%;
+                                opacity: 1;
+                            }   
+                        }
+                    }
+                    .animation i{
+                       transform: rotate(0deg);
+                       opacity: 1;
                     }
                 }
             }
@@ -592,21 +761,21 @@
             .animation{
                 height: auto;
                 font-size: 22px;
-                width: 7%;
+                width: 0%;
                 display: flex;
                 justify-content: center;
                 align-items: center;
                 border-top-right-radius: 15px;
                 border-bottom-right-radius: 15px;
                 background-color: #99E2D0;
-                opacity: 0;
-                transition: opacity 1s;
-                &:hover{
-                    opacity: 1;
-                }
+
+                
             
                 i{
                     color: white;
+                    transform: rotate(180deg);
+                    transition: transform 1s;
+                    opacity: 0;
                 }
             }
             

@@ -339,7 +339,7 @@ header i {
 .block_menu .blocks .b8:hover .prix {
   position: inherit;
   right: 60px;
-  margin-left: 5px;
+  margin-left: 10px;
 }
 .block_menu .blocks .b9 {
   transition: 0ms;
@@ -373,7 +373,6 @@ header i {
 .block_menu .blocks .b9:hover .prix {
   position: inherit;
   right: 60px;
-  margin-left: 5px;
 }
 .block_menu .blocks .animation {
   width: 15%;

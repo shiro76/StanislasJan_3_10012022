@@ -408,7 +408,10 @@ header i {
 }
 .block_menu .blocks .block .zone_texte {
   height: 100%;
-  width: 80%;
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 .block_menu .blocks .block .zone_texte p {
   height: auto;

@@ -540,6 +540,7 @@ header i {
   .block_menu .blocks .block .prix {
     font-size: 18px;
     margin-left: 150px;
+    margin-right: 15px;
   }
   .block_menu .block_button {
     display: flex;
@@ -669,7 +670,8 @@ header i {
     margin-left: 10px;
   }
   .block_menu .blocks .block .prix {
-    position: absolute;
+    position: relative;
+    right: -130px;
     width: auto;
     height: 50px;
     font-size: 17px;

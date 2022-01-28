@@ -108,6 +108,7 @@ header i {
 .block_menu .blocks .b1:hover .prix {
   position: inherit;
   right: 60px;
+  margin-right: 20px;
 }
 .block_menu .blocks .b2 {
   transition: 0ms;
@@ -141,6 +142,7 @@ header i {
 .block_menu .blocks .b2:hover .prix {
   position: inherit;
   right: 60px;
+  margin-right: 20px;
 }
 .block_menu .blocks .b3 {
   transition: 0ms;
@@ -174,6 +176,7 @@ header i {
 .block_menu .blocks .b3:hover .prix {
   position: inherit;
   right: 60px;
+  margin-right: 20px;
 }
 .block_menu .blocks .b4 {
   transition: 0ms;
@@ -207,6 +210,7 @@ header i {
 .block_menu .blocks .b4:hover .prix {
   position: inherit;
   right: 60px;
+  margin-right: 20px;
 }
 .block_menu .blocks .b5 {
   transition: 0ms;
@@ -240,6 +244,7 @@ header i {
 .block_menu .blocks .b5:hover .prix {
   position: inherit;
   right: 60px;
+  margin-right: 20px;
 }
 .block_menu .blocks .b6 {
   transition: 0ms;
@@ -273,6 +278,7 @@ header i {
 .block_menu .blocks .b6:hover .prix {
   position: inherit;
   right: 60px;
+  margin-right: 20px;
 }
 .block_menu .blocks .b7 {
   transition: 0ms;
@@ -306,6 +312,7 @@ header i {
 .block_menu .blocks .b7:hover .prix {
   position: inherit;
   right: 60px;
+  margin-right: 20px;
 }
 .block_menu .blocks .b8 {
   transition: 0ms;
@@ -339,7 +346,7 @@ header i {
 .block_menu .blocks .b8:hover .prix {
   position: inherit;
   right: 60px;
-  margin-left: 10px;
+  margin-right: 20px;
 }
 .block_menu .blocks .b9 {
   transition: 0ms;
@@ -373,6 +380,7 @@ header i {
 .block_menu .blocks .b9:hover .prix {
   position: inherit;
   right: 60px;
+  margin-right: 20px;
 }
 .block_menu .blocks .animation {
   width: 15%;
@@ -411,7 +419,7 @@ header i {
   text-overflow: ellipsis;
 }
 .block_menu .blocks .block .zone_texte p {
-  height: auto;
+  width: auto;
   margin-left: 10px;
   font-size: 16px;
   margin-top: 13px;

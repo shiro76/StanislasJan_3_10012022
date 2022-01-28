@@ -77,22 +77,20 @@ header{
         flex-direction: column;
         align-items: center;
         height: auto;
-
-        p{
-            width: auto;
-            margin-right: 280px;
-            margin-bottom: 25px;
-        }
         
         .sous_titre{
             display: flex;
             width: 80%;
             margin-top: 3px;
+            margin-right: 280px;
+            margin-bottom: 25px;
             margin-bottom: -5px;
             margin-right: 70px;
         }
 
         .b1{
+            display: flex;
+            justify-content: space-between;
             transition:  0s;
             animation: progressive_spawn 500ms .5s forwards;
             
@@ -130,7 +128,8 @@ header{
                 }
 
                 .prix{
-                    right: inherit;
+                    position: inherit;
+                    right: 60px;
                 }
             }
         }
@@ -172,7 +171,8 @@ header{
                 }
 
                 .prix{
-                    right: inherit;
+                    position: inherit;
+                    right: 60px;
                 }
             }
         }
@@ -214,7 +214,8 @@ header{
                 }
 
                 .prix{
-                    right: inherit;
+                    position: inherit;
+                    right: 60px;
                 }
             }
         }
@@ -256,7 +257,8 @@ header{
                 }
 
                 .prix{
-                    right: inherit;
+                    position: inherit;
+                    right: 60px;
                 }
             }
         }
@@ -298,7 +300,8 @@ header{
                 }
 
                 .prix{
-                    right: inherit;
+                    position: inherit;
+                    right: 60px;
                 }
             }
         }
@@ -340,7 +343,8 @@ header{
                 }
 
                 .prix{
-                    right: inherit;
+                    position: inherit;
+                    right: 60px;
                 }
             }
         }
@@ -382,7 +386,8 @@ header{
                 }
 
                 .prix{
-                    right: inherit;
+                    position: inherit;
+                    right: 60px;
                 }
             }
         }
@@ -423,7 +428,8 @@ header{
                    opacity: 1;
                 }
                 .prix{
-                    right: inherit;
+                    position: inherit;
+                    right: 60px;
                 }
             }
         }
@@ -464,7 +470,8 @@ header{
                    opacity: 1;
                 }
                 .prix{
-                    right: inherit;
+                    position: inherit;
+                    right: 60px;
                 }
             }
         }
@@ -481,7 +488,7 @@ header{
             background-color: #99E2D0;
             opacity: 0;
             overflow: hidden;
-            margin-left:20px ;
+            margin-left:10px ;
 
             
         
@@ -510,7 +517,6 @@ header{
                 width: 80%;
         
                 p{
-                    width: 350px;
                     height: auto;
                     margin-left: 10px;
                     font-size: 16px;   
@@ -527,10 +533,13 @@ header{
             }
 
             .prix{
-                position: relative;
-                right: -50px;
-                font-size:18px;
-                margin-left: -10px;
+                position: absolute;
+                right: 30px;
+                width: auto;
+                height: 50px;
+                font-size:17px;
+                margin-left: 2px;
+                margin-top: 10px;
             }
         }
     }
@@ -694,7 +703,6 @@ header{
     body{
         position: absolute;
         width: 100%;
-        margin: 0;
 
         .structure{
             display: flex;
@@ -760,12 +768,13 @@ header{
             flex-direction: row;
             justify-content: space-between;
             align-items: center;
-            margin-left: 30px;
+            margin-left: 20px;
     
             i{
                 margin-right: 40px;
                 font-size: 25px;
             }
+        
         }
 
         .blocks{
@@ -774,461 +783,61 @@ header{
             align-items: center;
             height: auto;
     
+            p{
+                margin-right: 280px;
+                margin-bottom: 25px;
+            }
+            
             .sous_titre{
                 display: flex;
                 width: 80%;
                 margin-top: 3px;
                 margin-bottom: -5px;
-                margin-right: 150px;
+                margin-right: 70px;
             }
 
-            .b1{
-                transition:  0s;
-                animation: progressive_spawn 500ms .5s forwards;
-                
-                @keyframes progressive_spawn {
-                    from {
-                        opacity: 0;;
-                        
-                    }
-
-                    to{
-                        opacity: 1;
-                    }
-                    
-                }
-
-                &:hover{
-                    .animation{
-                        opacity: 1;
-                        animation: animation_slide 500ms 1ms forwards;
-                        @keyframes animation_slide {
-                            from {
-                                width: 0%;
-                                
-                            }
-        
-                            to{
-                                width: 7%;
-                                opacity: 1;
-                            }   
-                        }
-                    }
-                    .animation i{
-                       transform: rotate(0deg);
-                       opacity: 1;
-                    }
-
-                    .prix{
-                        margin-right: 0px;
-                    }
-                }
-            }
-
-            .b2{
-                transition:  0ms;
-                animation: progressive_spawn 500ms .7s forwards;
-                
-                @keyframes progressive_spawn {
-                    from {
-                        opacity: 0;;
-                        
-                    }
-
-                    to{
-                        opacity: 1;
-                    } 
-                }
-
-                &:hover{
-                    .animation{
-                        opacity: 1;
-                        animation: animation_slide 500ms 1ms forwards;
-                        @keyframes animation_slide {
-                            from {
-                                width: 0%;
-                                
-                            }
-        
-                            to{
-                                width: 7%;
-                                opacity: 1;
-                            }   
-                        }
-                    }
-                    .animation i{
-                       transform: rotate(0deg);
-                       opacity: 1;
-                    }
-
-                    .prix{
-                        margin-right: 0px;
-                    }
-                }
-            }
-
-            .b3{
-                transition:  0ms;
-                animation: progressive_spawn 500ms .9s forwards;
-                
-                @keyframes progressive_spawn {
-                    from {
-                        opacity: 0;;
-                        
-                    }
-
-                    to{
-                        opacity: 1;
-                    }   
-                }
-
-                &:hover{
-                    .animation{
-                        opacity: 1;
-                        animation: animation_slide 500ms 1ms forwards;
-                        @keyframes animation_slide {
-                            from {
-                                width: 0%;
-                                
-                            }
-        
-                            to{
-                                width: 7%;
-                                opacity: 1;
-                            }   
-                        }
-                    }
-                    .animation i{
-                       transform: rotate(0deg);
-                       opacity: 1;
-                    }
-
-                    .prix{
-                        margin-right: 0px;
-                    }
-                }
-            }
-
-            .b4{
-                transition:  0ms;
-                animation: progressive_spawn 500ms 1.1s forwards;
-                
-                @keyframes progressive_spawn {
-                    from {
-                        opacity: 0;;
-                        
-                    }
-
-                    to{
-                        opacity: 1;
-                    }   
-                }
-
-                &:hover{
-                    .animation{
-                        opacity: 1;
-                        animation: animation_slide 500ms 1ms forwards;
-                        @keyframes animation_slide {
-                            from {
-                                width: 0%;
-                                
-                            }
-        
-                            to{
-                                width: 7%;
-                                opacity: 1;
-                            }   
-                        }
-                    }
-                    .animation i{
-                       transform: rotate(0deg);
-                       opacity: 1;
-                    }
-
-                    .prix{
-                        margin-right: 0px;
-                    }
-                }
-            }
-
-            .b5{
-                transition:  0ms;
-                animation: progressive_spawn 500ms 1.3s forwards;
-                
-                @keyframes progressive_spawn {
-                    from {
-                        opacity: 0;;
-                        
-                    }
-
-                    to{
-                        opacity: 1;
-                    }   
-                }
-
-                &:hover{
-                    .animation{
-                        opacity: 1;
-                        animation: animation_slide 500ms 1ms forwards;
-                        @keyframes animation_slide {
-                            from {
-                                width: 0%;
-                                
-                            }
-        
-                            to{
-                                width: 7%;
-                                opacity: 1;
-                            }   
-                        }
-                    }
-                    .animation i{
-                       transform: rotate(0deg);
-                       opacity: 1;
-                    }
-
-                    .prix{
-                        margin-right: 0px;
-                    }
-                }
-            }
-
-            .b6{
-                transition:  0ms;
-                animation: progressive_spawn 500ms 1.5s forwards;
-                
-                @keyframes progressive_spawn {
-                    from {
-                        opacity: 0;;
-                        
-                    }
-
-                    to{
-                        opacity: 1;
-                    }   
-                }
-
-                &:hover{
-                    .animation{
-                        opacity: 1;
-                        animation: animation_slide 500ms 1ms forwards;
-                        @keyframes animation_slide {
-                            from {
-                                width: 0%;
-                                
-                            }
-        
-                            to{
-                                width: 7%;
-                                opacity: 1;
-                            }   
-                        }
-                    }
-                    .animation i{
-                       transform: rotate(0deg);
-                       opacity: 1;
-                    }
-
-                    .prix{
-                        margin-right: 0px;
-                    }
-                }
-            }
-
-            .b7{
-                transition:  0ms;
-                animation: progressive_spawn 500ms 1.7s forwards;
-                
-                @keyframes progressive_spawn {
-                    from {
-                        opacity: 0;;
-                        
-                    }
-
-                    to{
-                        opacity: 1;
-                    }   
-                }
-
-                &:hover{
-                    .animation{
-                        opacity: 1;
-                        animation: animation_slide 500ms 1ms forwards;
-                        @keyframes animation_slide {
-                            from {
-                                width: 0%;
-                                
-                            }
-        
-                            to{
-                                width: 7%;
-                                opacity: 1;
-                            }   
-                        }
-                    }
-                    .animation i{
-                       transform: rotate(0deg);
-                       opacity: 1;
-                    }
-
-                    .prix{
-                        margin-right: 0px;
-                    }
-                }
-            }
-
-            .b8{
-                transition:  0ms;
-                animation: progressive_spawn 500ms 1.9s forwards;
-                
-                @keyframes progressive_spawn {
-                    from {
-                        opacity: 0;;
-                        
-                    }
-
-                    to{
-                        opacity: 1;
-                    }   
-                }
-
-                &:hover{
-                    .animation{
-                        opacity: 1;
-                        animation: animation_slide 500ms 1ms forwards;
-                        @keyframes animation_slide {
-                            from {
-                                width: 0%;
-                                
-                            }
-        
-                            to{
-                                width: 7%;
-                                opacity: 1;
-                            }   
-                        }
-                    }
-                    .animation i{
-                       transform: rotate(0deg);
-                       opacity: 1;
-                    }
-
-                    .prix{
-                        margin-right: 0px;
-                    }
-                }
-            }
-
-            .b9{
-                transition:  0ms;
-                animation: progressive_spawn 500ms 2.1s forwards;
-                
-                @keyframes progressive_spawn {
-                    from {
-                        opacity: 0;;
-                        
-                    }
-
-                    to{
-                        opacity: 1;
-                    }   
-                }
-
-                &:hover{
-                    .animation{
-                        opacity: 1;
-                        animation: animation_slide 500ms 1ms forwards;
-                        @keyframes animation_slide {
-                            from {
-                                width: 0%;
-                                
-                            }
-        
-                            to{
-                                width: 7%;
-                                opacity: 1;
-                            }   
-                        }
-                    }
-                    .animation i{
-                       transform: rotate(0deg);
-                       opacity: 1;
-                    }
-                    .prix{
-                        margin-right: 0px;
-                    }
-                }
-            }
-
-            .animation{
-                height: auto;
-                font-size: 22px;
-                width: 0%;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                border-top-right-radius: 15px;
-                border-bottom-right-radius: 15px;
-                background-color: #99E2D0;
-
-                
-            
-                i{
-                    color: white;
-                    transform: rotate(180deg);
-                    transition: transform 1s;
-                    opacity: 0;
-                }
-            }
+           
             
             .block{
                 display: flex;
+                justify-content: space-between;
                 width: 94%;
                 margin-bottom: 10px;
                 border-radius: 15px;
                 height: 60px;
                 background-color: white;
                 opacity: 0;
+                overflow: hidden;
+               
         
                 .zone_texte{
                     height: 100%;
-                    width: 100%;
+                    width: 80%;
             
                     p{
-                        margin-left: 20px;    
+                        height: auto;
+                        margin-left: 10px;
+                        font-size: 16px;   
+                        margin-top:13px;
+                        white-space: nowrap;
                     }
             
                     h4{
+                        font-size: 17px;
                         margin-top: 10px;
                         margin-bottom: -10px;
-                        margin-left: 20px;
+                        margin-left: 10px;
                     }
                 }
-        
-                .prix{
-                    margin-right: 50px;
-                }
-            }
-        }
-
-        .desserts{
-            margin-bottom: 20px;
-        }
-
-        .block_button
-        {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            width: 45%;
-            height: 120px;
-            margin: auto;
     
-            .button
-            {
-                border-radius: 30px;
-                margin-top: -70px;
-                height: 60px;
+                .prix{
+                    position: absolute;
+                    width: auto;
+                    height: 50px;
+                    font-size:17px;
+                    margin-left: 2px;
+                    margin-top: 10px;
+                }
             }
         }
     }

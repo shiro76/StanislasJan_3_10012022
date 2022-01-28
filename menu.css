@@ -67,19 +67,18 @@ header i {
   align-items: center;
   height: auto;
 }
-.block_menu .blocks p {
-  width: auto;
-  margin-right: 280px;
-  margin-bottom: 25px;
-}
 .block_menu .blocks .sous_titre {
   display: flex;
   width: 80%;
   margin-top: 3px;
+  margin-right: 280px;
+  margin-bottom: 25px;
   margin-bottom: -5px;
   margin-right: 70px;
 }
 .block_menu .blocks .b1 {
+  display: flex;
+  justify-content: space-between;
   transition: 0s;
   animation: progressive_spawn 500ms 0.5s forwards;
 }
@@ -109,7 +108,8 @@ header i {
   opacity: 1;
 }
 .block_menu .blocks .b1:hover .prix {
-  right: inherit;
+  position: inherit;
+  right: 60px;
 }
 .block_menu .blocks .b2 {
   transition: 0ms;
@@ -141,7 +141,8 @@ header i {
   opacity: 1;
 }
 .block_menu .blocks .b2:hover .prix {
-  right: inherit;
+  position: inherit;
+  right: 60px;
 }
 .block_menu .blocks .b3 {
   transition: 0ms;
@@ -173,7 +174,8 @@ header i {
   opacity: 1;
 }
 .block_menu .blocks .b3:hover .prix {
-  right: inherit;
+  position: inherit;
+  right: 60px;
 }
 .block_menu .blocks .b4 {
   transition: 0ms;
@@ -205,7 +207,8 @@ header i {
   opacity: 1;
 }
 .block_menu .blocks .b4:hover .prix {
-  right: inherit;
+  position: inherit;
+  right: 60px;
 }
 .block_menu .blocks .b5 {
   transition: 0ms;
@@ -237,7 +240,8 @@ header i {
   opacity: 1;
 }
 .block_menu .blocks .b5:hover .prix {
-  right: inherit;
+  position: inherit;
+  right: 60px;
 }
 .block_menu .blocks .b6 {
   transition: 0ms;
@@ -269,7 +273,8 @@ header i {
   opacity: 1;
 }
 .block_menu .blocks .b6:hover .prix {
-  right: inherit;
+  position: inherit;
+  right: 60px;
 }
 .block_menu .blocks .b7 {
   transition: 0ms;
@@ -301,7 +306,8 @@ header i {
   opacity: 1;
 }
 .block_menu .blocks .b7:hover .prix {
-  right: inherit;
+  position: inherit;
+  right: 60px;
 }
 .block_menu .blocks .b8 {
   transition: 0ms;
@@ -333,7 +339,8 @@ header i {
   opacity: 1;
 }
 .block_menu .blocks .b8:hover .prix {
-  right: inherit;
+  position: inherit;
+  right: 60px;
 }
 .block_menu .blocks .b9 {
   transition: 0ms;
@@ -365,7 +372,8 @@ header i {
   opacity: 1;
 }
 .block_menu .blocks .b9:hover .prix {
-  right: inherit;
+  position: inherit;
+  right: 60px;
 }
 .block_menu .blocks .animation {
   width: 15%;
@@ -379,7 +387,7 @@ header i {
   background-color: #99E2D0;
   opacity: 0;
   overflow: hidden;
-  margin-left: 20px;
+  margin-left: 10px;
 }
 .block_menu .blocks .animation i {
   color: white;
@@ -403,7 +411,6 @@ header i {
   width: 80%;
 }
 .block_menu .blocks .block .zone_texte p {
-  width: 350px;
   height: auto;
   margin-left: 10px;
   font-size: 16px;
@@ -417,10 +424,13 @@ header i {
   margin-left: 10px;
 }
 .block_menu .blocks .block .prix {
-  position: relative;
-  right: -50px;
-  font-size: 18px;
-  margin-left: -10px;
+  position: absolute;
+  right: 30px;
+  width: auto;
+  height: 50px;
+  font-size: 17px;
+  margin-left: 2px;
+  margin-top: 10px;
 }
 .block_menu .block_button {
   display: flex;
@@ -551,7 +561,6 @@ header i {
   body {
     position: absolute;
     width: 100%;
-    margin: 0;
   }
   body .structure {
     display: flex;
@@ -608,7 +617,7 @@ header i {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin-left: 30px;
+    margin-left: 20px;
   }
   .block_menu .titre_principale i {
     margin-right: 40px;
@@ -620,357 +629,52 @@ header i {
     align-items: center;
     height: auto;
   }
+  .block_menu .blocks p {
+    margin-right: 280px;
+    margin-bottom: 25px;
+  }
   .block_menu .blocks .sous_titre {
     display: flex;
     width: 80%;
     margin-top: 3px;
     margin-bottom: -5px;
-    margin-right: 150px;
-  }
-  .block_menu .blocks .b1 {
-    transition: 0s;
-    animation: progressive_spawn 500ms 0.5s forwards;
-  }
-  @keyframes progressive_spawn {
-    from {
-      opacity: 0;
-    }
-    to {
-      opacity: 1;
-    }
-  }
-  .block_menu .blocks .b1:hover .animation {
-    opacity: 1;
-    animation: animation_slide 500ms 1ms forwards;
-  }
-  @keyframes animation_slide {
-    from {
-      width: 0%;
-    }
-    to {
-      width: 7%;
-      opacity: 1;
-    }
-  }
-  .block_menu .blocks .b1:hover .animation i {
-    transform: rotate(0deg);
-    opacity: 1;
-  }
-  .block_menu .blocks .b1:hover .prix {
-    margin-right: 0px;
-  }
-  .block_menu .blocks .b2 {
-    transition: 0ms;
-    animation: progressive_spawn 500ms 0.7s forwards;
-  }
-  @keyframes progressive_spawn {
-    from {
-      opacity: 0;
-    }
-    to {
-      opacity: 1;
-    }
-  }
-  .block_menu .blocks .b2:hover .animation {
-    opacity: 1;
-    animation: animation_slide 500ms 1ms forwards;
-  }
-  @keyframes animation_slide {
-    from {
-      width: 0%;
-    }
-    to {
-      width: 7%;
-      opacity: 1;
-    }
-  }
-  .block_menu .blocks .b2:hover .animation i {
-    transform: rotate(0deg);
-    opacity: 1;
-  }
-  .block_menu .blocks .b2:hover .prix {
-    margin-right: 0px;
-  }
-  .block_menu .blocks .b3 {
-    transition: 0ms;
-    animation: progressive_spawn 500ms 0.9s forwards;
-  }
-  @keyframes progressive_spawn {
-    from {
-      opacity: 0;
-    }
-    to {
-      opacity: 1;
-    }
-  }
-  .block_menu .blocks .b3:hover .animation {
-    opacity: 1;
-    animation: animation_slide 500ms 1ms forwards;
-  }
-  @keyframes animation_slide {
-    from {
-      width: 0%;
-    }
-    to {
-      width: 7%;
-      opacity: 1;
-    }
-  }
-  .block_menu .blocks .b3:hover .animation i {
-    transform: rotate(0deg);
-    opacity: 1;
-  }
-  .block_menu .blocks .b3:hover .prix {
-    margin-right: 0px;
-  }
-  .block_menu .blocks .b4 {
-    transition: 0ms;
-    animation: progressive_spawn 500ms 1.1s forwards;
-  }
-  @keyframes progressive_spawn {
-    from {
-      opacity: 0;
-    }
-    to {
-      opacity: 1;
-    }
-  }
-  .block_menu .blocks .b4:hover .animation {
-    opacity: 1;
-    animation: animation_slide 500ms 1ms forwards;
-  }
-  @keyframes animation_slide {
-    from {
-      width: 0%;
-    }
-    to {
-      width: 7%;
-      opacity: 1;
-    }
-  }
-  .block_menu .blocks .b4:hover .animation i {
-    transform: rotate(0deg);
-    opacity: 1;
-  }
-  .block_menu .blocks .b4:hover .prix {
-    margin-right: 0px;
-  }
-  .block_menu .blocks .b5 {
-    transition: 0ms;
-    animation: progressive_spawn 500ms 1.3s forwards;
-  }
-  @keyframes progressive_spawn {
-    from {
-      opacity: 0;
-    }
-    to {
-      opacity: 1;
-    }
-  }
-  .block_menu .blocks .b5:hover .animation {
-    opacity: 1;
-    animation: animation_slide 500ms 1ms forwards;
-  }
-  @keyframes animation_slide {
-    from {
-      width: 0%;
-    }
-    to {
-      width: 7%;
-      opacity: 1;
-    }
-  }
-  .block_menu .blocks .b5:hover .animation i {
-    transform: rotate(0deg);
-    opacity: 1;
-  }
-  .block_menu .blocks .b5:hover .prix {
-    margin-right: 0px;
-  }
-  .block_menu .blocks .b6 {
-    transition: 0ms;
-    animation: progressive_spawn 500ms 1.5s forwards;
-  }
-  @keyframes progressive_spawn {
-    from {
-      opacity: 0;
-    }
-    to {
-      opacity: 1;
-    }
-  }
-  .block_menu .blocks .b6:hover .animation {
-    opacity: 1;
-    animation: animation_slide 500ms 1ms forwards;
-  }
-  @keyframes animation_slide {
-    from {
-      width: 0%;
-    }
-    to {
-      width: 7%;
-      opacity: 1;
-    }
-  }
-  .block_menu .blocks .b6:hover .animation i {
-    transform: rotate(0deg);
-    opacity: 1;
-  }
-  .block_menu .blocks .b6:hover .prix {
-    margin-right: 0px;
-  }
-  .block_menu .blocks .b7 {
-    transition: 0ms;
-    animation: progressive_spawn 500ms 1.7s forwards;
-  }
-  @keyframes progressive_spawn {
-    from {
-      opacity: 0;
-    }
-    to {
-      opacity: 1;
-    }
-  }
-  .block_menu .blocks .b7:hover .animation {
-    opacity: 1;
-    animation: animation_slide 500ms 1ms forwards;
-  }
-  @keyframes animation_slide {
-    from {
-      width: 0%;
-    }
-    to {
-      width: 7%;
-      opacity: 1;
-    }
-  }
-  .block_menu .blocks .b7:hover .animation i {
-    transform: rotate(0deg);
-    opacity: 1;
-  }
-  .block_menu .blocks .b7:hover .prix {
-    margin-right: 0px;
-  }
-  .block_menu .blocks .b8 {
-    transition: 0ms;
-    animation: progressive_spawn 500ms 1.9s forwards;
-  }
-  @keyframes progressive_spawn {
-    from {
-      opacity: 0;
-    }
-    to {
-      opacity: 1;
-    }
-  }
-  .block_menu .blocks .b8:hover .animation {
-    opacity: 1;
-    animation: animation_slide 500ms 1ms forwards;
-  }
-  @keyframes animation_slide {
-    from {
-      width: 0%;
-    }
-    to {
-      width: 7%;
-      opacity: 1;
-    }
-  }
-  .block_menu .blocks .b8:hover .animation i {
-    transform: rotate(0deg);
-    opacity: 1;
-  }
-  .block_menu .blocks .b8:hover .prix {
-    margin-right: 0px;
-  }
-  .block_menu .blocks .b9 {
-    transition: 0ms;
-    animation: progressive_spawn 500ms 2.1s forwards;
-  }
-  @keyframes progressive_spawn {
-    from {
-      opacity: 0;
-    }
-    to {
-      opacity: 1;
-    }
-  }
-  .block_menu .blocks .b9:hover .animation {
-    opacity: 1;
-    animation: animation_slide 500ms 1ms forwards;
-  }
-  @keyframes animation_slide {
-    from {
-      width: 0%;
-    }
-    to {
-      width: 7%;
-      opacity: 1;
-    }
-  }
-  .block_menu .blocks .b9:hover .animation i {
-    transform: rotate(0deg);
-    opacity: 1;
-  }
-  .block_menu .blocks .b9:hover .prix {
-    margin-right: 0px;
-  }
-  .block_menu .blocks .animation {
-    height: auto;
-    font-size: 22px;
-    width: 0%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-top-right-radius: 15px;
-    border-bottom-right-radius: 15px;
-    background-color: #99E2D0;
-  }
-  .block_menu .blocks .animation i {
-    color: white;
-    transform: rotate(180deg);
-    transition: transform 1s;
-    opacity: 0;
+    margin-right: 70px;
   }
   .block_menu .blocks .block {
     display: flex;
+    justify-content: space-between;
     width: 94%;
     margin-bottom: 10px;
     border-radius: 15px;
     height: 60px;
     background-color: white;
     opacity: 0;
+    overflow: hidden;
   }
   .block_menu .blocks .block .zone_texte {
     height: 100%;
-    width: 100%;
+    width: 80%;
   }
   .block_menu .blocks .block .zone_texte p {
-    margin-left: 20px;
+    height: auto;
+    margin-left: 10px;
+    font-size: 16px;
+    margin-top: 13px;
+    white-space: nowrap;
   }
   .block_menu .blocks .block .zone_texte h4 {
+    font-size: 17px;
     margin-top: 10px;
     margin-bottom: -10px;
-    margin-left: 20px;
+    margin-left: 10px;
   }
   .block_menu .blocks .block .prix {
-    margin-right: 50px;
-  }
-  .block_menu .desserts {
-    margin-bottom: 20px;
-  }
-  .block_menu .block_button {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 45%;
-    height: 120px;
-    margin: auto;
-  }
-  .block_menu .block_button .button {
-    border-radius: 30px;
-    margin-top: -70px;
-    height: 60px;
+    position: absolute;
+    width: auto;
+    height: 50px;
+    font-size: 17px;
+    margin-left: 2px;
+    margin-top: 10px;
   }
 }
 

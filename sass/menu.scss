@@ -89,8 +89,6 @@ header{
         }
 
         .b1{
-            display: flex;
-            justify-content: space-between;
             transition:  0s;
             animation: progressive_spawn 500ms .5s forwards;
             
@@ -504,7 +502,6 @@ header{
         
         .block{
             display: flex;
-            justify-content: space-between;
             width: 94%;
             margin-bottom: 10px;
             border-radius: 15px;
@@ -515,7 +512,6 @@ header{
            
     
             .zone_texte{
-                height: 100%;
                 width: 100%;
                 white-space: nowrap;
                 overflow: hidden;
@@ -527,6 +523,8 @@ header{
                     font-size: 16px;   
                     margin-top:13px;
                     white-space: nowrap;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
                 }
         
                 h4{

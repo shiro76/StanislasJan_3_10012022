@@ -111,21 +111,22 @@
     margin-left: 20px;
     margin-top: 40px;
   }
-  .block_restaurant a .Restaurants {
+  .block_restaurant .Restaurants {
     margin: auto;
     width: 90%;
-    height: 270px;
+    height: 100%;
     margin-bottom: 40px;
     border-radius: 15px;
+    overflow: hidden;
   }
-  .block_restaurant a .Restaurants p {
+  .block_restaurant .Restaurants p {
     color: black;
   }
-  .block_restaurant a .Restaurants .images {
+  .block_restaurant .Restaurants .images {
     width: 100%;
     height: 200px;
   }
-  .block_restaurant a .Restaurants .images #i1 {
+  .block_restaurant .Restaurants .images #i1 {
     background-image: url(images/restaurants/1.jpg);
     display: flex;
     flex-direction: row;
@@ -137,7 +138,7 @@
     border-bottom-right-radius: 0px;
     border-bottom-left-radius: 0px;
   }
-  .block_restaurant a .Restaurants .images #i2 {
+  .block_restaurant .Restaurants .images #i2 {
     background-image: url(images/restaurants/2.jpg);
     display: flex;
     flex-direction: row;
@@ -149,7 +150,7 @@
     border-bottom-right-radius: 0px;
     border-bottom-left-radius: 0px;
   }
-  .block_restaurant a .Restaurants .images .new {
+  .block_restaurant .Restaurants .images .new {
     margin-top: 15px;
     margin-right: 20px;
     display: flex;
@@ -160,7 +161,7 @@
     background-color: #99E2D0;
     padding: 3px;
   }
-  .block_restaurant a .Restaurants .images img {
+  .block_restaurant .Restaurants .images img {
     width: 100%;
     height: 200px;
     border-radius: 15px;
@@ -168,29 +169,31 @@
     border-bottom-left-radius: 0px;
     object-fit: cover;
   }
-  .block_restaurant a .Restaurants .block_titre_restaurant {
+  .block_restaurant .Restaurants .block_titre_restaurant {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
-    height: 55px;
+    height: 60px;
     background-color: white;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
   }
-  .block_restaurant a .Restaurants .block_titre_restaurant .titre_restaurant {
-    margin-top: 40px;
-    margin-left: 10px;
-    margin-bottom: -15px;
+  .block_restaurant .Restaurants .block_titre_restaurant div {
+    margin-top: -6px;
   }
-  .block_restaurant a .Restaurants .block_titre_restaurant .texte_restaurant {
+  .block_restaurant .Restaurants .block_titre_restaurant .titre_restaurant {
     margin-left: 10px;
-    margin-bottom: 35px;
+    margin-bottom: -20px;
   }
-  .block_restaurant a .Restaurants .block_titre_restaurant .logo_coeur {
+  .block_restaurant .Restaurants .block_titre_restaurant .texte_restaurant {
+    margin-left: 10px;
+  }
+  .block_restaurant .Restaurants .block_titre_restaurant .logo_coeur {
+    height: 38%;
+    margin-top: 10px;
     margin-right: 30px;
   }
-  .block_restaurant a .Restaurants .block_titre_restaurant .logo_coeur i {
+  .block_restaurant .Restaurants .block_titre_restaurant .logo_coeur i {
     font-size: 25px;
   }
 }
@@ -318,18 +321,19 @@
     width: 100%;
     margin-left: 50px;
   }
-  .block_restaurant a .Restaurants {
+  .block_restaurant .Restaurants {
     width: 350px;
     height: 350px;
     border-radius: 15px;
     margin-bottom: -60px;
+    overflow: hidden;
   }
-  .block_restaurant a .Restaurants .images {
+  .block_restaurant .Restaurants .images {
     z-index: 2;
     width: 100%;
     height: 200px;
   }
-  .block_restaurant a .Restaurants .images #i1 {
+  .block_restaurant .Restaurants .images #i1 {
     background-image: url(images/restaurants/1.jpg);
     display: flex;
     flex-direction: row;
@@ -341,7 +345,7 @@
     border-bottom-right-radius: 0px;
     border-bottom-left-radius: 0px;
   }
-  .block_restaurant a .Restaurants .images #i2 {
+  .block_restaurant .Restaurants .images #i2 {
     background-image: url(images/restaurants/2.jpg);
     display: flex;
     flex-direction: row;
@@ -353,7 +357,7 @@
     border-bottom-right-radius: 0px;
     border-bottom-left-radius: 0px;
   }
-  .block_restaurant a .Restaurants .images .new {
+  .block_restaurant .Restaurants .images .new {
     display: flex;
     justify-content: center;
     width: 20%;
@@ -361,7 +365,7 @@
     background-color: #99E2D0;
     margin-right: 20px;
   }
-  .block_restaurant a .Restaurants .images img {
+  .block_restaurant .Restaurants .images img {
     width: 100%;
     height: 200px;
     border-radius: 15px;
@@ -369,7 +373,7 @@
     border-bottom-left-radius: 0px;
     object-fit: cover;
   }
-  .block_restaurant a .Restaurants .block_titre_restaurant {
+  .block_restaurant .Restaurants .block_titre_restaurant {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -379,20 +383,20 @@
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
   }
-  .block_restaurant a .Restaurants .block_titre_restaurant .titre_restaurant {
+  .block_restaurant .Restaurants .block_titre_restaurant .titre_restaurant {
     margin-top: 30px;
     margin-left: 10px;
     margin-bottom: -15px;
   }
-  .block_restaurant a .Restaurants .block_titre_restaurant .texte_restaurant {
+  .block_restaurant .Restaurants .block_titre_restaurant .texte_restaurant {
     margin-left: 10px;
     margin-bottom: 35px;
   }
-  .block_restaurant a .Restaurants .block_titre_restaurant .logo_coeur {
+  .block_restaurant .Restaurants .block_titre_restaurant .logo_coeur {
     margin-right: 30px;
     margin-bottom: 15px;
   }
-  .block_restaurant a .Restaurants .block_titre_restaurant .logo_coeur i {
+  .block_restaurant .Restaurants .block_titre_restaurant .logo_coeur i {
     font-size: 25px;
   }
 }

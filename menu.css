@@ -65,9 +65,50 @@ header i {
   align-items: center;
   margin-left: 20px;
 }
-.block_menu .titre_principale i {
-  margin-right: 40px;
+.block_menu .titre_principale .logo_coeur {
+  width: 100px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  transition: all 0.2s;
+}
+.block_menu .titre_principale .logo_coeur:hover .far {
   font-size: 25px;
+  background: #99e2d0;
+  background: linear-gradient(0deg, #99e2d0 0%, #ff79da 0%, #9356dc 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.block_menu .titre_principale .logo_coeur:hover .fa:hover {
+  line-height: 100%;
+  opacity: 1;
+}
+.block_menu .titre_principale .logo_coeur .far {
+  transition: opacity 500ms;
+  opacity: 1;
+  font-size: 25px;
+  opacity: 1;
+  -webkit-background-clip: text;
+  z-index: 0;
+}
+.block_menu .titre_principale .logo_coeur .fa {
+  transition: line-height 1s 1ms;
+  opacity: 1;
+  margin-left: -25px;
+  font-size: 24px;
+  display: block;
+  background: #99e2d0;
+  background: linear-gradient(0deg, #99e2d0 0%, #ff79da 0%, #9356dc 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  line-height: 1%;
+  z-index: 1;
+}
+.block_menu .titre_principale .logo_coeur i {
+  font-size: 25px;
+  opacity: 1;
 }
 .block_menu .blocks {
   display: flex;
@@ -77,12 +118,18 @@ header i {
 }
 .block_menu .blocks .sous_titre {
   display: flex;
-  width: 80%;
-  margin-top: 3px;
-  margin-right: 280px;
-  margin-bottom: 25px;
-  margin-bottom: -5px;
-  margin-right: 70px;
+  margin: auto;
+  justify-content: flex-start;
+  width: 99%;
+  margin-top: 10px;
+  margin-right: 150px;
+  margin-bottom: 10px;
+  margin-right: -10px;
+}
+.block_menu .blocks .sous_titre p {
+  height: 22px;
+  margin-bottom: 10px;
+  border-bottom: solid 3px #99E2D0;
 }
 .block_menu .blocks .b1 {
   transition: 0s;
@@ -299,6 +346,10 @@ header i {
   border-radius: 30px;
   margin-top: -70px;
   height: 50px;
+  background: #9356dc;
+  background: linear-gradient(0deg, #9356dc 0%, #ff79da 100%, #99e2d0 100%);
+  color: white;
+  border: hidden;
 }
 
 @media (min-width: 768px) {

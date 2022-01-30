@@ -1,3 +1,15 @@
+$violet:#9356DC;
+$rose:#FF79DA;
+$vert:#99E2D0;
+
+
+$color_button:rgb(147,86,220);
+$gradient:linear-gradient(0deg, rgba(147,86,220,1) 0%, rgba(255,121,218,1) 100%, rgba(153,226,208,1) 100%);
+
+
+$color_heart: rgb(153,226,208);
+$gradient_heart: linear-gradient(0deg, rgba(153,226,208,1) 0%, rgba(255,121,218,1) 0%, rgba(147,86,220,1) 100%);
+
 body{
     position: absolute;
     width: 100%;
@@ -74,9 +86,68 @@ header{
         align-items: center;
         margin-left: 20px;
 
-        i{
-            margin-right: 40px;
-            font-size: 25px;
+        .logo_coeur{
+            width: 100px;
+            height: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 10px;
+            transition: all .2s;
+            &:hover{
+                .far{
+                    font-size: 25px;
+                    background: #{$color_heart};
+                    background: #{$gradient_heart};
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                   
+                }
+
+                .fa{
+                    &:hover{
+                        line-height: 100%;
+                        opacity: 1;
+                    }
+                }
+               
+            }
+
+            .far {
+                transition: opacity 500ms;
+                opacity: 1;
+                font-size: 25px;
+                opacity: 1;
+                -webkit-background-clip: text;
+                z-index: 0;
+
+               
+            }
+
+            .fa {
+                transition: line-height 1s 1ms;
+                opacity: 1;
+                margin-left: -25px;
+                font-size: 24px;
+                display: block;
+                background: #{$color_heart};
+                background: #{$gradient_heart};
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                line-height: 1%;
+                z-index: 1;
+
+                
+            }
+
+           
+
+            i{
+                font-size: 25px;
+                opacity: 1;
+
+              
+            }
         }
     
     }
@@ -89,12 +160,20 @@ header{
         
         .sous_titre{
             display: flex;
-            width: 80%;
-            margin-top: 3px;
-            margin-right: 280px;
-            margin-bottom: 25px;
-            margin-bottom: -5px;
-            margin-right: 70px;
+            margin: auto;
+            justify-content: flex-start;
+            width: 99%;
+            margin-top: 10px;
+            margin-right: 150px;
+            margin-bottom: 10px;
+            margin-right: -10px;
+
+            p{
+                height: 22px;
+                margin-bottom: 10px;
+                border-bottom:solid 3px #99E2D0;
+            }
+           
         }
 
         .b1{
@@ -377,6 +456,10 @@ header{
             border-radius: 30px;
             margin-top: -70px;
             height: 50px;
+            background: #{$color_button};
+            background: #{$gradient};
+            color: white;
+            border:hidden;
         }
     }
 }

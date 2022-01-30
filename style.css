@@ -1,200 +1,265 @@
-@media (max-width: 992px) {
-  /*-----Structure de la page -----*/
-  body {
-    position: absolute;
-    width: 100%;
-    margin: 0;
-  }
-  body .structure {
-    display: flex;
-    flex-direction: column;
-  }
-  body h2, body h3 {
-    font-family: "Shrikhand", cursive;
-    color: black;
-  }
-  body p {
-    font-family: "Roboto", sans-serif;
-  }
+/*-----Structure de la page -----*/
+body {
+  position: absolute;
+  height: auto;
+  width: 100%;
+  margin: 0;
+}
+body .structure {
+  display: flex;
+  flex-direction: column;
+}
+body h2, body h3 {
+  font-family: "Shrikhand", cursive;
+  color: black;
+}
+body p {
+  font-family: "Roboto", sans-serif;
+}
 
-  /*----- header -----*/
-  header {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100px;
-  }
-  header img {
-    height: 35px;
-    margin-left: 20px;
-  }
+/*----- header -----*/
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+}
+header img {
+  height: 35px;
+}
 
-  /*----- Emplacement + bouton -----*/
-  .block1 {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    background-color: #F2F2F2;
-  }
-  .block1 .emplacement {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    background-color: gainsboro;
-  }
-  .block1 .emplacement p {
-    margin-right: 60px;
-    margin-left: 10px;
-  }
-  .block1 .block_button {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 70%;
-    height: 300px;
-    margin: auto;
-  }
-  .block1 .block_button button {
-    border-radius: 30px;
-    height: 50px;
-  }
+/*----- Emplacement + bouton -----*/
+.block1 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: #F2F2F2;
+}
+.block1 .emplacement {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: gainsboro;
+}
+.block1 .emplacement p {
+  margin-right: 60px;
+  margin-left: 10px;
+}
+.block1 .block_button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 70%;
+  height: 300px;
+  margin: auto;
+}
+.block1 .block_button button {
+  border: hidden;
+  border-radius: 30px;
+  height: 50px;
+  color: white;
+  background: #9356dc;
+  background: linear-gradient(0deg, #9356dc 0%, #ff79da 100%, #99e2d0 100%);
+}
 
-  /*----- Fonctionnement -----*/
-  .fonctionnement {
-    margin-left: 15px;
-  }
-  .fonctionnement .block_fonctionnement {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    height: 250px;
-    width: 100%;
-    margin-bottom: 50px;
-  }
-  .fonctionnement .block_fonctionnement .flex {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: center;
-    border: solid 2px;
-    border-radius: 25px;
-    width: 95%;
-  }
-  .fonctionnement .block_fonctionnement .flex .numero {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: solid 1px;
-    border-radius: 100%;
-    height: 20px;
-    width: 20px;
-    margin-left: -11px;
-    margin-right: 20px;
-    background-color: #9356DC;
-    color: white;
-  }
-  .fonctionnement .block_fonctionnement .flex div i {
-    margin-right: 40px;
-  }
+/*----- Fonctionnement -----*/
+.fonctionnement {
+  margin-left: 15px;
+}
+.fonctionnement .block_fonctionnement {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  height: auto;
+  width: 100%;
+  margin-bottom: 50px;
+}
+.fonctionnement .block_fonctionnement .flex {
+  margin: 4px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #F2F2F2;
+  margin-bottom: 20px;
+  border-radius: 25px;
+  width: 400px;
+  height: 100%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 10px;
+  text-align: center;
+}
+.fonctionnement .block_fonctionnement .flex h4 {
+  margin-right: 130px;
+}
+.fonctionnement .block_fonctionnement .flex:hover i {
+  color: #9356DC;
+}
+.fonctionnement .block_fonctionnement .flex .numero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: solid 1px;
+  border-radius: 100%;
+  height: 20px;
+  width: 20px;
+  background-color: #9356DC;
+  color: white;
+  margin-left: -11px;
+}
+.fonctionnement .block_fonctionnement .flex div i {
+  margin-left: 20px;
+}
 
-  /*----- Block restaurants -----*/
-  .block_restaurant {
-    display: flex;
-    flex-direction: column;
-    background-color: #F2F2F2;
-    width: 100%;
+/*----- Block restaurants -----*/
+.block_restaurant {
+  display: flex;
+  flex-direction: column;
+  background-color: #F2F2F2;
+  width: 100%;
+  height: auto;
+}
+.block_restaurant h2 {
+  margin-left: 20px;
+  margin-top: 40px;
+}
+.block_restaurant .Restaurants {
+  margin: auto;
+  width: 90%;
+  height: auto;
+  margin-bottom: 40px;
+  border-radius: 15px;
+  overflow: hidden;
+}
+.block_restaurant .Restaurants p {
+  color: black;
+}
+.block_restaurant .Restaurants .images {
+  width: 100%;
+  max-width: 900px;
+  height: 100%;
+  max-height: 350px;
+}
+.block_restaurant .Restaurants .images img {
+  width: 100%;
+  height: 250px;
+  border-radius: 15px;
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+  overflow: hidden;
+  object-fit: cover;
+}
+.block_restaurant .Restaurants .images #i1 {
+  background-image: url(images/restaurants/1.jpg);
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  height: 250px;
+  background-size: cover;
+  border-radius: 15px;
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+.block_restaurant .Restaurants .images #i2 {
+  background-image: url(images/restaurants/2.jpg);
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  width: 100%;
+  height: 250px;
+  background-size: cover;
+  border-radius: 15px;
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+.block_restaurant .Restaurants .images .new {
+  margin-top: 15px;
+  margin-right: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 80px;
+  height: 10%;
+  background-color: #99E2D0;
+  padding: 3px;
+}
+.block_restaurant .Restaurants .block_titre_restaurant {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 60px;
+  background-color: white;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+.block_restaurant .Restaurants .block_titre_restaurant div {
+  margin-top: -6px;
+}
+.block_restaurant .Restaurants .block_titre_restaurant .titre_restaurant {
+  margin-left: 10px;
+  margin-bottom: -20px;
+}
+.block_restaurant .Restaurants .block_titre_restaurant .texte_restaurant {
+  margin-left: 10px;
+}
+.block_restaurant .Restaurants .block_titre_restaurant .logo_coeur {
+  width: 100px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  transition: all 0.2s;
+}
+.block_restaurant .Restaurants .block_titre_restaurant .logo_coeur:hover .far {
+  font-size: 25px;
+  background: #99e2d0;
+  background: linear-gradient(0deg, #99e2d0 0%, #ff79da 0%, #9356dc 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.block_restaurant .Restaurants .block_titre_restaurant .logo_coeur:hover .fa:hover {
+  line-height: 100%;
+  opacity: 1;
+}
+.block_restaurant .Restaurants .block_titre_restaurant .logo_coeur .far {
+  transition: opacity 500ms;
+  opacity: 1;
+  font-size: 25px;
+  opacity: 1;
+  -webkit-background-clip: text;
+  z-index: 0;
+}
+.block_restaurant .Restaurants .block_titre_restaurant .logo_coeur .fa {
+  transition: line-height 1s 1ms;
+  opacity: 1;
+  margin-left: -25px;
+  font-size: 24px;
+  display: block;
+  background: #99e2d0;
+  background: linear-gradient(0deg, #99e2d0 0%, #ff79da 0%, #9356dc 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  line-height: 0%;
+  z-index: 1;
+}
+.block_restaurant .Restaurants .block_titre_restaurant .logo_coeur i {
+  font-size: 25px;
+  opacity: 1;
+}
+
+@media (min-width: 768px) {
+  .block_restaurant .Restaurants .images {
     height: auto;
   }
-  .block_restaurant h2 {
-    margin-left: 20px;
-    margin-top: 40px;
-  }
-  .block_restaurant .Restaurants {
-    margin: auto;
-    width: 90%;
-    height: 100%;
-    margin-bottom: 40px;
-    border-radius: 15px;
-    overflow: hidden;
-  }
-  .block_restaurant .Restaurants p {
-    color: black;
-  }
-  .block_restaurant .Restaurants .images {
-    width: 100%;
-    height: 200px;
-  }
   .block_restaurant .Restaurants .images #i1 {
-    background-image: url(images/restaurants/1.jpg);
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    width: 100%;
-    height: 100%;
-    background-size: cover;
-    border-radius: 15px;
-    border-bottom-right-radius: 0px;
-    border-bottom-left-radius: 0px;
+    height: 320px;
+    max-height: 400px;
   }
-  .block_restaurant .Restaurants .images #i2 {
-    background-image: url(images/restaurants/2.jpg);
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    width: 100%;
-    height: 100%;
-    background-size: cover;
-    border-radius: 15px;
-    border-bottom-right-radius: 0px;
-    border-bottom-left-radius: 0px;
-  }
-  .block_restaurant .Restaurants .images .new {
-    margin-top: 15px;
-    margin-right: 20px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    width: 80px;
-    height: 10%;
-    background-color: #99E2D0;
-    padding: 3px;
-  }
-  .block_restaurant .Restaurants .images img {
-    width: 100%;
-    height: 200px;
-    border-radius: 15px;
-    border-bottom-right-radius: 0px;
-    border-bottom-left-radius: 0px;
-    object-fit: cover;
-  }
-  .block_restaurant .Restaurants .block_titre_restaurant {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    height: 60px;
-    background-color: white;
-    border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 15px;
-  }
-  .block_restaurant .Restaurants .block_titre_restaurant div {
-    margin-top: -6px;
-  }
-  .block_restaurant .Restaurants .block_titre_restaurant .titre_restaurant {
-    margin-left: 10px;
-    margin-bottom: -20px;
-  }
-  .block_restaurant .Restaurants .block_titre_restaurant .texte_restaurant {
-    margin-left: 10px;
-  }
-  .block_restaurant .Restaurants .block_titre_restaurant .logo_coeur {
-    height: 38%;
-    margin-top: 10px;
-    margin-right: 30px;
-  }
-  .block_restaurant .Restaurants .block_titre_restaurant .logo_coeur i {
-    font-size: 25px;
+  .block_restaurant .Restaurants img {
+    height: 320px;
   }
 }
 /* ------ desktop-version -----*/
@@ -228,7 +293,6 @@
   }
   header img {
     height: 35px;
-    margin-left: 20px;
   }
 
   /*----- Emplacement + bouton -----*/
@@ -260,10 +324,13 @@
     margin: auto;
   }
   .block1 .block_button .button {
+    border: hidden;
     border-radius: 30px;
     height: 50px;
     width: 200px;
-    background-color: #9356DC;
+    color: white;
+    background: #9356dc;
+    background: linear-gradient(0deg, #9356dc 0%, #ff79da 100%, #99e2d0 100%);
   }
 
   /*----- Fonctionnement -----*/
@@ -280,29 +347,11 @@
     margin-left: 15px;
   }
   .fonctionnement .block_fonctionnement .flex {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: center;
-    border: solid 2px;
-    border-radius: 25px;
     width: 30%;
+    flex-wrap: nowrap;
   }
-  .fonctionnement .block_fonctionnement .flex .numero {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: solid 1px;
-    border-radius: 100%;
-    height: 20px;
-    width: 20px;
-    margin-left: -11px;
-    margin-right: 20px;
-    background-color: #9356DC;
-    color: white;
-  }
-  .fonctionnement .block_fonctionnement .flex div i {
-    margin-right: 40px;
+  .fonctionnement .block_fonctionnement .flex h4 {
+    width: 100%;
   }
 
   /*----- Block restaurants -----*/
@@ -384,17 +433,17 @@
     border-bottom-right-radius: 15px;
   }
   .block_restaurant .Restaurants .block_titre_restaurant .titre_restaurant {
-    margin-top: 30px;
+    margin-top: 45px;
     margin-left: 10px;
-    margin-bottom: -15px;
+    margin-bottom: -20px;
   }
   .block_restaurant .Restaurants .block_titre_restaurant .texte_restaurant {
     margin-left: 10px;
     margin-bottom: 35px;
   }
   .block_restaurant .Restaurants .block_titre_restaurant .logo_coeur {
-    margin-right: 30px;
     margin-bottom: 15px;
+    margin-right: -10px;
   }
   .block_restaurant .Restaurants .block_titre_restaurant .logo_coeur i {
     font-size: 25px;

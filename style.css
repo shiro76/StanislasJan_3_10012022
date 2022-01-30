@@ -67,7 +67,6 @@ header img {
 
 /*----- Fonctionnement -----*/
 .fonctionnement {
-  margin-left: 15px;
   height: 460px;
 }
 .fonctionnement .block_fonctionnement {
@@ -88,16 +87,16 @@ header img {
   background-color: #F2F2F2;
   margin-bottom: 20px;
   border-radius: 25px;
-  width: 95%;
+  width: 90%;
   height: 90%;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 10px;
-  text-align: center;
 }
 .fonctionnement .block_fonctionnement .flex .fas {
   color: gray;
 }
 .fonctionnement .block_fonctionnement .flex h4 {
-  margin-right: 130px;
+  width: 100%;
+  margin-right: 180px;
 }
 .fonctionnement .block_fonctionnement .flex:hover {
   background-color: rgba(147, 86, 220, 0.1);

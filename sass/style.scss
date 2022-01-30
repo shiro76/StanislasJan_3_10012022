@@ -95,7 +95,6 @@ header{
 /*----- Fonctionnement -----*/
 
 .fonctionnement{
-    margin-left: 15px;
     height: 460px;
 
     .block_fonctionnement{
@@ -116,17 +115,17 @@ header{
             background-color: #F2F2F2;
             margin-bottom: 20px;
             border-radius: 25px;
-            width: 95%;
+            width: 90%;
             height: 90%;
             box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 10px;
-            text-align: center;
 
             .fas{
                 color: gray ;
             }
 
             h4{
-                margin-right: 130px;
+                width: 100%;
+                margin-right: 180px;
             }
 
             &:hover{

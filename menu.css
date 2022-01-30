@@ -103,7 +103,7 @@ header i {
   background: linear-gradient(0deg, #99e2d0 0%, #ff79da 0%, #9356dc 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  line-height: 1%;
+  line-height: 0%;
   z-index: 1;
 }
 .block_menu .titre_principale .logo_coeur i {

@@ -13,7 +13,7 @@ $gradient_heart: linear-gradient(0deg, rgba(153,226,208,1) 0%, rgba(255,121,218,
 body{
     position: absolute;
     width: 100%;
-    margin: 0;
+    margin: auto;
 
     .structure{
         display: flex;
@@ -162,18 +162,16 @@ header{
             display: flex;
             margin: auto;
             justify-content: flex-start;
-            width: 99%;
-            margin-top: 10px;
-            margin-right: 150px;
+            width: 95%;
+            margin-top: 3px;
             margin-bottom: 10px;
-            margin-right: -10px;
+            margin-left: 15px;
 
             p{
                 height: 22px;
                 margin-bottom: 10px;
-                border-bottom:solid 3px #99E2D0;
+                border-bottom:solid 3px $vert;
             }
-           
         }
 
         .b1{
@@ -403,8 +401,7 @@ header{
             }
 
             .zone_texte{
-                border-bottom: solid;
-                width: 100%;
+                width: auto;
                 display: flex;
                 flex-direction: column;
                 justify-content: space-around;
@@ -416,16 +413,11 @@ header{
                 .texte{
                     align-items: center;
                     justify-content: space-between;
-                    width: 100%;
-
-                    div{
-                        width: 100%;
-                    }
+                    width: auto;
                 }
                 
         
                 p{
-                    width: 100%;
                     margin-left: 10px;
                     font-size: 16px;   
                     white-space: nowrap;
@@ -434,7 +426,6 @@ header{
                 }
         
                 h4{
-                    width: 100%;
                     font-size: 17px;
                     margin-bottom: -20px;
                     margin-left: 10px;
@@ -445,8 +436,6 @@ header{
             .prix{
                 margin-left: 2px;
                 font-size: 17px;
-                display: inline-flex;
-                justify-content: flex-end;
             }
         }
     }
@@ -472,6 +461,8 @@ header{
         }
     }
 }
+
+/* ----- Tablette -----*/
 
 @media (min-width: 768px){
     body{

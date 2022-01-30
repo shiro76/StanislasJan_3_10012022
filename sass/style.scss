@@ -121,6 +121,7 @@ header{
 
             .fas{
                 color: gray ;
+                margin-right: 50px;
             }
 
             h4{
@@ -151,6 +152,7 @@ header{
                 background-color: #9356DC;
                 color: white;
                 margin-left: -14px;
+                margin-right: 20px;
             }
 
             div i{
@@ -350,6 +352,25 @@ header{
                 margin-left: 1px;
                 width: 45%;
                 justify-content: space-between;
+
+                .numero{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    border: solid 1px;
+                    border-radius: 100%;
+                    height:9px;
+                    width: 10px;
+                    background-color: #9356DC;
+                    color: white;
+                    margin-left: -16px;
+                    margin-right: 20px;
+                    padding: 11px;
+                }
+    
+                div i{
+                    margin-left: 2px;
+                }
             }
         }
     }
@@ -486,7 +507,25 @@ header{
                h4{
                    width: 100%;
                }
-           }
+               .numero{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border: solid 1px;
+                border-radius: 100%;
+                height: 10px;
+                width: 10px;
+                background-color: #9356DC;
+                color: white;
+                margin-left: -16px;
+                margin-right: 20px;
+                padding: 10px;
+                }
+
+                div i{
+                    margin-left: 2px;
+                }
+            }
        }
    }
    

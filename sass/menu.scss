@@ -10,6 +10,7 @@ $gradient:linear-gradient(0deg, rgba(147,86,220,1) 0%, rgba(255,121,218,1) 100%,
 $color_heart: rgb(153,226,208);
 $gradient_heart: linear-gradient(0deg, rgba(153,226,208,1) 0%, rgba(255,121,218,1) 0%, rgba(147,86,220,1) 100%);
 
+
 body{
     position: absolute;
     width: 100%;
@@ -401,7 +402,8 @@ header{
             }
 
             .zone_texte{
-                width: auto;
+                border: solid;
+                width: 100%;
                 display: flex;
                 flex-direction: column;
                 justify-content: space-around;
@@ -411,17 +413,21 @@ header{
 
 
                 .texte{
+                    border: solid;
                     align-items: center;
                     justify-content: space-between;
-                    width: auto;
+                    width: 100%;
+                    white-space: nowrap;
+                    text-overflow: ellipsis;
                 }
                 
         
                 p{
+                    width: 100%;
+                    border: solid;
                     margin-left: 10px;
                     font-size: 16px;   
                     white-space: nowrap;
-                    overflow: hidden;
                     text-overflow: ellipsis;
                 }
         

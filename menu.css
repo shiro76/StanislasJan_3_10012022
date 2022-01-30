@@ -317,6 +317,9 @@ header i {
   justify-content: space-between;
   width: 100%;
 }
+.block_menu .blocks .block .zone_texte .texte div {
+  width: 100%;
+}
 .block_menu .blocks .block .zone_texte p {
   width: 100%;
   margin-left: 10px;
@@ -335,6 +338,8 @@ header i {
 .block_menu .blocks .block .prix {
   margin-left: 2px;
   font-size: 17px;
+  display: inline-flex;
+  justify-content: flex-end;
 }
 .block_menu .block_button {
   display: flex;

@@ -91,6 +91,9 @@ header img {
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 10px;
   text-align: center;
 }
+.fonctionnement .block_fonctionnement .flex .fas {
+  color: gray;
+}
 .fonctionnement .block_fonctionnement .flex h4 {
   margin-right: 130px;
 }
@@ -225,6 +228,7 @@ header img {
   opacity: 1;
 }
 .block_restaurant .Restaurants .block_titre_restaurant .logo_coeur .far {
+  color: black;
   transition: opacity 500ms;
   opacity: 1;
   font-size: 25px;

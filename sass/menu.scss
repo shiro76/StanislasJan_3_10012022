@@ -417,6 +417,10 @@ header{
                     align-items: center;
                     justify-content: space-between;
                     width: 100%;
+
+                    div{
+                        width: 100%;
+                    }
                 }
                 
         
@@ -441,6 +445,8 @@ header{
             .prix{
                 margin-left: 2px;
                 font-size: 17px;
+                display: inline-flex;
+                justify-content: flex-end;
             }
         }
     }

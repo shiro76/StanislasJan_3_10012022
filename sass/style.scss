@@ -118,6 +118,10 @@ header{
             box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 10px;
             text-align: center;
 
+            .fas{
+                color: gray;
+            }
+
             h4{
                 margin-right: 130px;
             }
@@ -290,6 +294,7 @@ header{
                 }
 
                 .far {
+                    color: black;
                     transition: opacity 500ms;
                     opacity: 1;
                     font-size: 25px;

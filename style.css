@@ -69,7 +69,10 @@ header img {
 .fonctionnement {
   margin: auto;
   height: 460px;
-  width: 90%;
+  width: 100%;
+}
+.fonctionnement h2 {
+  margin-left: 15px;
 }
 .fonctionnement .block_fonctionnement {
   display: flex;
@@ -80,7 +83,6 @@ header img {
   height: 100px;
   width: 100%;
   margin-bottom: 50px;
-  margin: auto;
 }
 .fonctionnement .block_fonctionnement .flex {
   display: flex;
@@ -194,10 +196,9 @@ header img {
   flex-direction: row;
   justify-content: center;
   width: 80px;
-  height: 9%;
+  height: 10%;
   background-color: #99E2D0;
   padding: 3px;
-  font-weight: bold;
 }
 .block_restaurant .Restaurants .block_titre_restaurant {
   display: flex;
@@ -477,7 +478,6 @@ header img {
     height: 10%;
     background-color: #99E2D0;
     margin-right: 20px;
-    font-weight: bold;
   }
   .block_restaurant .Restaurants .images img {
     width: 100%;

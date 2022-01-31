@@ -97,7 +97,11 @@ header{
 .fonctionnement{
     margin: auto;
     height: 460px;
-    width: 90%;
+    width: 100%;
+
+    h2{
+        margin-left: 15px;
+    }
 
     .block_fonctionnement{
         display: flex;
@@ -108,7 +112,8 @@ header{
         height: 100px;
         width: 100%;
         margin-bottom: 50px;
-        margin: auto;
+
+       
 
         .flex{
             display: flex;
@@ -245,10 +250,9 @@ header{
                 flex-direction: row;
                 justify-content: center;
                 width:80px;
-                height: 9%;
+                height: 10%;
                 background-color: #99E2D0;
                 padding: 3px;
-                font-weight: bold;
             }
 
           
@@ -603,7 +607,7 @@ header{
                     height: 10%;
                     background-color: #99E2D0;
                     margin-right: 20px;
-                    font-weight: bold;
+                
                 }
 
                 img{

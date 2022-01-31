@@ -252,6 +252,7 @@ header i {
 }
 .block_menu .blocks .block {
   display: flex;
+  justify-content: space-around;
   width: 94%;
   margin-bottom: 10px;
   border-radius: 15px;
@@ -305,7 +306,6 @@ header i {
   display: flex;
   flex-direction: column;
   flex-grow: 1;
-  width: 90%;
   margin-top: -5px;
   margin: auto;
 }
@@ -313,9 +313,10 @@ header i {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  width: 90%;
 }
 .block_menu .blocks .block .zone_texte .box_p {
-  width: 70%;
+  width: 100%;
 }
 .block_menu .blocks .block .zone_texte .box_p p {
   width: 100%;
@@ -332,12 +333,12 @@ header i {
   margin-bottom: -20px;
   margin-left: 10px;
   margin-top: 8px;
-  white-space: nowrap;
 }
 .block_menu .blocks .block .prix {
-  display: inline-flex;
   margin-right: 20px;
   font-size: 17px;
+  margin-right: -30px;
+  margin-left: 10px;
 }
 .block_menu .block_button {
   display: flex;

@@ -260,6 +260,11 @@ header i {
   opacity: 0;
   overflow: hidden;
 }
+.block_menu .blocks .block:hover p {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
 .block_menu .blocks .block:hover .animation {
   width: 15%;
 }
@@ -277,8 +282,6 @@ header i {
 }
 .block_menu .blocks .block:hover .prix {
   right: 60px;
-  margin-right: 10px;
-  margin-left: 10px;
 }
 .block_menu .blocks .block .animation {
   transition: width 1s;
@@ -298,43 +301,39 @@ header i {
   color: white;
   opacity: 1;
 }
-.block_menu .blocks .block .fc {
-  display: flex;
-}
 .block_menu .blocks .block .zone_texte {
-  width: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
   flex-grow: 1;
+  width: 90%;
   margin-top: -5px;
   margin: auto;
 }
 .block_menu .blocks .block .zone_texte .texte {
+  display: flex;
+  width: 100%;
   align-items: center;
   justify-content: space-between;
-  width: 100%;
-  white-space: nowrap;
-  text-overflow: ellipsis;
 }
 .block_menu .blocks .block .zone_texte .box_p {
-  width: 100%;
+  width: 80%;
 }
 .block_menu .blocks .block .zone_texte .box_p p {
-  width: 100%;
   margin-left: 10px;
   font-size: 16px;
-  white-space: nowrap;
-  text-overflow: ellipsis;
 }
 .block_menu .blocks .block .zone_texte h4 {
+  width: 60%;
   font-size: 17px;
   margin-bottom: -20px;
   margin-left: 10px;
   margin-top: 8px;
+  white-space: nowrap;
 }
 .block_menu .blocks .block .prix {
-  margin-left: 2px;
+  display: inline-flex;
+  margin-left: 10px;
+  margin-right: 20px;
   font-size: 17px;
 }
 .block_menu .block_button {

@@ -349,6 +349,13 @@ header{
             overflow: hidden;
 
             &:hover{
+
+                p{
+                    overflow: hidden;
+                    white-space: nowrap;
+                    text-overflow: ellipsis;
+                }
+
                 .animation{
 
                     width: 15%;
@@ -369,8 +376,6 @@ header{
                 }
                 .prix{
                     right: 60px;
-                    margin-right:10px;
-                    margin-left: 10px;
                 }
                 
             }
@@ -397,51 +402,54 @@ header{
                 }
             }
 
-            .fc{
-                display: flex;
-            }
+
 
             .zone_texte{
-                width: 100%;
                 display: flex;
                 flex-direction: column;
-                justify-content: space-around;
                 flex-grow: 1;
+                width: 90%;
                 margin-top: -5px;
                 margin: auto;
 
-
                 .texte{
+                    display: flex;
+                    width: 100%;
                     align-items: center;
                     justify-content: space-between;
-                    width: 100%;
-                    white-space: nowrap;
-                    text-overflow: ellipsis;
+
+                    
                 }
+
                 .box_p{
-                    width: 100%;
+                    width: 80%;
+
+
                     p{
-                        width: 100%;
                         margin-left: 10px;
                         font-size: 16px;   
-                        white-space: nowrap;
-                        text-overflow: ellipsis;
+
+
+
                     }
 
                 }
-        
-                
+               
         
                 h4{
+                    width: 60%;
                     font-size: 17px;
                     margin-bottom: -20px;
                     margin-left: 10px;
                     margin-top: 8px;
+                    white-space: nowrap;
                 }
             }
 
             .prix{
-                margin-left: 2px;
+                display: inline-flex;
+                margin-left: 10px;
+                margin-right: 20px ;
                 font-size: 17px;
             }
         }

@@ -253,21 +253,13 @@ header i {
 .block_menu .blocks .block {
   display: flex;
   justify-content: space-around;
-  width: 94%;
+  width: 90%;
   margin-bottom: 10px;
   border-radius: 15px;
   height: 60px;
   background-color: white;
   opacity: 0;
   overflow: hidden;
-}
-.block_menu .blocks .block:hover p {
-  overflow: hidden;
-  white-space: nowrap;
-  text-overflow: ellipsis;
-}
-.block_menu .blocks .block:hover .box_p {
-  width: auto;
 }
 .block_menu .blocks .block:hover .animation {
   width: 15%;
@@ -305,9 +297,9 @@ header i {
 .block_menu .blocks .block .zone_texte {
   display: flex;
   flex-direction: column;
-  flex-grow: 1;
   margin-top: -5px;
   margin: auto;
+  flex-grow: 1;
 }
 .block_menu .blocks .block .zone_texte .texte {
   display: flex;
@@ -316,23 +308,24 @@ header i {
   width: 90%;
 }
 .block_menu .blocks .block .zone_texte .box_p {
-  width: 100%;
+  width: 90%;
 }
 .block_menu .blocks .block .zone_texte .box_p p {
-  width: 100%;
   margin-left: 10px;
-  font-size: 16px;
+  font-size: 14px;
   white-space: nowrap;
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
 }
 .block_menu .blocks .block .zone_texte h4 {
-  width: 60%;
-  font-size: 17px;
+  font-size: 16px;
   margin-bottom: -20px;
   margin-left: 10px;
   margin-top: 8px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
 .block_menu .blocks .block .prix {
   margin-right: 20px;

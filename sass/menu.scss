@@ -341,7 +341,7 @@ header{
         .block{
             display: flex;
             justify-content: space-around;
-            width: 94%;
+            width: 90%;
             margin-bottom: 10px;
             border-radius: 15px;
             height: 60px;
@@ -350,16 +350,6 @@ header{
             overflow: hidden;
 
             &:hover{
-
-                p{
-                    overflow: hidden;
-                    white-space: nowrap;
-                    text-overflow: ellipsis;
-                }
-
-                .box_p{
-                    width: auto;
-                }
 
                 .animation{
 
@@ -409,26 +399,23 @@ header{
             .zone_texte{
                 display: flex;
                 flex-direction: column;
-                flex-grow: 1;
                 margin-top: -5px;
                 margin: auto;
+                flex-grow: 1;
 
                 .texte{
                     display: flex;
                     align-items: center;
                     justify-content: space-between;
-                    width: 90%;
-
-                    
+                    width: 90%; 
                 }
 
                 .box_p{
-                    width: 100%;
+                    width: 90%;
 
                     p{
-                        width: 100%;
                         margin-left: 10px;
-                        font-size: 16px;   
+                        font-size: 14px;   
                         white-space: nowrap;
                         overflow: hidden;
                         white-space: nowrap;
@@ -439,11 +426,13 @@ header{
                
         
                 h4{
-                    width: 60%;
-                    font-size: 17px;
+                    font-size: 16px;
                     margin-bottom: -20px;
                     margin-left: 10px;
                     margin-top: 8px;
+                    overflow: hidden;
+                    white-space: nowrap;
+                    text-overflow: ellipsis;
                 }
             }
 

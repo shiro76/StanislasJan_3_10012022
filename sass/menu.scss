@@ -356,6 +356,10 @@ header{
                     text-overflow: ellipsis;
                 }
 
+                .box_p{
+                    width: auto;
+                }
+
                 .animation{
 
                     width: 15%;
@@ -411,7 +415,6 @@ header{
 
                 .texte{
                     display: flex;
-                    width: 100%;
                     align-items: center;
                     justify-content: space-between;
 
@@ -419,7 +422,7 @@ header{
                 }
 
                 .box_p{
-                    width: 75%;
+                    width: 70%;
 
 
                     p{
@@ -427,6 +430,9 @@ header{
                         margin-left: 10px;
                         font-size: 16px;   
                         white-space: nowrap;
+                        overflow: hidden;
+                        white-space: nowrap;
+                        text-overflow: ellipsis;
                     }
 
                 }

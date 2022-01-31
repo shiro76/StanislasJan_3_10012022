@@ -265,6 +265,9 @@ header i {
   white-space: nowrap;
   text-overflow: ellipsis;
 }
+.block_menu .blocks .block:hover .box_p {
+  width: auto;
+}
 .block_menu .blocks .block:hover .animation {
   width: 15%;
 }
@@ -308,18 +311,20 @@ header i {
 }
 .block_menu .blocks .block .zone_texte .texte {
   display: flex;
-  width: 100%;
   align-items: center;
   justify-content: space-between;
 }
 .block_menu .blocks .block .zone_texte .box_p {
-  width: 75%;
+  width: 70%;
 }
 .block_menu .blocks .block .zone_texte .box_p p {
   width: 100%;
   margin-left: 10px;
   font-size: 16px;
   white-space: nowrap;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
 .block_menu .blocks .block .zone_texte h4 {
   width: 60%;

@@ -321,6 +321,7 @@ header i {
 .block_menu .blocks .block .zone_texte .box_p p {
   margin-left: 10px;
   font-size: 16px;
+  white-space: nowrap;
 }
 .block_menu .blocks .block .zone_texte h4 {
   width: 60%;

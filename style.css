@@ -36,6 +36,7 @@ header img {
   width: 100%;
   background-color: #F2F2F2;
   text-align: center;
+  height: auto;
 }
 .block1 .emplacement {
   display: flex;
@@ -52,24 +53,35 @@ header img {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 50%;
-  height: 300px;
+  align-items: center;
+  width: 80%;
+  height: auto;
   margin: auto;
+  text-align: center;
+}
+.block1 .block_button h1 {
+  width: 100%;
+  font-size: 26px;
+}
+.block1 .block_button p {
+  width: 100%;
+  margin-bottom: 40px;
+  font-size: 20px;
 }
 .block1 .block_button button {
   border: hidden;
   border-radius: 30px;
-  height: 50px;
+  font-size: 15px;
+  height: 45px;
   color: white;
+  margin-bottom: 70px;
   background: #9356dc;
   background: linear-gradient(0deg, #9356dc 0%, #ff79da 100%, #99e2d0 100%);
 }
 
 /*----- Fonctionnement -----*/
 .fonctionnement {
-  margin: auto;
   height: 460px;
-  width: 100%;
 }
 .fonctionnement h2 {
   margin-left: 15px;

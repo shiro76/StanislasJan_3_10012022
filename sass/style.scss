@@ -10,13 +10,13 @@ $color_heart: rgb(153,226,208);
 $gradient_heart: linear-gradient(0deg, rgba(153,226,208,1) 0%, rgba(255,121,218,1) 0%, rgba(147,86,220,1) 100%);
 
     /*-----Structure de la page -----*/
-    
+     
 
 body{
     position: absolute;
     height: auto;
     width: 100%;
-    margin: 0;
+    margin: auto;
 
     .structure{
         display: flex;

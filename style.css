@@ -3,7 +3,7 @@ body {
   position: absolute;
   height: auto;
   width: 100%;
-  margin: 0;
+  margin: auto;
 }
 body .structure {
   display: flex;

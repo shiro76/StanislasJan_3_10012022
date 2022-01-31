@@ -3,7 +3,7 @@ body {
   position: absolute;
   height: auto;
   width: 100%;
-  margin: auto;
+  margin: 0;
 }
 body .structure {
   display: flex;
@@ -69,7 +69,7 @@ header img {
 .fonctionnement {
   margin: auto;
   height: 460px;
-  width: 95%;
+  width: 90%;
 }
 .fonctionnement .block_fonctionnement {
   display: flex;
@@ -90,7 +90,7 @@ header img {
   background-color: #F2F2F2;
   margin-bottom: 20px;
   border-radius: 25px;
-  width: 95%;
+  width: 90%;
   height: 90%;
   box-shadow: rgba(0, 0, 0, 0.136) 0px 5px 10px;
 }

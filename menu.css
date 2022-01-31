@@ -280,9 +280,6 @@ header i {
     transform: rotate(360deg);
   }
 }
-.block_menu .blocks .block:hover .prix {
-  right: 60px;
-}
 .block_menu .blocks .block .animation {
   transition: width 1s;
   width: 0%;
@@ -316,9 +313,10 @@ header i {
   justify-content: space-between;
 }
 .block_menu .blocks .block .zone_texte .box_p {
-  width: 80%;
+  width: 90%;
 }
 .block_menu .blocks .block .zone_texte .box_p p {
+  width: 90%;
   margin-left: 10px;
   font-size: 16px;
   white-space: nowrap;
@@ -333,7 +331,6 @@ header i {
 }
 .block_menu .blocks .block .prix {
   display: inline-flex;
-  margin-left: 10px;
   margin-right: 20px;
   font-size: 17px;
 }

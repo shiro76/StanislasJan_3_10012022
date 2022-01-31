@@ -95,7 +95,9 @@ header{
 /*----- Fonctionnement -----*/
 
 .fonctionnement{
+    margin: auto;
     height: 460px;
+    width: 90%;
 
     .block_fonctionnement{
         display: flex;
@@ -106,6 +108,7 @@ header{
         height: 100px;
         width: 100%;
         margin-bottom: 50px;
+        margin: auto;
 
         .flex{
             display: flex;
@@ -117,7 +120,7 @@ header{
             border-radius: 25px;
             width: 90%;
             height: 90%;
-            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 10px;
+            box-shadow: rgba(0, 0, 0, 0.136) 0px 5px 10px;
 
             .fas{
                 color: gray ;
@@ -242,9 +245,10 @@ header{
                 flex-direction: row;
                 justify-content: center;
                 width:80px;
-                height: 10%;
+                height: 9%;
                 background-color: #99E2D0;
                 padding: 3px;
+                font-weight: bold;
             }
 
           
@@ -345,6 +349,7 @@ header{
 @media (min-width: 768px){
 
     .fonctionnement{
+        width: 100%;
 
         .block_fonctionnement{
             flex-wrap: wrap;
@@ -489,6 +494,7 @@ header{
    /*----- Fonctionnement -----*/
 
    .fonctionnement{
+       width: 100%;
        margin-left: 15px;
        height: auto;
 
@@ -592,11 +598,12 @@ header{
                 .new{
                     display: flex;
                     justify-content: center;
+                    align-items: center;
                     width: 20%;
                     height: 10%;
                     background-color: #99E2D0;
                     margin-right: 20px;
-                
+                    font-weight: bold;
                 }
 
                 img{

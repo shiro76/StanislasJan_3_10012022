@@ -67,7 +67,9 @@ header img {
 
 /*----- Fonctionnement -----*/
 .fonctionnement {
+  margin: auto;
   height: 460px;
+  width: 90%;
 }
 .fonctionnement .block_fonctionnement {
   display: flex;
@@ -78,6 +80,7 @@ header img {
   height: 100px;
   width: 100%;
   margin-bottom: 50px;
+  margin: auto;
 }
 .fonctionnement .block_fonctionnement .flex {
   display: flex;
@@ -89,7 +92,7 @@ header img {
   border-radius: 25px;
   width: 90%;
   height: 90%;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 10px;
+  box-shadow: rgba(0, 0, 0, 0.136) 0px 5px 10px;
 }
 .fonctionnement .block_fonctionnement .flex .fas {
   color: gray;
@@ -191,9 +194,10 @@ header img {
   flex-direction: row;
   justify-content: center;
   width: 80px;
-  height: 10%;
+  height: 9%;
   background-color: #99E2D0;
   padding: 3px;
+  font-weight: bold;
 }
 .block_restaurant .Restaurants .block_titre_restaurant {
   display: flex;
@@ -262,6 +266,9 @@ header img {
 }
 
 @media (min-width: 768px) {
+  .fonctionnement {
+    width: 100%;
+  }
   .fonctionnement .block_fonctionnement {
     flex-wrap: wrap;
   }
@@ -372,6 +379,7 @@ header img {
 
   /*----- Fonctionnement -----*/
   .fonctionnement {
+    width: 100%;
     margin-left: 15px;
     height: auto;
   }
@@ -464,10 +472,12 @@ header img {
   .block_restaurant .Restaurants .images .new {
     display: flex;
     justify-content: center;
+    align-items: center;
     width: 20%;
     height: 10%;
     background-color: #99E2D0;
     margin-right: 20px;
+    font-weight: bold;
   }
   .block_restaurant .Restaurants .images img {
     width: 100%;

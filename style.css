@@ -54,7 +54,7 @@ header img {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 80%;
+  width: 90%;
   height: auto;
   margin: auto;
   text-align: center;
@@ -207,10 +207,12 @@ header img {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  width: 80px;
-  height: 10%;
+  width: 75px;
+  height: 8%;
   background-color: #99E2D0;
   padding: 3px;
+  font-weight: bold;
+  font-size: 14px;
 }
 .block_restaurant .Restaurants .block_titre_restaurant {
   display: flex;
@@ -220,6 +222,7 @@ header img {
   background-color: white;
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
+  margin-bottom: 3px;
 }
 .block_restaurant .Restaurants .block_titre_restaurant div {
   margin-top: -6px;
@@ -230,6 +233,7 @@ header img {
 }
 .block_restaurant .Restaurants .block_titre_restaurant .texte_restaurant {
   margin-left: 10px;
+  font-size: 17px;
 }
 .block_restaurant .Restaurants .block_titre_restaurant .logo_coeur {
   width: 100px;
@@ -278,8 +282,13 @@ header img {
   opacity: 1;
 }
 
+/*----- Tablette -----*/
 @media (min-width: 768px) {
   .fonctionnement {
+    display: inherit;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
     width: 100%;
   }
   .fonctionnement .block_fonctionnement {
@@ -287,7 +296,7 @@ header img {
   }
   .fonctionnement .block_fonctionnement .flex {
     margin-left: 1px;
-    width: 45%;
+    width: 90%;
     justify-content: space-between;
   }
   .fonctionnement .block_fonctionnement .flex .numero {
@@ -296,8 +305,8 @@ header img {
     justify-content: center;
     border: solid 1px;
     border-radius: 100%;
-    height: 9px;
-    width: 10px;
+    height: 5px;
+    width: 5px;
     background-color: #9356DC;
     color: white;
     margin-left: -16px;
@@ -310,6 +319,9 @@ header img {
 
   .block_restaurant .Restaurants .images {
     height: auto;
+  }
+  .block_restaurant .Restaurants .images .new {
+    height: 6%;
   }
   .block_restaurant .Restaurants .images #i1 {
     height: 320px;
@@ -392,7 +404,7 @@ header img {
 
   /*----- Fonctionnement -----*/
   .fonctionnement {
-    width: 100%;
+    width: 99%;
     margin-left: 15px;
     height: auto;
   }
@@ -401,16 +413,18 @@ header img {
     flex-direction: row;
     justify-content: space-around;
     height: 80px;
-    width: 100%;
+    width: 96%;
     margin-bottom: 50px;
     margin-left: 15px;
   }
   .fonctionnement .block_fonctionnement .flex {
     width: 30%;
     flex-wrap: nowrap;
+    margin-right: 20px;
   }
   .fonctionnement .block_fonctionnement .flex h4 {
     width: 100%;
+    margin-left: -15px;
   }
   .fonctionnement .block_fonctionnement .flex .numero {
     display: flex;
@@ -418,8 +432,8 @@ header img {
     justify-content: center;
     border: solid 1px;
     border-radius: 100%;
-    height: 10px;
-    width: 10px;
+    height: 5px;
+    width: 5px;
     background-color: #9356DC;
     color: white;
     margin-left: -16px;

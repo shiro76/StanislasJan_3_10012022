@@ -1,14 +1,39 @@
 $violet:#9356DC;
 $rose:#FF79DA;
 $vert:#99E2D0;
-
-
 $color_button:rgb(147,86,220);
 $gradient:linear-gradient(0deg, rgba(147,86,220,1) 0%, rgba(255,121,218,1) 100%, rgba(153,226,208,1) 100%);
 
 $color_heart: rgb(153,226,208);
 $gradient_heart: linear-gradient(0deg, rgba(153,226,208,1) 0%, rgba(255,121,218,1) 0%, rgba(147,86,220,1) 100%);
 
+@keyframes hidden{
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 0;
+    }
+    80%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+@keyframes loader2 {
+    0%{
+        background: #F2F2F2;
+    }
+    80%{
+        background: rgba(0, 0, 0, 0.536);
+    }
+
+    100%{
+        background: white;
+    }
+}
     /*-----Structure de la page -----*/
     
 
@@ -17,10 +42,14 @@ body{
     height: auto;
     width: 100%;
     margin: 0;
+    padding: 0;
+    animation: loader2 3s 1ms forwards;
 
     .structure{
         display: flex;
         flex-direction: column;
+        opacity: 1;
+        animation: hidden 4s 1ms forwards;
     }
 
     h2,h3{

@@ -332,6 +332,7 @@ header i {
   font-size: 17px;
   margin-right: -30px;
   margin-left: 10px;
+  margin-bottom: 2px;
 }
 .block_menu .block_button {
   display: flex;

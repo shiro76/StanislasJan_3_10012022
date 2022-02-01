@@ -77,6 +77,11 @@ header img {
   margin-bottom: 70px;
   background: #9356dc;
   background: linear-gradient(0deg, #9356dc 0%, #ff79da 100%, #99e2d0 100%);
+  box-shadow: rgba(0, 0, 0, 0.136) 0px 5px 10px;
+}
+.block1 .block_button button:hover {
+  filter: brightness(1.1);
+  box-shadow: rgba(0, 0, 0, 0.2) 3px 5px 10px;
 }
 
 /*----- Fonctionnement -----*/
@@ -159,6 +164,11 @@ header img {
   margin-bottom: 40px;
   border-radius: 15px;
   overflow: hidden;
+  box-shadow: rgba(0, 0, 0, 0.136) 0px 5px 10px;
+}
+.block_restaurant .Restaurants:hover {
+  filter: brightness(1.05);
+  box-shadow: rgba(0, 0, 0, 0.2) 3px 5px 10px;
 }
 .block_restaurant .Restaurants p {
   color: black;

@@ -39,6 +39,10 @@ header{
     margin-bottom: 10px;
     margin-top: 15px;
 
+    .fas{
+        color:black;
+    }
+
     .omf_img{
         display: flex;
         justify-content: flex-end;
@@ -342,14 +346,18 @@ header{
             display: flex;
             justify-content: space-around;
             width: 90%;
-            margin-bottom: 10px;
+            margin-bottom: 15px;
             border-radius: 15px;
             height: 60px;
             background-color: white;
             opacity: 0;
             overflow: hidden;
 
+            box-shadow: rgba(0, 0, 0, 0.136) 0px 5px 10px;
+
             &:hover{
+                filter: brightness(1.05);
+                box-shadow: rgba(0, 0, 0, 0.200) 3px 5px 10px;
 
                 .animation{
 
@@ -464,6 +472,12 @@ header{
             background: #{$gradient};
             color: white;
             border:hidden;
+            box-shadow: rgba(0, 0, 0, 0.136) 0px 5px 10px;
+            
+            &:hover{
+                filter: brightness(1.1);
+                box-shadow: rgba(0, 0, 0, 0.200) 3px 5px 10px;
+            }
         }
     }
 }

@@ -14,9 +14,9 @@
 }
 @keyframes loader2 {
   0% {
-    background: #F2F2F2;
+    background: rgba(0, 0, 0, 0.536);
   }
-  80% {
+  99% {
     background: rgba(0, 0, 0, 0.536);
   }
   100% {

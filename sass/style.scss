@@ -7,6 +7,10 @@ $gradient:linear-gradient(0deg, rgba(147,86,220,1) 0%, rgba(255,121,218,1) 100%,
 $color_heart: rgb(153,226,208);
 $gradient_heart: linear-gradient(0deg, rgba(153,226,208,1) 0%, rgba(255,121,218,1) 0%, rgba(147,86,220,1) 100%);
 
+
+$roboto:'Roboto', sans-serif;
+$shrikhand: 'Shrikhand', cursive ;
+
 @keyframes backgroundC{
     0%{
         opacity: 0;
@@ -53,12 +57,12 @@ body{
     }
 
     h2,h3{
-    font-family:'Shrikhand', cursive ;
-    color: black;
+        font-family: $roboto;
+        color: black;
     }
 
     p{
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Roboto',sans-serif;
     }
 }
 
@@ -89,7 +93,7 @@ header{
     height: auto;
 
     .emplacement{
-        box-shadow: rgba(0, 0, 0, 0.265) 2px -2px 2px ;
+        box-shadow: rgba(0, 0, 0, 0.265) 0px -2px 2px ;
         display: flex;
         flex-direction: row;
         align-items: center;
@@ -109,21 +113,26 @@ header{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        width: 80%;
+        width: 81%;
         height: auto;
         margin: auto;
         text-align: center;
 
         h1{
+            margin-top: 40px;
             width:100%;
-            font-size: 26px;
+            font-size: 27px;
+            font-weight: bold;
+            margin-bottom: -10px;
 
         }
 
         p{
             width: 100%;
             margin-bottom: 40px;
-            font-size: 20px;
+            font-size: 18px;
+            font-weight: lighter;
+            font-family:$roboto ;
         }
 
         button{

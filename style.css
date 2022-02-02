@@ -39,7 +39,7 @@ body .structure {
   animation: backgroundC 4s 1ms forwards;
 }
 body h2, body h3 {
-  font-family: "Shrikhand", cursive;
+  font-family: "Roboto", sans-serif;
   color: black;
 }
 body p {
@@ -68,7 +68,7 @@ header img {
   height: auto;
 }
 .block1 .emplacement {
-  box-shadow: rgba(0, 0, 0, 0.265) 2px -2px 2px;
+  box-shadow: rgba(0, 0, 0, 0.265) 0px -2px 2px;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -84,19 +84,24 @@ header img {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 80%;
+  width: 81%;
   height: auto;
   margin: auto;
   text-align: center;
 }
 .block1 .block_button h1 {
+  margin-top: 40px;
   width: 100%;
-  font-size: 26px;
+  font-size: 27px;
+  font-weight: bold;
+  margin-bottom: -10px;
 }
 .block1 .block_button p {
   width: 100%;
   margin-bottom: 40px;
-  font-size: 20px;
+  font-size: 18px;
+  font-weight: lighter;
+  font-family: "Roboto", sans-serif;
 }
 .block1 .block_button button {
   border: hidden;

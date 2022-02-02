@@ -176,11 +176,12 @@ header{
             justify-content: space-between;
             align-items: center;
             background-color: #F2F2F2;
-            margin-bottom: 20px;
             border-radius: 25px;
             width: 90%;
             height: 90%;
             box-shadow: rgba(0, 0, 0, 0.136) 0px 5px 10px;
+            margin: 0;
+            margin-bottom: 20px;
 
             .fas{
                 color: gray ;
@@ -235,6 +236,8 @@ header{
     background-color: #F2F2F2;
     width: 100%;
     height: auto;
+    border-bottom:solid 60px #F2F2F2;
+    
 
     h2{
         margin-left: 20px;
@@ -246,7 +249,7 @@ header{
         margin: auto;
         width: 90%;
         height: auto;
-        margin-bottom: 40px;
+        margin-bottom: 30px;
         border-radius: 15px;
         overflow: hidden;
         box-shadow: rgba(0, 0, 0, 0.136) 0px 5px 10px;

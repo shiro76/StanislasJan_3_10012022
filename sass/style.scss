@@ -69,11 +69,11 @@ header{
     justify-content:center;
     align-items: center;
     height: 100px;
+    margin-bottom: -10px;
     
 
     img{
-        height: 35px;
-        margin-left: 20px;
+        height: 40px;
     }   
 }
 
@@ -88,16 +88,17 @@ header{
     height: auto;
 
     .emplacement{
+        box-shadow: rgba(0, 0, 0, 0.265) 2px -2px 2px ;
         display: flex;
         flex-direction: row;
         align-items: center;
         justify-content: center;
         background-color: gainsboro;
+        text-align: center;
 
 
         p{
-            margin-right: 45px;
-            margin-left: 10px;
+            margin-left: 15px;
         }
     }
     
@@ -175,7 +176,7 @@ header{
             background-color: #F2F2F2;
             margin-bottom: 20px;
             border-radius: 25px;
-            width: 90%;
+            width: 80%;
             height: 90%;
             box-shadow: rgba(0, 0, 0, 0.136) 0px 5px 10px;
 
@@ -321,7 +322,7 @@ header{
             display: flex;
             flex-direction: row;
             justify-content:space-between ;
-            height: 60px;
+            height: 75px;
             background-color: white;
             border-bottom-left-radius: 15px;
             border-bottom-right-radius: 15px;
@@ -332,8 +333,9 @@ header{
             }
 
             .titre_restaurant{
+                margin-top: 25px;
                 margin-left: 10px;
-                margin-bottom: -20px;
+                margin-bottom: -15px;
 
                 
             }
@@ -351,7 +353,7 @@ header{
                 display: flex;
                 align-items: center;
                 justify-content: center;
-                margin-top:7px;
+                margin-top:15px;
                 margin-right:-10px ;
                 transition: all .2s;
                 &:hover{
@@ -429,7 +431,7 @@ header{
 
             .flex{
                 margin-left: 1px;
-                width: 90%;
+                width: 80%;
                 justify-content: space-between;
 
                 .numero{
@@ -517,7 +519,7 @@ header{
        height: 100px;
        
        img{
-           height: 35px;
+           height: 50px;
        }
        
    }
@@ -541,8 +543,7 @@ header{
            background-color: gainsboro;
 
            p{
-               margin-right: 60px;
-               margin-left: 10px;
+               margin-left: 15px;
            }
        }
 
@@ -623,11 +624,9 @@ header{
        display: flex;
        flex-direction: row;
        flex-wrap: wrap;
-       justify-content: space-around;
-       align-items: center;
        background-color: #F2F2F2;
        width: auto;
-       height: 700px;
+       height: 750px;
       
 
        h2{
@@ -637,10 +636,9 @@ header{
        }
 
         .Restaurants{
-            width: 350px;
-            height: 350px;
+            width: 420px;
+            height: auto;
             border-radius: 15px;
-            margin-bottom: -60px;
             overflow: hidden;
 
             .images{

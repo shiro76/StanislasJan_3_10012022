@@ -52,10 +52,10 @@ header {
   justify-content: center;
   align-items: center;
   height: 100px;
+  margin-bottom: -10px;
 }
 header img {
-  height: 35px;
-  margin-left: 20px;
+  height: 40px;
 }
 
 /*----- Emplacement + bouton -----*/
@@ -68,15 +68,16 @@ header img {
   height: auto;
 }
 .block1 .emplacement {
+  box-shadow: rgba(0, 0, 0, 0.265) 2px -2px 2px;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
   background-color: gainsboro;
+  text-align: center;
 }
 .block1 .emplacement p {
-  margin-right: 45px;
-  margin-left: 10px;
+  margin-left: 15px;
 }
 .block1 .block_button {
   display: flex;
@@ -138,7 +139,7 @@ header img {
   background-color: #F2F2F2;
   margin-bottom: 20px;
   border-radius: 25px;
-  width: 90%;
+  width: 80%;
   height: 90%;
   box-shadow: rgba(0, 0, 0, 0.136) 0px 5px 10px;
 }
@@ -257,7 +258,7 @@ header img {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  height: 60px;
+  height: 75px;
   background-color: white;
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
@@ -267,8 +268,9 @@ header img {
   margin-top: -6px;
 }
 .block_restaurant .Restaurants .block_titre_restaurant .titre_restaurant {
+  margin-top: 25px;
   margin-left: 10px;
-  margin-bottom: -20px;
+  margin-bottom: -15px;
 }
 .block_restaurant .Restaurants .block_titre_restaurant .texte_restaurant {
   margin-left: 10px;
@@ -280,7 +282,7 @@ header img {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 7px;
+  margin-top: 15px;
   margin-right: -10px;
   transition: all 0.2s;
 }
@@ -336,7 +338,7 @@ header img {
   }
   .fonctionnement .block_fonctionnement .flex {
     margin-left: 1px;
-    width: 90%;
+    width: 80%;
     justify-content: space-between;
   }
   .fonctionnement .block_fonctionnement .flex .numero {
@@ -401,7 +403,7 @@ header img {
     height: 100px;
   }
   header img {
-    height: 35px;
+    height: 50px;
   }
 
   /*----- Emplacement + bouton -----*/
@@ -420,8 +422,7 @@ header img {
     background-color: gainsboro;
   }
   .block1 .emplacement p {
-    margin-right: 60px;
-    margin-left: 10px;
+    margin-left: 15px;
   }
   .block1 .block_button {
     display: flex;
@@ -489,11 +490,9 @@ header img {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
     background-color: #F2F2F2;
     width: auto;
-    height: 700px;
+    height: 750px;
   }
   .block_restaurant h2 {
     height: 25px;
@@ -501,10 +500,9 @@ header img {
     margin-left: 50px;
   }
   .block_restaurant .Restaurants {
-    width: 350px;
-    height: 350px;
+    width: 420px;
+    height: auto;
     border-radius: 15px;
-    margin-bottom: -60px;
     overflow: hidden;
   }
   .block_restaurant .Restaurants .images {

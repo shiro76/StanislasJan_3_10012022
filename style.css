@@ -116,6 +116,7 @@ header img {
 
 /*----- Fonctionnement -----*/
 .fonctionnement {
+  width: 100%;
   height: 460px;
 }
 .fonctionnement h2 {

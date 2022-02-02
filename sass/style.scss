@@ -192,6 +192,10 @@ header{
             margin: 0;
             margin-bottom: 20px;
 
+            #logo{
+                margin-left: 30px;
+            }
+
             .fas{
                 color: gray ;
                 margin-right: 50px;
@@ -200,6 +204,8 @@ header{
             h4{
                 width: 100%;
                 margin-right: 180px;
+                font-size: 16px;
+                font-family: $roboto;
             }
 
             &:hover{
@@ -605,6 +611,10 @@ header{
                flex-wrap: nowrap;
                margin-right: 20px;
 
+               #logo{
+                margin-left: inherit;
+                }
+                
                h4{
                    width: 100%;
                    margin-left:-15px 

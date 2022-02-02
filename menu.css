@@ -337,7 +337,7 @@ header i {
   text-overflow: ellipsis;
 }
 .block_menu .blocks .block .prix {
-  margin-right: -15px;
+  margin-right: -25px;
   font-size: 17px;
 }
 .block_menu .block_button {
@@ -384,6 +384,9 @@ header i {
 
   .block_menu .titre_principale {
     font-size: 16px;
+  }
+  .block_menu .block .zone_texte .prix {
+    margin-right: -60px;
   }
 
   .menu_image {

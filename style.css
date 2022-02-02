@@ -116,10 +116,11 @@ header img {
 
 /*----- Fonctionnement -----*/
 .fonctionnement {
-  width: 100%;
+  width: auto;
   height: 460px;
 }
 .fonctionnement h2 {
+  width: auto;
   margin-left: 15px;
 }
 .fonctionnement .block_fonctionnement {
@@ -139,7 +140,7 @@ header img {
   background-color: #F2F2F2;
   margin-bottom: 20px;
   border-radius: 25px;
-  width: 80%;
+  width: 90%;
   height: 90%;
   box-shadow: rgba(0, 0, 0, 0.136) 0px 5px 10px;
 }

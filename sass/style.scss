@@ -7,7 +7,7 @@ $gradient:linear-gradient(0deg, rgba(147,86,220,1) 0%, rgba(255,121,218,1) 100%,
 $color_heart: rgb(153,226,208);
 $gradient_heart: linear-gradient(0deg, rgba(153,226,208,1) 0%, rgba(255,121,218,1) 0%, rgba(147,86,220,1) 100%);
 
-@keyframes hidden{
+@keyframes backgroundC{
     0%{
         opacity: 0;
     }
@@ -49,7 +49,7 @@ body{
         display: flex;
         flex-direction: column;
         opacity: 1;
-        animation: hidden 4s 1ms forwards;
+        animation: backgroundC 4s 1ms forwards;
     }
 
     h2,h3{

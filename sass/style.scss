@@ -39,7 +39,6 @@ $shrikhand: 'Shrikhand', cursive ;
     }
 }
     /*-----Structure de la page -----*/
-    
 
 body{
     position: absolute;
@@ -48,6 +47,8 @@ body{
     margin: 0;
     padding: 0;
     animation: loader2 3s 1ms forwards;
+   
+   
 
     .structure{
         display: flex;
@@ -186,11 +187,12 @@ header{
             align-items: center;
             background-color: #F2F2F2;
             border-radius: 25px;
-            width: 90%;
+            width: 80%;
             height: 90%;
             box-shadow: rgba(0, 0, 0, 0.136) 0px 5px 10px;
             margin: 0;
             margin-bottom: 20px;
+            color: black;
 
             #logo{
                 margin-left: 30px;

@@ -1,5 +1,6 @@
 @keyframes loader {
   0% {
+    visibility: visible;
     opacity: 1;
   }
   90% {
@@ -7,6 +8,7 @@
   }
   100% {
     opacity: 0;
+    visibility: hidden;
   }
 }
 .ring {

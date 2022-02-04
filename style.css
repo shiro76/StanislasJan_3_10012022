@@ -308,7 +308,7 @@ header img {
   transition: all 0.2s;
 }
 .block_restaurant .Restaurants .block_titre_restaurant .logo_coeur:hover .far {
-  font-size: 25px;
+  font-size: 26px;
   background: #99e2d0;
   background: linear-gradient(0deg, #99e2d0 0%, #ff79da 0%, #9356dc 100%);
   -webkit-background-clip: text;

@@ -506,10 +506,12 @@ header{
 
 
             .zone_texte{
+                min-width: 0;
                 display: flex;
                 flex-direction: column;
                 margin: auto;
                 flex-grow: 1;
+
 
                 .texte{
                     display: flex;

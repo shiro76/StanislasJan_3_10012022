@@ -2,6 +2,7 @@ body {
   position: absolute;
   width: 100%;
   margin: auto;
+  overflow-x: hidden;
 }
 body .structure {
   display: flex;
@@ -443,6 +444,7 @@ header i {
   box-shadow: rgba(0, 0, 0, 0.136) 0px 5px 10px;
 }
 .block_menu .block_button .button:hover {
+  cursor: pointer;
   filter: brightness(1.1);
   box-shadow: rgba(0, 0, 0, 0.2) 3px 5px 10px;
 }

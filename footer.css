@@ -42,9 +42,15 @@ footer i{
 }
 
 .footer_texte{
+    
+    margin-top: 5px;
+    margin: 0;
     margin-left: 25px;
+    margin-bottom: 10px;
+
 }
 
 a{
+    margin-top: 15px;
     text-decoration: none;
 }

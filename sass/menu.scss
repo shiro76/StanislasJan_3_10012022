@@ -15,6 +15,7 @@ body{
     position: absolute;
     width: 100%;
     margin: auto;
+    overflow-x: hidden;
 
     .structure{
         display: flex;
@@ -574,6 +575,7 @@ header{
             box-shadow: rgba(0, 0, 0, 0.136) 0px 5px 10px;
             
             &:hover{
+                cursor: pointer;
                 filter: brightness(1.1);
                 box-shadow: rgba(0, 0, 0, 0.200) 3px 5px 10px;
             }

@@ -47,6 +47,7 @@ body{
     margin: 0;
     padding: 0;
     animation: loader2 3s 1ms forwards;
+    overflow-x: hidden;
    
    
 
@@ -149,6 +150,7 @@ header{
             padding: 15px;
             
             &:hover{
+                cursor: pointer;
                 filter: brightness(1.1);
                 box-shadow: rgba(0, 0, 0, 0.200) 3px 5px 10px;
             }

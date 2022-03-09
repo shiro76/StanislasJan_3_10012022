@@ -31,6 +31,7 @@ body {
   margin: 0;
   padding: 0;
   animation: loader2 3s 1ms forwards;
+  overflow-x: hidden;
 }
 body .structure {
   display: flex;
@@ -116,6 +117,7 @@ header img {
   padding: 15px;
 }
 .block1 .block_button button:hover {
+  cursor: pointer;
   filter: brightness(1.1);
   box-shadow: rgba(0, 0, 0, 0.2) 3px 5px 10px;
 }

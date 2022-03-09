@@ -123,7 +123,6 @@ span:before {
 /*-----Structure de la page -----*/
 body {
   position: absolute;
-  height: auto;
   width: 100%;
   margin: 0;
   padding: 0;
@@ -131,6 +130,9 @@ body {
   overflow-x: hidden;
 }
 body .structure {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
   display: flex;
   flex-direction: column;
   opacity: 1;

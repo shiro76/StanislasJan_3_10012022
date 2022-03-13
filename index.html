@@ -7,11 +7,13 @@
         <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
 
         <title>ohmyfood</title>
+        <link rel="stylesheet" media="screen" href="css/style.css">
         <link rel="stylesheet" href="css/footer.css">
+        
         <script src="https://kit.fontawesome.com/0fc1107616.js" crossorigin="anonymous"></script>
 
         <!--<link rel="stylesheet" href="loader.css">-->
-        <link rel="stylesheet" media="screen" href="css/style.css">
+        
 
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -38,89 +40,11 @@
                 </div>    
             </header>
 
-            <section class="block1">
-                <article class="emplacement">
-                    <div>
-                        <i class="fas fa-map-marker-alt"></i>
-                    </div>
-
-                    <div>
-                        <p>Paris, Belleville</p>
-                    </div>                
-                </article>
-
-                <article  class="block_button">
-                    <div>
-                        <h1> Réservez le menu qui vous convient</h1>
-                    </div>
-                        
-                    <div>
-                        <p>Découvrez des restaurants d'exeption, séléctionnés par nos soins.</p>
-                        <!--bouton(Explorer nos restaurants)-->
-                    </div>
-                    
-                    <form action="#Restaurants">
-                        <button type="submit" class="button"> Explorez nos restaurants</button>
-                    </form>
-                    
-
-                </article>
-            </section>
-
-            <section class="fonctionnement">
-                <h2>Fonctionnement</h2>
-
-                <article class="block_fonctionnement">
-
-                    <a href="#" class="flex" >
-                        <div class="numero">
-                            <p>1</p>
-                        </div>
-
-                        <div>
-                            <i class="fas fa-mobile-alt" id="logo"></i>
-                        </div>
-
-                        <div>
-                            <h4>Choisissez un restaurant</h4>
-                        </div>
-                    </a>
-
-                    <a href="#" class="flex">
-                        <div class="numero">
-                            <p>2</p>
-                        </div>
-
-                        <div>
-                            <i class="fas fa-list-ul"></i>
-                        </div>
-
-                        <div>
-                            
-                            <h4>Composer votre menu</h4>
-                        </div>
-                    </a>
-
-                    <a href="#" class="flex">
-                        <div class="numero">
-                            <p>3</p>
-                        </div>
-
-                        <div>
-                            <i class="fas fa-store"></i>
-                        </div>
-
-                        <div>                
-                            <h4>Dégustez au restaurant</h4>
-                        </div>
-                    </a>
-
-                </article>
-            </section>
+            
 
                 <!-- ----- RESTAURANT ------ -->
 
-            <section class="block_restaurant" id="Restaurants">
+            <main class="block_restaurant" id="Restaurants">
                 <h2>Restaurants</h2>
 
                 <!-- ----- block1 ------ -->
@@ -235,9 +159,10 @@
                     </article>
                 </a>
 
-            </section>
+            </main>
 
-            <!--Footer-->
+            <!-- ----- FOOTER ----- -->
+        
             <footer>
                 <div>
                     <img src="images/logo/ohmyfood.png" alt="">
@@ -249,11 +174,11 @@
                             <i class="fas fa-utensils fa-ms"></i>
                         </div>
                         
-                        <article>
+                        <div>
                             <a href="#">
                                 <p>Proposer un restaurant</p>
                             </a>   
-                        </article>
+                        </div>
                         
                     </article>
                     
@@ -261,21 +186,21 @@
                         <div class="footer_icone2">
                             <i class="fas fa-hands-helping fa-xs"></i>
                         </div>
-                        <article>
+                        <div>
                             <a href="#">
                                 <p>Devenir partenaire</p>
                             </a>
-                        </article>
+                        </div>
                         
                     </article>
 
-                    <article class="footer">
+                    <article>
                         <a href="#">
-                            <p class="footer_texte">Mentions légales</p>
+                            <p class="footer_texte" id="f1">Mentions légales</p>
                         </a>
                     </article>
 
-                    <article class="footer">
+                    <article>
                         <a href="mailto:noreply@fausse_adresse.com">
                             <p class="footer_texte">Contact</p>
                         </a>

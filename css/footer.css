@@ -70,8 +70,11 @@ footer i{
     margin-top: 8px;
 
 }
-
 a{
+    text-decoration: none;
+}
+
+footer a{
     margin-top: 15px;
     text-decoration: none;
 }

@@ -838,3 +838,30 @@ main{
         }
    }
 }
+
+@media (max-width: 768px){
+    body{
+         /*----- Loader -----*/
+        .loader{
+            .spinner {
+                position: absolute;
+                width: 80px;
+                height: 80px;
+                top: 45%;
+                left: 40%;
+                animation: loader 3s forwards;
+            }
+            .spinner::after {
+                content: " ";
+                display: block;
+                width: 64px;
+                height: 64px;
+                margin: 8px;
+                border-radius: 50%;
+                border: 6px solid #fff;
+                border-color: #9356DC transparent #9356DC transparent ;
+                animation: spinner 1.5s linear infinite;
+            }
+        }
+    }
+}

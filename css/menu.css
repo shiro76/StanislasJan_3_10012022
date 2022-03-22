@@ -70,7 +70,8 @@ header i {
   white-space: nowrap;
 }
 .block_menu .titre_principale h1 {
-  font-size: 25px;
+  font-size: 28px;
+  letter-spacing: 2px;
   margin-left: 5px;
 }
 .block_menu .titre_principale .logo_coeur {

@@ -576,13 +576,15 @@ header{
         display: flex;
         flex-direction: column;
         justify-content: center;
-        width: 45%;
+        width: 40%;
         height: 120px;
         margin: auto;
         margin-top: 40px;
 
         .button
         {
+            font-family: 'roboto',sans-serif;
+            font-size: 20px;
             border-radius: 30px;
             margin-top: -70px;
             height: 50px;

@@ -417,7 +417,7 @@ header i {
 .block_menu .blocks .block .zone_texte .box_p p {
   margin-top: 23px;
   margin-left: 10px;
-  font-size: 16px;
+  font-size: 15px;
   white-space: nowrap;
   overflow: hidden;
   white-space: nowrap;
@@ -425,7 +425,7 @@ header i {
 }
 .block_menu .blocks .block .zone_texte h3 {
   font-family: "roboto", sans-serif;
-  font-size: 17px;
+  font-size: 16px;
   margin-bottom: -20px;
   margin-left: 10px;
   margin-top: 10px;

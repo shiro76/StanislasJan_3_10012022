@@ -413,7 +413,7 @@ header i {
   width: 90%;
 }
 .block_menu .blocks .block .zone_texte .box_p p {
-  margin-top: 22px;
+  margin-top: 23px;
   margin-left: 10px;
   font-size: 14px;
   white-space: nowrap;
@@ -432,8 +432,9 @@ header i {
   text-overflow: ellipsis;
 }
 .block_menu .blocks .block .prix {
+  margin-top: 10px;
   margin-right: -25px;
-  font-size: 15px;
+  font-size: 14px;
 }
 .block_menu .blocks .block .prix .prixT {
   font-weight: bold;

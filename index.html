@@ -18,28 +18,30 @@
         <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Shrikhand&display=swap" rel="stylesheet">
     </head>
 
-    <body>
-
-        <div class="loader"> <!--loader-->
+    <body class="structure">
+            <!--loader-->
+        <!--<div class="loader"> 
             <div class="ring">Chargement
                 <span></span>
               </div>
-        </div>        
-
+        </div>-->   
         
-        <section class="structure">
+        <div class="loader">
+            <div class="spinner"></div>
+        </div>
 
-            <header>
-                <div class="omf_img">
-                    <a href="index.html">
-                        <img src="images/logo/ohmyfood.png" alt="">
-                    </a>
-                </div>    
-            </header>
+        <header>
+            <div class="omf_img">
+                <a href="index.html">
+                    <img src="images/logo/ohmyfood.png" alt="logo ohmyfood header">
+                </a>
+            </div>    
+        </header>
 
+        <main>
             <!--Emplacement + button-->
             <section class="block1">
-                <section class="emplacement">
+                <div class="emplacement">
                     <div>
                         <i class="fas fa-map-marker-alt"></i>
                     </div>
@@ -47,11 +49,11 @@
                     <div>
                         <p>Paris, Belleville</p>
                     </div>                
-                </section>
+                </div>
 
-                <section  class="block_button">
+                <div class="block_button">
                     <div>
-                        <h1> Réservez le menu qui vous convient</h1>
+                        <h1 class="titre_principale"> Réservez le menu qui vous convient</h1>
                     </div>
                         
                     <div>
@@ -63,8 +65,7 @@
                         Explorer nos restaurants
                     </button>
                     </form>
-
-                </section>
+                </div>
             </section>
 
             <!--   Fonctionnement    -->
@@ -84,7 +85,7 @@
                         </div>
 
                         <div>
-                            <h4>Choisissez un restaurant</h4>
+                            <p class="fonctionnement_texte">Choisissez un restaurant</p>
                         </div>
                     </div>
 
@@ -99,8 +100,7 @@
                         </div>
 
                         <div>
-                            
-                            <h4>Composer votre menu</h4>
+                            <p class="fonctionnement_texte">Composer votre menu</p>
                         </div>
                     </div>
 
@@ -115,7 +115,7 @@
                         </div>
 
                         <div>                
-                            <h4>Dégustez au restaurant</h4>
+                            <p class="fonctionnement_texte">Dégustez au restaurant</p>
                         </div>
                     </div>
 
@@ -123,30 +123,59 @@
             </section>
             
 
-                <!-- ----- RESTAURANT ------ -->
+                <!--       RESTAURANT        -->
 
             <section class="block_restaurant" id="Restaurants">
                 <h2>Restaurants</h2>
 
-                <!-- ----- block1 ------ -->
+                <!--       block1        -->
                 
                     <a href="menu1.html" class="Restaurants r1">
-                    
+                        <article>
+                            <div class="images">
+                                <div id="i1">
+                                    <p class="new">Nouveau</p>
+                                </div>  
+                            </div>
+
+                            <div class="block_titre_restaurant">
+                                <div>
+                                    <div>
+                                        <h3 class="titre_restaurant">La palette du goûts</h3>   
+                                    </div> 
+
+                                    <div class="texte_restaurant">
+                                        <p>Ménilmontant</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="logo_coeur">
+                                    <i class="far fa-heart"></i>
+                                    <i class="fa fa-heart"></i>
+                                </div>
+                            </div>
+                        </article>               
+                    </a>
+
+                <!--       BLOCK 2        -->
+
+                
+                <a href="menu2.html" class="Restaurants r2">
+                    <article>
                         <div class="images">
-                            <div id="i1">
+                            <div id="i2">
                                 <p class="new">Nouveau</p>
                             </div>
-                           
                         </div>
 
-                        <article class="block_titre_restaurant">
+                        <div class="block_titre_restaurant">
                             <div>
                                 <div>
-                                    <h3 class="titre_restaurant">La palette du goûts</h3>   
-                                </div> 
-
+                                    <h3 class="titre_restaurant">La note enchantée</h3>
+                                </div>
+                                
                                 <div class="texte_restaurant">
-                                    <p>Ménilmontant</p>
+                                    <p>Charonne</p>
                                 </div>
                             </div>
                             
@@ -154,144 +183,115 @@
                                 <i class="far fa-heart"></i>
                                 <i class="fa fa-heart"></i>
                             </div>
-                        </article>               
-                    </a>
-
-                <!-- ----- BLOCK 2 ------ -->
-
-                
-                <a href="menu2.html" class="Restaurants r2">
-                    <div class="images">
-                        <div id="i2">
-                            <p class="new">Nouveau</p>
-                        </div>
-                    </div>
-
-                    <article class="block_titre_restaurant">
-                        <div>
-                            <div>
-                                <h3 class="titre_restaurant">La note enchantée</h3>
-                            </div>
-                            
-                            <div class="texte_restaurant">
-                                <p>Charonne</p>
-                            </div>
-                        </div>
-                        
-                        <div class="logo_coeur">
-                            <i class="far fa-heart"></i>
-                            <i class="fa fa-heart"></i>
                         </div>
                     </article>
                 </a>
                 
 
-                <!-- ----- BLOCK 3 ------ -->
+                <!--       BLOCK 3        -->
 
                 
                 <a href="menu3.html" class="Restaurants r3">
-                    <div class="images">
-                        <img src="images/restaurants/3.jpg" alt="">
-                    </div>
-
-                    <article  class="block_titre_restaurant">
-                        <div>
-                            <div>
-                                <h3 class="titre_restaurant">À la française</h3>
-                            </div>
-                            
-                            <div class="texte_restaurant">
-                                <p>Cité Rouge</p>
-                            </div>
+                    <article>
+                        <div class="images">
+                            <img src="images/restaurants/3.jpg" alt="menu du restaurant, A la francaise">
                         </div>
-                                
 
-                        <div class="logo_coeur">
-                            <i class="far fa-heart"></i>
-                            <i class="fa fa-heart"></i>
+                        <div  class="block_titre_restaurant">
+                            <div>
+                                <div>
+                                    <h3 class="titre_restaurant">À la française</h3>
+                                </div>
+                                
+                                <div class="texte_restaurant">
+                                    <p>Cité Rouge</p>
+                                </div>
+                            </div>
+                                    
+                            <div class="logo_coeur">
+                                <i class="far fa-heart"></i>
+                                <i class="fa fa-heart"></i>
+                            </div>
                         </div>
                     </article>
                 </a>
 
-                <!-- ----- BLOCK 4 ------ -->
+                <!--       BLOCK 4        -->
 
                 
                 <a href="menu4.html" class="Restaurants r4">
-                    <div class="images">
-                        <img src="images/restaurants/4.jpg" alt="">
-                    </div>
-
-                    <article class="block_titre_restaurant">
-                        <div>
-                            <div>
-                                <h3 class="titre_restaurant">Le délice des sens</h3>
-                            </div>
-        
-                            <div class="texte_restaurant">
-                                <p>Folie-Méricourt</p>
-                            </div>
+                    <article>
+                        <div class="images">
+                            <img src="images/restaurants/4.jpg" alt="menu du restaurant, Le délice des sens">
                         </div>
-                    
 
-                        <div class="logo_coeur">
-                            <i class="far fa-heart"></i>
-                            <i class="fa fa-heart"></i>
+                        <div class="block_titre_restaurant">
+                            <div>
+                                <div>
+                                    <h3 class="titre_restaurant">Le délice des sens</h3>
+                                </div>
+            
+                                <div class="texte_restaurant">
+                                    <p>Folie-Méricourt</p>
+                                </div>
+                            </div>
+                        
+
+                            <div class="logo_coeur">
+                                <i class="far fa-heart"></i>
+                                <i class="fa fa-heart"></i>
+                            </div>
                         </div>
                     </article>
                 </a>
 
             </section>
+        </main>
 
-            <!-- ----- FOOTER ----- -->
-        
-            <footer>
-                <div>
-                    <img src="images/logo/ohmyfood.png" alt="">
-                </div>
+        <!--       FOOTER       -->
+    
+        <footer>
+            <div>
+                <img src="images/logo/ohmyfood.png" alt="logo ohmyfood footer">
+            </div>
 
-                <section>
-                    <article class="footer">
-                        <div class="footer_icone1">
-                            <i class="fas fa-utensils fa-ms"></i>
-                        </div>
-                        
-                        <div>
-                            <a href="#">
-                                <p>Proposer un restaurant</p>
-                            </a>   
-                        </div>
-                        
-                    </article>
+            <ul>
+                <li class="footer">
+                    <div class="footer_icone1">
+                        <i class="fas fa-utensils fa-ms"></i>
+                    </div>
                     
-                    <article class="footer">
-                        <div class="footer_icone2">
-                            <i class="fas fa-hands-helping fa-xs"></i>
-                        </div>
-                        <div>
-                            <a href="#">
-                                <p>Devenir partenaire</p>
-                            </a>
-                        </div>
-                        
-                    </article>
-
-                    <article>
+                    <div>
                         <a href="#">
-                            <p class="footer_texte" id="f1">Mentions légales</p>
+                            <p>Proposer un restaurant</p>
+                        </a>   
+                    </div>
+                </li>
+                
+                <li class="footer">
+                    <div class="footer_icone2">
+                        <i class="fas fa-hands-helping fa-xs"></i>
+                    </div>
+                    <div>
+                        <a href="#">
+                            <p>Devenir partenaire</p>
                         </a>
-                    </article>
+                    </div>   
+                </li>
 
-                    <article>
-                        <a href="mailto:noreply@ohmyfood.com">
-                            <p class="footer_texte">Contact</p>
-                        </a>
-                    </article>
-                
-                    
-                </section>
-                
-            </footer>
-        </section>
+                <li>
+                    <a href="#">
+                        <p class="footer_texte" id="f1">Mentions légales</p>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="mailto:noreply@ohmyfood.com">
+                        <p class="footer_texte">Contact</p>
+                    </a>
+                </li>
+            </ul>
+        </footer>
 
     </body>
 </html>

@@ -1,10 +1,8 @@
 body {
-  position: absolute;
   width: 100%;
-  margin: auto;
+  margin: 0;
+  padding: 0;
   overflow-x: hidden;
-}
-body .structure {
   display: flex;
   flex-direction: column;
 }
@@ -68,8 +66,12 @@ header i {
   justify-content: space-between;
   align-items: center;
   margin-left: 20px;
-  font-size: 14px;
+  font-size: 17px;
   white-space: nowrap;
+}
+.block_menu .titre_principale h1 {
+  font-size: 25px;
+  margin-left: 5px;
 }
 .block_menu .titre_principale .logo_coeur {
   width: 100px;
@@ -88,7 +90,7 @@ header i {
   -webkit-text-fill-color: transparent;
 }
 .block_menu .titre_principale .logo_coeur:hover .fa:hover {
-  line-height: 100%;
+  line-height: 90%;
   opacity: 1;
 }
 .block_menu .titre_principale .logo_coeur .far {
@@ -135,6 +137,13 @@ header i {
   height: 22px;
   margin-bottom: 10px;
   border-bottom: solid 3px #99E2D0;
+}
+.block_menu .blocks .sous_titre h2 {
+  font-size: 17px;
+  height: 22px;
+  margin-bottom: 10px;
+  border-bottom: solid 3px #99E2D0;
+  font-weight: lighter;
 }
 .block_menu .blocks .b1 {
   transition: 0s;
@@ -404,6 +413,7 @@ header i {
   width: 90%;
 }
 .block_menu .blocks .block .zone_texte .box_p p {
+  margin-top: 22px;
   margin-left: 10px;
   font-size: 14px;
   white-space: nowrap;
@@ -411,8 +421,8 @@ header i {
   white-space: nowrap;
   text-overflow: ellipsis;
 }
-.block_menu .blocks .block .zone_texte h4 {
-  font-size: 16px;
+.block_menu .blocks .block .zone_texte h3 {
+  font-size: 18px;
   margin-bottom: -20px;
   margin-left: 10px;
   margin-top: 10px;
@@ -422,7 +432,10 @@ header i {
 }
 .block_menu .blocks .block .prix {
   margin-right: -25px;
-  font-size: 17px;
+  font-size: 15px;
+}
+.block_menu .blocks .block .prix .prixT {
+  font-weight: bold;
 }
 .block_menu .block_button {
   display: flex;
@@ -452,7 +465,6 @@ header i {
 /* ----- Tablette -----*/
 @media (min-width: 768px) {
   body {
-    position: absolute;
     width: 100%;
     margin: 0;
   }
@@ -489,14 +501,13 @@ header i {
 /* ------ desktop-version -----*/
 @media (min-width: 992px) {
   body {
-    position: absolute;
     width: 100%;
+    max-width: 992px;
+    margin: auto;
   }
   body .structure {
     display: flex;
     flex-direction: column;
-    width: 992px;
-    margin: auto;
   }
   body h1 {
     font-family: "Shrikhand", cursive;

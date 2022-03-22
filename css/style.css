@@ -1,79 +1,30 @@
-/* Loader*/
-@keyframes loader {
+/*     Keyframes loader      */
+@keyframes hiddenPage {
   0% {
-    visibility: visible;
-    opacity: 1;
+    opacity: 0;
   }
   90% {
     opacity: 0;
   }
   100% {
-    opacity: 0;
-    visibility: hidden;
+    opacity: 1;
   }
 }
-.ring {
-  position: absolute;
-  top: 14%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 150px;
-  height: 150px;
-  background: transparent;
-  border: 3px solid #3c3c3c;
-  border-radius: 50%;
-  text-align: center;
-  line-height: 150px;
-  font-family: sans-serif;
-  font-size: 14px;
-  color: #99E2D0;
-  letter-spacing: 4px;
-  text-transform: uppercase;
-  text-shadow: 0 0 10px #fff000;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
-  animation: loader 3s 900ms forwards;
+@keyframes loader {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
 }
-
-.ring:before {
-  content: "";
-  position: absolute;
-  top: -3px;
-  left: -3px;
-  width: 100%;
-  height: 100%;
-  border: 3px solid transparent;
-  border-top: 3px solid #9356dc;
-  border-right: 3px solid #9356dc;
-  border-radius: 50%;
-  animation: animateC 2s linear infinite;
-}
-
-span {
-  display: block;
-  position: absolute;
-  top: calc(50% - 2px);
-  left: 50%;
-  width: 50%;
-  height: 4px;
-  background: transparent;
-  transform-origin: left;
-  animation: animate 2s linear infinite;
-}
-
-span:before {
-  content: "";
-  position: absolute;
-  width: 16px;
-  height: 16px;
-  border-radius: 50%;
-  background: #9356dc;
-  background: linear-gradient(0deg, #9356dc 0%, #ff79da 100%, #99e2d0 100%);
-  top: -6px;
-  right: -8px;
-  box-shadow: 0 0 20px #fff000;
-}
-
-@keyframes animateC {
+@keyframes spinner {
   0% {
     transform: rotate(0deg);
   }
@@ -81,62 +32,30 @@ span:before {
     transform: rotate(360deg);
   }
 }
-@keyframes animate {
+@keyframes loaderBackground {
   0% {
-    transform: rotate(45deg);
-  }
-  100% {
-    transform: rotate(405deg);
-  }
-}
-@media screen and (min-width: 992px) {
-  .ring {
-    top: 25%;
-  }
-}
-/* fin loader*/
-@keyframes backgroundC {
-  0% {
-    opacity: 0;
+    background-color: #F2F2F2;
   }
   50% {
-    opacity: 0;
+    background-color: #F2F2F2;
   }
-  80% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-@keyframes loader2 {
-  0% {
-    background: rgba(0, 0, 0, 0.536);
-  }
-  99% {
-    background: rgba(0, 0, 0, 0.536);
+  90% {
+    background-color: #F2F2F2;
   }
   100% {
-    background: white;
+    background-color: white;
   }
 }
+/*     fin des Keyframes loader      */
 /*-----Structure de la page -----*/
 body {
-  position: absolute;
   width: 100%;
   margin: 0;
   padding: 0;
-  animation: loader2 3s 1ms forwards;
   overflow-x: hidden;
-}
-body .structure {
-  margin: 0;
-  padding: 0;
-  overflow-x: hidden;
-  display: flex;
-  flex-direction: column;
-  opacity: 1;
-  animation: backgroundC 4s 1ms forwards;
+  background-color: #F2F2F2;
+  animation: loaderBackground 3s forwards;
+  /*----- Loader -----*/
 }
 body h2, body h3 {
   font-family: "Roboto", sans-serif;
@@ -144,6 +63,25 @@ body h2, body h3 {
 }
 body p {
   font-family: "Roboto", sans-serif;
+}
+body .loader .spinner {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  top: 45%;
+  left: 45%;
+  animation: loader 3s forwards;
+}
+body .loader .spinner::after {
+  content: " ";
+  display: block;
+  width: 64px;
+  height: 64px;
+  margin: 8px;
+  border-radius: 50%;
+  border: 6px solid #fff;
+  border-color: #9356DC transparent #9356DC transparent;
+  animation: spinner 1.5s linear infinite;
 }
 
 /*----- header -----*/
@@ -153,9 +91,15 @@ header {
   align-items: center;
   height: 100px;
   margin-bottom: -10px;
+  animation: hiddenPage 3s forwards;
 }
 header img {
   height: 40px;
+}
+
+/*----- Main -----*/
+main {
+  animation: hiddenPage 3s forwards;
 }
 
 /*----- Emplacement + bouton -----*/
@@ -195,6 +139,7 @@ header img {
   font-size: 27px;
   font-weight: bold;
   margin-bottom: -10px;
+  font-family: "Roboto", sans-serif;
 }
 .block1 .block_button p {
   width: 100%;
@@ -260,7 +205,8 @@ header img {
   color: gray;
   margin-right: 50px;
 }
-.fonctionnement .block_fonctionnement .flex h4 {
+.fonctionnement .block_fonctionnement .flex .fonctionnement_texte {
+  font-weight: bold;
   width: 100%;
   margin-right: 180px;
   font-size: 16px;
@@ -505,15 +451,13 @@ header img {
 @media (min-width: 992px) {
   /*-----Structure de la page -----*/
   body {
-    position: absolute;
     width: 100%;
-    margin: 0;
+    max-width: 992px;
+    margin: auto;
   }
   body .structure {
     display: flex;
     flex-direction: column;
-    width: 992px;
-    margin: auto;
   }
   body h2, body h3 {
     font-family: "Shrikhand", cursive;
@@ -561,6 +505,9 @@ header img {
     height: 109%;
     margin: auto;
   }
+  .block1 .block_button .titre_principale {
+    font-family: "Roboto", sans-serif;
+  }
   .block1 .block_button .button {
     border: hidden;
     border-radius: 30px;
@@ -590,6 +537,9 @@ header img {
     width: 30%;
     flex-wrap: nowrap;
     margin-right: 20px;
+  }
+  .fonctionnement .block_fonctionnement .flex .fas {
+    margin-right: 40px;
   }
   .fonctionnement .block_fonctionnement .flex #logo {
     margin-left: inherit;
